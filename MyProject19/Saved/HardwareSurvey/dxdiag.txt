@@ -1,0 +1,620 @@
+------------------
+System Information
+------------------
+Time of this report: 11/29/2015, 14:35:24
+       Machine name: MATT-PC
+   Operating System: Windows 7 Ultimate 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_gdr.140303-2144)
+           Language: English (Regional Setting: English)
+System Manufacturer: Gigabyte Technology Co., Ltd.
+       System Model: Z68AP-D3
+               BIOS: Award Modular BIOS v6.00PG
+          Processor: Intel(R) Core(TM) i5-3450 CPU @ 3.10GHz (4 CPUs), ~3.4GHz
+             Memory: 8192MB RAM
+Available OS Memory: 8110MB RAM
+          Page File: 9875MB used, 6341MB available
+        Windows Dir: C:\Windows
+    DirectX Version: DirectX 11
+DX Setup Parameters: Not found
+   User DPI Setting: Using System DPI
+ System DPI Setting: 96 DPI (100 percent)
+    DWM DPI Scaling: Disabled
+     DxDiag Version: 6.01.7601.17514 32bit Unicode
+
+------------
+DxDiag Notes
+------------
+      Display Tab 1: No problems found.
+        Sound Tab 1: No problems found.
+        Sound Tab 2: No problems found.
+          Input Tab: No problems found.
+
+--------------------
+DirectX Debug Levels
+--------------------
+Direct3D:    0/4 (retail)
+DirectDraw:  0/4 (retail)
+DirectInput: 0/5 (retail)
+DirectMusic: 0/5 (retail)
+DirectPlay:  0/9 (retail)
+DirectSound: 0/5 (retail)
+DirectShow:  0/6 (retail)
+
+---------------
+Display Devices
+---------------
+          Card name: AMD Radeon HD 7800 Series
+       Manufacturer: Advanced Micro Devices, Inc.
+          Chip type: AMD Radeon Graphics Processor (0x6819)
+           DAC type: Internal DAC(400MHz)
+         Device Key: Enum\PCI\VEN_1002&DEV_6819&SUBSYS_23201787&REV_00
+     Display Memory: 4095 MB
+   Dedicated Memory: 2029 MB
+      Shared Memory: 2066 MB
+       Current Mode: 1600 x 900 (32 bit) (60Hz)
+       Monitor Name: Generic PnP Monitor
+      Monitor Model: G206HL
+         Monitor Id: ACR02E9
+        Native Mode: 1600 x 900(p) (60.000Hz)
+        Output Type: HD15
+        Driver Name: aticfx64.dll,aticfx64.dll,aticfx64.dll,aticfx32,aticfx32,aticfx32,atiumd64.dll,atidxx64.dll,atidxx64.dll,atiumdag,atidxx32,atidxx32,atiumdva,atiumd6a.cap,atitmm64.dll
+Driver File Version: 8.17.0010.1172 (English)
+     Driver Version: 9.12.0.0
+        DDI Version: 11
+       Driver Model: WDDM 1.1
+  Driver Attributes: Final Retail
+   Driver Date/Size: 12/19/2012 12:08:04, 1151488 bytes
+        WHQL Logo'd: Yes
+    WHQL Date Stamp: 
+  Device Identifier: {D7B71EE2-2B59-11CF-A370-2A03BEC2C535}
+          Vendor ID: 0x1002
+          Device ID: 0x6819
+          SubSys ID: 0x23201787
+        Revision ID: 0x0000
+ Driver Strong Name: oem17.inf:ATI.Mfg.NTamd64.6.1:ati2mtag_R575B:9.12.0.0:pci\ven_1002&dev_6819
+     Rank Of Driver: 00E62001
+        Video Accel: ModeMPEG2_A ModeMPEG2_C ModeVC1_C ModeWMV9_C 
+   Deinterlace Caps: {6E8329FF-B642-418B-BCF0-BCB6591E255F}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {6E8329FF-B642-418B-BCF0-BCB6591E255F}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {3C5323C1-6FB7-44F5-9081-056BF2EE449D}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,2) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {552C0DAD-CCBC-420B-83C8-74943CF9F1A6}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,2) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {6E8329FF-B642-418B-BCF0-BCB6591E255F}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+       D3D9 Overlay: Not Supported
+            DXVA-HD: Not Supported
+       DDraw Status: Enabled
+         D3D Status: Enabled
+         AGP Status: Enabled
+
+-------------
+Sound Devices
+-------------
+            Description: Speakers (Realtek High Definition Audio)
+ Default Sound Playback: Yes
+ Default Voice Playback: Yes
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0889&SUBSYS_1458A002&REV_1000
+        Manufacturer ID: 1
+             Product ID: 100
+                   Type: WDM
+            Driver Name: RTKVHD64.sys
+         Driver Version: 6.00.0001.6423 (English)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: Yes
+          Date and Size: 7/26/2011 02:00:32, 3039592 bytes
+            Other Files: 
+        Driver Provider: Realtek Semiconductor Corp.
+         HW Accel Level: Basic
+              Cap Flags: 0xF1F
+    Min/Max Sample Rate: 100, 200000
+Static/Strm HW Mix Bufs: 1, 0
+ Static/Strm HW 3D Bufs: 0, 0
+              HW Memory: 0
+       Voice Management: No
+ EAX(tm) 2.0 Listen/Src: No, No
+   I3DL2(tm) Listen/Src: No, No
+Sensaura(tm) ZoomFX(tm): No
+
+            Description: Realtek Digital Output(Optical) (Realtek High Definition Audio)
+ Default Sound Playback: No
+ Default Voice Playback: No
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0889&SUBSYS_1458A002&REV_1000
+        Manufacturer ID: 1
+             Product ID: 100
+                   Type: WDM
+            Driver Name: RTKVHD64.sys
+         Driver Version: 6.00.0001.6423 (English)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: Yes
+          Date and Size: 7/26/2011 02:00:32, 3039592 bytes
+            Other Files: 
+        Driver Provider: Realtek Semiconductor Corp.
+         HW Accel Level: Basic
+              Cap Flags: 0xF1F
+    Min/Max Sample Rate: 100, 200000
+Static/Strm HW Mix Bufs: 1, 0
+ Static/Strm HW 3D Bufs: 0, 0
+              HW Memory: 0
+       Voice Management: No
+ EAX(tm) 2.0 Listen/Src: No, No
+   I3DL2(tm) Listen/Src: No, No
+Sensaura(tm) ZoomFX(tm): No
+
+---------------------
+Sound Capture Devices
+---------------------
+            Description: Mic in at front panel (Pink) (Realtek High Definition Audio)
+  Default Sound Capture: Yes
+  Default Voice Capture: Yes
+            Driver Name: RTKVHD64.sys
+         Driver Version: 6.00.0001.6423 (English)
+      Driver Attributes: Final Retail
+          Date and Size: 7/26/2011 02:00:32, 3039592 bytes
+              Cap Flags: 0x1
+           Format Flags: 0xFFFFF
+
+            Description: Stereo Mix (Realtek High Definition Audio)
+  Default Sound Capture: No
+  Default Voice Capture: No
+            Driver Name: RTKVHD64.sys
+         Driver Version: 6.00.0001.6423 (English)
+      Driver Attributes: Final Retail
+          Date and Size: 7/26/2011 02:00:32, 3039592 bytes
+              Cap Flags: 0x1
+           Format Flags: 0xFFFFF
+
+-------------------
+DirectInput Devices
+-------------------
+      Device Name: Mouse
+         Attached: 1
+    Controller ID: n/a
+Vendor/Product ID: n/a
+        FF Driver: n/a
+
+      Device Name: Keyboard
+         Attached: 1
+    Controller ID: n/a
+Vendor/Product ID: n/a
+        FF Driver: n/a
+
+      Device Name: Generic Virtual HID Driver
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x172F, 0xFF00
+        FF Driver: n/a
+
+      Device Name: Generic Virtual HID Driver
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x172F, 0xFF00
+        FF Driver: n/a
+
+      Device Name: Controller (XBOX 360 For Windows)
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x045E, 0x028E
+        FF Driver: n/a
+
+      Device Name: USB Keyboard
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x046D, 0xC31C
+        FF Driver: n/a
+
+      Device Name: USB Keyboard
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x046D, 0xC31C
+        FF Driver: n/a
+
+      Device Name: USB Keyboard
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x046D, 0xC31C
+        FF Driver: n/a
+
+Poll w/ Interrupt: No
+
+-----------
+USB Devices
+-----------
++ USB Root Hub
+| Vendor/Product ID: 0x8086, 0x1C2D
+| Matching Device ID: usb\root_hub20
+| Service: usbhub
+| 
++-+ Generic USB Hub
+| | Vendor/Product ID: 0x8087, 0x0024
+| | Location: Port_#0001.Hub_#0001
+| | Matching Device ID: usb\class_09
+| | Service: usbhub
+| | 
+| +-+ Razer DeathAdder 3.5G
+| | | Vendor/Product ID: 0x1532, 0x0016
+| | | Location: Port_#0005.Hub_#0003
+| | | Matching Device ID: usb\vid_1532&pid_0016&rev_0100
+| | | Service: HidUsb
+| | | 
+| | +-+ HID-compliant mouse
+| | | | Vendor/Product ID: 0x1532, 0x0016
+| | | | Matching Device ID: hid_device_system_mouse
+| | | | Service: mouhid
+
+----------------
+Gameport Devices
+----------------
+
+------------
+PS/2 Devices
+------------
++ HID Keyboard Device
+| Vendor/Product ID: 0x046D, 0xC31C
+| Matching Device ID: hid_device_system_keyboard
+| Service: kbdhid
+| 
++ Terminal Server Keyboard Driver
+| Matching Device ID: root\rdp_kbd
+| Upper Filters: kbdclass
+| Service: TermDD
+| 
++ Tablet Mouse
+| Matching Device ID: hid\myvirtualhiddevice&col02
+| Upper Filters: moufiltr
+| Service: mouhid
+| 
++ Terminal Server Mouse Driver
+| Matching Device ID: root\rdp_mou
+| Upper Filters: mouclass
+| Service: TermDD
+
+------------------------
+Disk & DVD/CD-ROM Drives
+------------------------
+      Drive: C:
+ Free Space: 86.4 GB
+Total Space: 953.8 GB
+File System: NTFS
+      Model: WDC WD10EARX-32N0YB0 ATA Device
+
+      Drive: D:
+      Model: HL-DT-ST DVDRAM GH24NS72 ATA Device
+     Driver: c:\windows\system32\drivers\cdrom.sys, 6.01.7601.17514 (English), , 0 bytes
+
+--------------
+System Devices
+--------------
+     Name: PCI standard PCI-to-PCI bridge
+Device ID: PCI\VEN_1283&DEV_8892&SUBSYS_50001458&REV_30\4&3A8EDBF3&0&00E3
+   Driver: n/a
+
+     Name: Intel(R) Management Engine Interface 
+Device ID: PCI\VEN_8086&DEV_1C3A&SUBSYS_1C3A1458&REV_04\3&13C0B0C5&0&B0
+   Driver: n/a
+
+     Name: Intel(R) 6 Series/C200 Series Chipset Family 2 port Serial ATA Storage Controller - 1C08
+Device ID: PCI\VEN_8086&DEV_1C08&SUBSYS_B0021458&REV_05\3&13C0B0C5&0&FD
+   Driver: n/a
+
+     Name: Realtek PCIe GBE Family Controller
+Device ID: PCI\VEN_10EC&DEV_8168&SUBSYS_E0001458&REV_06\4&6AE81F7&0&00E2
+   Driver: n/a
+
+     Name: Intel(R) 6 Series/C200 Series Chipset Family USB Enhanced Host Controller - 1C2D
+Device ID: PCI\VEN_8086&DEV_1C2D&SUBSYS_50061458&REV_05\3&13C0B0C5&0&D0
+   Driver: n/a
+
+     Name: Intel(R) 6 Series/C200 Series Chipset Family 4 port Serial ATA Storage Controller - 1C00
+Device ID: PCI\VEN_8086&DEV_1C00&SUBSYS_B0021458&REV_05\3&13C0B0C5&0&FA
+   Driver: n/a
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_1002&DEV_AAB0&SUBSYS_AAB01787&REV_00\4&A4623FA&0&0108
+   Driver: n/a
+
+     Name: Intel(R) 6 Series/C200 Series Chipset Family USB Enhanced Host Controller - 1C26
+Device ID: PCI\VEN_8086&DEV_1C26&SUBSYS_50061458&REV_05\3&13C0B0C5&0&E8
+   Driver: n/a
+
+     Name: Intel(R) HD Graphics
+Device ID: PCI\VEN_8086&DEV_0152&SUBSYS_D0001458&REV_09\3&13C0B0C5&0&10
+   Driver: n/a
+
+     Name: AMD Radeon HD 7800 Series
+Device ID: PCI\VEN_1002&DEV_6819&SUBSYS_23201787&REV_00\4&A4623FA&0&0008
+   Driver: n/a
+
+     Name: Intel(R) 6 Series/C200 Series Chipset Family SMBus Controller - 1C22
+Device ID: PCI\VEN_8086&DEV_1C22&SUBSYS_50011458&REV_05\3&13C0B0C5&0&FB
+   Driver: n/a
+
+     Name: Xeon(R) processor E3-1200 v2/3rd Gen Core processor PCI Express Root Port - 0151
+Device ID: PCI\VEN_8086&DEV_0151&SUBSYS_50001458&REV_09\3&13C0B0C5&0&08
+   Driver: n/a
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_8086&DEV_1C20&SUBSYS_A0021458&REV_05\3&13C0B0C5&0&D8
+   Driver: n/a
+
+     Name: Xeon(R) processor E3-1200 v2/3rd Gen Core processor DRAM Controller - 0150
+Device ID: PCI\VEN_8086&DEV_0150&SUBSYS_00000000&REV_09\3&13C0B0C5&0&00
+   Driver: n/a
+
+     Name: Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 3 - 1C14
+Device ID: PCI\VEN_8086&DEV_1C14&SUBSYS_50011458&REV_B5\3&13C0B0C5&0&E2
+   Driver: n/a
+
+     Name: Etron USB 3.0 Extensible Host Controller
+Device ID: PCI\VEN_1B6F&DEV_7023&SUBSYS_50071458&REV_01\4&36E9BF94&0&00E1
+   Driver: n/a
+
+     Name: Intel(R) 82801 PCI Bridge - 244E
+Device ID: PCI\VEN_8086&DEV_244E&SUBSYS_50011458&REV_B5\3&13C0B0C5&0&E3
+   Driver: n/a
+
+     Name: Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 2 - 1C12
+Device ID: PCI\VEN_8086&DEV_1C12&SUBSYS_50011458&REV_B5\3&13C0B0C5&0&E1
+   Driver: n/a
+
+     Name: 450Mbps  Dual-Band Wireless N Adapter
+Device ID: PCI\VEN_168C&DEV_0030&SUBSYS_3112168C&REV_01\4&14486AD3&0&00E0
+   Driver: n/a
+
+     Name: Intel(R) Z68 Express Chipset Family LPC Interface Controller - 1C44
+Device ID: PCI\VEN_8086&DEV_1C44&SUBSYS_50011458&REV_05\3&13C0B0C5&0&F8
+   Driver: n/a
+
+     Name: Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 1 - 1C10
+Device ID: PCI\VEN_8086&DEV_1C10&SUBSYS_50011458&REV_B5\3&13C0B0C5&0&E0
+   Driver: n/a
+
+------------------
+DirectShow Filters
+------------------
+
+DirectShow Filters:
+WMAudio Decoder DMO,0x00800800,1,1,WMADMOD.DLL,6.01.7601.17514
+WMAPro over S/PDIF DMO,0x00600800,1,1,WMADMOD.DLL,6.01.7601.17514
+WMSpeech Decoder DMO,0x00600800,1,1,WMSPDMOD.DLL,6.01.7601.17514
+MP3 Decoder DMO,0x00600800,1,1,mp3dmod.dll,6.01.7600.16385
+Mpeg4s Decoder DMO,0x00800001,1,1,mp4sdecd.dll,6.01.7600.16385
+WMV Screen decoder DMO,0x00600800,1,1,wmvsdecd.dll,6.01.7601.17514
+WMVideo Decoder DMO,0x00800001,1,1,wmvdecod.dll,6.01.7601.18221
+Mpeg43 Decoder DMO,0x00800001,1,1,mp43decd.dll,6.01.7600.16385
+Mpeg4 Decoder DMO,0x00800001,1,1,mpg4decd.dll,6.01.7600.16385
+WMT VIH2 Fix,0x00200000,1,1,WLXVAFilt.dll,16.04.3505.0912
+Record Queue,0x00200000,1,1,WLXVAFilt.dll,16.04.3505.0912
+WMT Switch Filter,0x00200000,1,1,WLXVAFilt.dll,16.04.3505.0912
+WMT Virtual Renderer,0x00200000,1,0,WLXVAFilt.dll,16.04.3505.0912
+WMT DV Extract,0x00200000,1,1,WLXVAFilt.dll,16.04.3505.0912
+WMT Virtual Source,0x00200000,0,1,WLXVAFilt.dll,16.04.3505.0912
+WMT Sample Information Filter,0x00200000,1,1,WLXVAFilt.dll,16.04.3505.0912
+ffdshow DXVA Video Decoder,0xff800002,2,1,,
+ATI Ticker,0x00200000,0,1,Ticker.ax,
+DV Muxer,0x00400000,0,0,qdv.dll,6.06.7601.17514
+Color Space Converter,0x00400001,1,1,quartz.dll,6.06.7601.17713
+LAV Splitter,0x00800004,1,1,LAVSplitter.ax,0.61.0002.0000
+WM ASF Reader,0x00400000,0,0,qasf.dll,12.00.7601.17514
+Video Memory Render Filter,0x00200000,1,0,VideoMemoryRenderFilter.ax,
+Screen Capture filter,0x00200000,0,1,wmpsrcwp.dll,12.00.7601.17514
+AVI Splitter,0x00600000,1,1,quartz.dll,6.06.7601.17713
+VGA 16 Color Ditherer,0x00400000,1,1,quartz.dll,6.06.7601.17713
+SBE2MediaTypeProfile,0x00200000,0,0,sbe.dll,6.06.7601.17528
+Microsoft DTV-DVD Video Decoder,0x005fffff,2,4,msmpeg2vdec.dll,12.00.9200.16426
+AC3 Parser Filter,0x00600000,1,1,mpg2splt.ax,6.06.7601.17528
+StreamBufferSink,0x00200000,0,0,sbe.dll,6.06.7601.17528
+MJPEG Decompressor,0x00600000,1,1,quartz.dll,6.06.7601.17713
+MPEG-I Stream Splitter,0x00600000,1,2,quartz.dll,6.06.7601.17713
+SAMI (CC) Parser,0x00400000,1,1,quartz.dll,6.06.7601.17713
+VBI Codec,0x00600000,1,4,VBICodec.ax,6.06.7601.17514
+ATI MPEG File Writer,0x00200000,1,0,atimpenc.dll,12.05.0000.21219
+ATI MPEG Video Decoder,0x00200000,1,2,atimpenc.dll,12.05.0000.21219
+MPEG-2 Splitter,0x005fffff,1,0,mpg2splt.ax,6.06.7601.17528
+Closed Captions Analysis Filter,0x00200000,2,5,cca.dll,6.06.7601.17514
+SBE2FileScan,0x00200000,0,0,sbe.dll,6.06.7601.17528
+Microsoft MPEG-2 Video Encoder,0x00200000,1,1,msmpeg2enc.dll,6.01.7601.17514
+Internal Script Command Renderer,0x00800001,1,0,quartz.dll,6.06.7601.17713
+MPEG Audio Decoder,0x03680001,1,1,quartz.dll,6.06.7601.17713
+MMACE ProcAmp,0x00200000,0,2,MMACEFilters.dll,
+DV Splitter,0x00600000,1,2,qdv.dll,6.06.7601.17514
+Video Mixing Renderer 9,0x00200000,1,0,quartz.dll,6.06.7601.17713
+Haali Media Splitter,0x00800001,0,1,splitter.ax,1.13.0356.0020
+Haali Media Splitter (AR),0x00400000,1,1,splitter.ax,1.13.0356.0020
+Microsoft MPEG-2 Encoder,0x00200000,2,1,msmpeg2enc.dll,6.01.7601.17514
+ATI MPEG Audio Encoder,0x00200000,1,1,atimpenc.dll,12.05.0000.21219
+Xvid MPEG-4 Video Decoder,0x00800002,1,1,xvid.ax,
+File Source (Monkey Audio),0x00400000,0,1,MonkeySource.ax,
+AMD MJPEG Decoder,0x00800001,1,1,atimpenc.dll,12.05.0000.21219
+ACM Wrapper,0x00600000,1,1,quartz.dll,6.06.7601.17713
+Video Renderer,0x00800001,1,0,quartz.dll,6.06.7601.17713
+MPEG-2 Video Stream Analyzer,0x00200000,0,0,sbe.dll,6.06.7601.17528
+Line 21 Decoder,0x00600000,1,1,qdvd.dll,6.06.7601.17835
+Video Port Manager,0x00600000,2,1,quartz.dll,6.06.7601.17713
+Video Renderer,0x00400000,1,0,quartz.dll,6.06.7601.17713
+ATI MPEG Video Encoder,0x00200000,1,1,atimpenc.dll,12.05.0000.21219
+Haali Video Renderer,0x00200000,1,0,dxr.dll,
+File Writer,0x00200000,1,0,WLXVAFilt.dll,16.04.3505.0912
+ATI MPEG Multiplexer,0x00200000,2,1,atimpenc.dll,12.05.0000.21219
+VPS Decoder,0x00200000,0,0,WSTPager.ax,6.06.7601.17514
+WM ASF Writer,0x00400000,0,0,qasf.dll,12.00.7601.17514
+VBI Surface Allocator,0x00600000,1,1,vbisurf.ax,6.01.7601.17514
+MMACE SoftEmu,0x00200000,0,2,MMACEFilters.dll,
+File writer,0x00200000,1,0,qcap.dll,6.06.7601.17514
+iTV Data Sink,0x00600000,1,0,itvdata.dll,6.06.7601.17514
+iTV Data Capture filter,0x00600000,1,1,itvdata.dll,6.06.7601.17514
+ATI Video Scaler Filter,0x00200000,1,1,atimpenc.dll,12.05.0000.21219
+Haali Simple Media Splitter,0x00200000,0,1,splitter.ax,1.13.0356.0020
+DirectVobSub,0x00200000,2,1,VSFilter.dll,3.00.0000.0288
+DirectVobSub (auto-loading version),0x00800002,2,1,VSFilter.dll,3.00.0000.0288
+DVD Navigator,0x00200000,0,3,qdvd.dll,6.06.7601.17835
+MMACE DeInterlace,0x00200000,0,2,MMACEFilters.dll,
+Overlay Mixer2,0x00200000,1,1,qdvd.dll,6.06.7601.17835
+Haali Matroska Muxer,0x00200000,1,0,splitter.ax,1.13.0356.0020
+AVI Draw,0x00600064,9,1,quartz.dll,6.06.7601.17713
+RDP DShow Redirection Filter,0xffffffff,1,0,DShowRdpFilter.dll,
+DC-Bass Source,0x00400000,0,1,DCBassSourceMod.ax,1.05.0001.0000
+Microsoft MPEG-2 Audio Encoder,0x00200000,1,1,msmpeg2enc.dll,6.01.7601.17514
+WST Pager,0x00200000,1,1,WSTPager.ax,6.06.7601.17514
+MPEG-2 Demultiplexer,0x00600000,1,1,mpg2splt.ax,6.06.7601.17528
+DV Video Decoder,0x00800000,1,1,qdv.dll,6.06.7601.17514
+LAV Splitter Source,0x00800004,0,1,LAVSplitter.ax,0.61.0002.0000
+SampleGrabber,0x00200000,1,1,qedit.dll,6.06.7601.18501
+Null Renderer,0x00200000,1,0,qedit.dll,6.06.7601.18501
+VP7 Decompressor,0x00800000,1,1,vp7dec.ax,7.00.0010.0000
+MPEG-2 Sections and Tables,0x005fffff,1,0,Mpeg2Data.ax,6.06.7601.17514
+Microsoft AC3 Encoder,0x00200000,1,1,msac3enc.dll,6.01.7601.17514
+StreamBufferSource,0x00200000,0,0,sbe.dll,6.06.7601.17528
+Smart Tee,0x00200000,1,2,qcap.dll,6.06.7601.17514
+Overlay Mixer,0x00200000,0,0,qdvd.dll,6.06.7601.17835
+AVI Decompressor,0x00600000,1,1,quartz.dll,6.06.7601.17713
+AVI/WAV File Source,0x00400000,0,2,quartz.dll,6.06.7601.17713
+Wave Parser,0x00400000,1,1,quartz.dll,6.06.7601.17713
+MIDI Parser,0x00400000,1,1,quartz.dll,6.06.7601.17713
+Multi-file Parser,0x00400000,1,1,quartz.dll,6.06.7601.17713
+File stream renderer,0x00400000,1,1,quartz.dll,6.06.7601.17713
+ATI Video Rotation Filter,0x00200000,1,1,atimpenc.dll,12.05.0000.21219
+madVR,0x00200000,1,0,madVR.ax,0.85.0002.0000
+Microsoft DTV-DVD Audio Decoder,0x005fffff,1,1,msmpeg2adec.dll,6.01.7140.0000
+StreamBufferSink2,0x00200000,0,0,sbe.dll,6.06.7601.17528
+AVI Mux,0x00200000,1,0,qcap.dll,6.06.7601.17514
+Line 21 Decoder 2,0x00600002,1,1,quartz.dll,6.06.7601.17713
+File Source (Async.),0x00400000,0,1,quartz.dll,6.06.7601.17713
+File Source (URL),0x00400000,0,1,quartz.dll,6.06.7601.17713
+LAV Audio Decoder,0x00800003,1,1,LAVAudio.ax,0.61.0002.0000
+Memory Buffered Filter,0x00200000,1,0,MemoryBufferedFilter.dll,
+LAV Video Decoder,0x00800003,1,1,LAVVideo.ax,0.61.0002.0000
+Haali Video Sink,0x00200000,1,0,splitter.ax,1.13.0356.0020
+Infinite Pin Tee Filter,0x00200000,1,1,qcap.dll,6.06.7601.17514
+Enhanced Video Renderer,0x00200000,1,0,evr.dll,6.01.7601.17514
+BDA MPEG2 Transport Information Filter,0x00200000,2,0,psisrndr.ax,6.06.7601.17669
+MPEG Video Decoder,0x40000001,1,1,quartz.dll,6.06.7601.17713
+IL FL Studio DXi,0x00200000,1,1,FLSTUD~2.DLL,1.00.0013.0000
+IL Multi FL Studio DXi,0x00200000,1,1,FLSTUD~1.DLL,1.00.0013.0000
+
+WDM Streaming Tee/Splitter Devices:
+Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
+
+Video Compressors:
+WMVideo8 Encoder DMO,0x00600800,1,1,wmvxencd.dll,6.01.7600.16385
+WMVideo9 Encoder DMO,0x00600800,1,1,wmvencod.dll,6.01.7600.16385
+MSScreen 9 encoder DMO,0x00600800,1,1,wmvsencd.dll,6.01.7600.16385
+DV Video Encoder,0x00200000,0,0,qdv.dll,6.06.7601.17514
+MJPEG Compressor,0x00200000,0,0,quartz.dll,6.06.7601.17713
+Cinepak Codec by Radius,0x00200000,1,1,qcap.dll,6.06.7601.17514
+Fraps Video Decompressor,0x00200000,1,1,qcap.dll,6.06.7601.17514
+Intel IYUV codec,0x00200000,1,1,qcap.dll,6.06.7601.17514
+Intel IYUV codec,0x00200000,1,1,qcap.dll,6.06.7601.17514
+Microsoft RLE,0x00200000,1,1,qcap.dll,6.06.7601.17514
+Microsoft Video 1,0x00200000,1,1,qcap.dll,6.06.7601.17514
+TechSmith Screen Capture Codec,0x00200000,1,1,qcap.dll,6.06.7601.17514
+x264vfw - H.264/MPEG-4 AVC codec,0x00200000,1,1,qcap.dll,6.06.7601.17514
+Xvid MPEG-4 Codec,0x00200000,1,1,qcap.dll,6.06.7601.17514
+
+Audio Compressors:
+WM Speech Encoder DMO,0x00600800,1,1,WMSPDMOE.DLL,6.01.7600.16385
+WMAudio Encoder DMO,0x00600800,1,1,WMADMOE.DLL,6.01.7600.16385
+ATI MPEG Audio Encoder,0x00200000,1,1,atimpenc.dll,12.05.0000.21219
+IMA ADPCM,0x00200000,1,1,quartz.dll,6.06.7601.17713
+PCM,0x00200000,1,1,quartz.dll,6.06.7601.17713
+Ogg Vorbis (mode1),0x00200000,1,1,quartz.dll,6.06.7601.17713
+Ogg Vorbis (mode2),0x00200000,1,1,quartz.dll,6.06.7601.17713
+Ogg Vorbis (mode3),0x00200000,1,1,quartz.dll,6.06.7601.17713
+Ogg Vorbis (mode1+),0x00200000,1,1,quartz.dll,6.06.7601.17713
+Ogg Vorbis (mode2+),0x00200000,1,1,quartz.dll,6.06.7601.17713
+Ogg Vorbis (mode3+),0x00200000,1,1,quartz.dll,6.06.7601.17713
+Microsoft ADPCM,0x00200000,1,1,quartz.dll,6.06.7601.17713
+GSM 6.10,0x00200000,1,1,quartz.dll,6.06.7601.17713
+CCITT A-Law,0x00200000,1,1,quartz.dll,6.06.7601.17713
+CCITT u-Law,0x00200000,1,1,quartz.dll,6.06.7601.17713
+MPEG Layer-3,0x00200000,1,1,quartz.dll,6.06.7601.17713
+
+Audio Capture Sources:
+Microphone (Logitech USB Headse,0x00200000,0,0,qcap.dll,6.06.7601.17514
+
+PBDA CP Filters:
+PBDA DTFilter,0x00600000,1,1,CPFilters.dll,6.06.7601.17528
+PBDA ETFilter,0x00200000,0,0,CPFilters.dll,6.06.7601.17528
+PBDA PTFilter,0x00200000,0,0,CPFilters.dll,6.06.7601.17528
+
+Midi Renderers:
+Default MidiOut Device,0x00800000,1,0,quartz.dll,6.06.7601.17713
+Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,6.06.7601.17713
+
+WDM Streaming Capture Devices:
+Line in at front panel (Green),0x00200000,1,1,ksproxy.ax,6.01.7601.17514
+Mic in at front panel (Pink),0x00200000,1,1,ksproxy.ax,6.01.7601.17514
+Line in at rear panel (Blue),0x00200000,1,1,ksproxy.ax,6.01.7601.17514
+Line in at rear panel (Green),0x00200000,1,1,ksproxy.ax,6.01.7601.17514
+Line in at rear panel (Pink),0x00200000,1,1,ksproxy.ax,6.01.7601.17514
+Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
+
+WDM Streaming Rendering Devices:
+Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
+Realtek HDA SPDIF Optical Out,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
+Realtek HDA SPDIF Out,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
+
+BDA Network Providers:
+Microsoft ATSC Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.7601.17514
+Microsoft DVBC Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.7601.17514
+Microsoft DVBS Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.7601.17514
+Microsoft DVBT Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.7601.17514
+Microsoft Network Provider,0x00200000,0,1,MSNP.ax,6.06.7601.17514
+
+Multi-Instance Capable VBI Codecs:
+VBI Codec,0x00600000,1,4,VBICodec.ax,6.06.7601.17514
+
+BDA Transport Information Renderers:
+BDA MPEG2 Transport Information Filter,0x00600000,2,0,psisrndr.ax,6.06.7601.17669
+MPEG-2 Sections and Tables,0x00600000,1,0,Mpeg2Data.ax,6.06.7601.17514
+
+BDA CP/CA Filters:
+Decrypt/Tag,0x00600000,1,1,EncDec.dll,6.06.7601.17708
+Encrypt/Tag,0x00200000,0,0,EncDec.dll,6.06.7601.17708
+PTFilter,0x00200000,0,0,EncDec.dll,6.06.7601.17708
+XDS Codec,0x00200000,0,0,EncDec.dll,6.06.7601.17708
+
+WDM Streaming Communication Transforms:
+Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,6.01.7601.17514
+
+Audio Renderers:
+Speakers (Realtek High Definiti,0x00200000,1,0,quartz.dll,6.06.7601.17713
+Default DirectSound Device,0x00800000,1,0,quartz.dll,6.06.7601.17713
+Default WaveOut Device,0x00200000,1,0,quartz.dll,6.06.7601.17713
+DirectSound: Realtek Digital Output(Optical) (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.17713
+DirectSound: Speakers (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.17713
+Realtek Digital Output(Optical),0x00200000,1,0,quartz.dll,6.06.7601.17713
+
+---------------
+EVR Power Information
+---------------
+Current Setting: {5C67A112-A4C9-483F-B4A7-1D473BECAFDC} (Quality) 
+  Quality Flags: 2576
+    Enabled:
+    Force throttling
+    Allow half deinterlace
+    Allow scaling
+    Decode Power Usage: 100
+  Balanced Flags: 1424
+    Enabled:
+    Force throttling
+    Allow batching
+    Force half deinterlace
+    Force scaling
+    Decode Power Usage: 50
+  PowerFlags: 1424
+    Enabled:
+    Force throttling
+    Allow batching
+    Force half deinterlace
+    Force scaling
+    Decode Power Usage: 0
