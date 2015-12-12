@@ -1,0 +1,1232 @@
+﻿[2015.12.12-07.58.04:927][  0]Log file open, 12/12/15 02:58:04
+[2015.12.12-07.58.04:927][  0]LogInit:Display: Running engine for game: MyProject19
+[2015.12.12-07.58.04:927][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.12-07.58.04:927][  0]LogInit:Display: RandInit(-45253695) SRandInit(-45253694).
+[2015.12.12-07.58.04:927][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.12-07.58.04:927][  0]LogStats: Stats thread started at 0.079018
+[2015.12.12-07.58.04:927][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.12-07.58.04:927][  0]LogInit: API Version: 2758231
+[2015.12.12-07.58.04:927][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.12.12-07.58.04:927][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.12-07.58.04:927][  0]LogInit: Build Configuration: Development
+[2015.12.12-07.58.04:927][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.12-07.58.04:927][  0]LogInit: Command line: 
+[2015.12.12-07.58.04:927][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.12-07.58.04:927][  0]LogInit: Rocket: 1
+[2015.12.12-07.58.04:933][  0]LogInit: Using libcurl 7.41.0
+[2015.12.12-07.58.04:933][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.12-07.58.04:933][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.12-07.58.04:933][  0]LogInit:  - other features:
+[2015.12.12-07.58.04:933][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.12-07.58.04:933][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.12-07.58.04:933][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.12-07.58.04:933][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.12-07.58.04:933][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.12-07.58.04:933][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.12-07.58.04:933][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.12-07.58.04:933][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.12-07.58.04:933][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.12-07.58.04:933][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.12-07.58.04:940][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.12-07.58.04:948][  0]LogInit: Object subsystem initialized
+[2015.12.12-07.58.04:949][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.12-07.58.04:949][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.12-07.58.04:956][  0]LogInit: Computer: HENRY
+[2015.12.12-07.58.04:956][  0]LogInit: User: justs000
+[2015.12.12-07.58.04:956][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.12-07.58.04:956][  0]LogInit: High frequency timer resolution =2.338446 MHz
+[2015.12.12-07.58.04:956][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.12.12-07.58.04:956][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.12-07.58.04:956][  0]LogMemory: Process Physical Memory: 54.58 MB used, 54.58 MB peak
+[2015.12.12-07.58.04:956][  0]LogMemory: Process Virtual Memory: 55.31 MB used, 55.31 MB peak
+[2015.12.12-07.58.04:956][  0]LogMemory: Physical Memory: 4558.93 MB used, 8144.96 MB total
+[2015.12.12-07.58.04:956][  0]LogMemory: Virtual Memory: 356.54 MB used, 134217728.00 MB total
+[2015.12.12-07.58.04:989][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.12-07.58.05:432][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660M  (Feature Level 11_0)
+[2015.12.12-07.58.05:432][  0]LogD3D11RHI: Adapter has 1986MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.12.12-07.58.05:433][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.12-07.58.05:433][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.12.12-07.58.05:433][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.12-07.58.05:439][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.12-07.58.05:439][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.12-07.58.05:452][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.12-07.58.05:470][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Intermediate/Shaders/WorkingDirectory/22964/).
+[2015.12.12-07.58.05:471][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JUSTS_~1/AppData/Local/Temp/UnrealShaderWorkingDir/ED62E7614C019984C652FAAA9D46E346/'.
+[2015.12.12-07.58.05:471][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.12-07.58.06:391][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.12-07.58.06:395][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.12-07.58.06:400][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.12-07.58.06:405][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.12-07.58.06:409][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.12-07.58.06:412][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.12-07.58.06:415][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.12-07.58.06:418][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.12-07.58.06:422][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.12-07.58.06:425][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.12-07.58.06:428][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.12-07.58.06:435][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.12-07.58.06:435][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.12-07.58.06:435][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.12-07.58.06:453][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.12-07.58.06:456][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.12-07.58.06:458][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.12-07.58.06:462][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.12-07.58.06:462][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.12-07.58.06:549][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.12-07.58.06:592][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/justs_000/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.12-07.58.06:592][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/justs_000/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.12-07.58.06:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.12-07.58.06:592][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.12-07.58.06:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.12-07.58.06:592][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.12-07.58.06:655][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.12-07.58.06:667][  0]LogDerivedDataCache: Using Local data cache path C:/Users/justs_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.12-07.58.06:869][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.12-07.58.06:872][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.12-07.58.06:986][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.12-07.58.06:986][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.12-07.58.07:207][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.12-07.58.07:905][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.12-07.58.08:018][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.12.12-07.58.08:195][  0]SourceControl: Info Source control is disabled
+[2015.12.12-07.58.08:195][  0]SourceControl: Info Source control is disabled
+[2015.12.12-07.58.08:208][  0]SourceControl: Info Source control is disabled
+[2015.12.12-07.58.08:218][  0]SourceControl: Info Source control is disabled
+[2015.12.12-07.58.08:455][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.12-07.58.08:455][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2015.12.12-07.58.08:519][  0]LogEngine: Initializing Engine...
+[2015.12.12-07.58.08:521][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.12-07.58.08:524][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.12.12-07.58.08:653][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.12-07.58.08:657][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-07.58.08:665][  0]LogInit: FAudioDevice initialized.
+[2015.12.12-07.58.08:688][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/justs_000/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.12-07.58.08:691][  0]LogInit: Texture streaming: Enabled
+[2015.12.12-07.58.08:696][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.12-07.58.08:696][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.12-07.58.08:696][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 3aedac264c2edce98c42ebbabb67c104|1c334b57e2544367aa30db38981fce0c|a11c40b9-ccab-46fb-8761-4a49847f6df8
+[2015.12.12-07.58.08:697][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.12-07.58.08:724][  0]LogInit: Transaction tracking system initialized
+[2015.12.12-07.58.08:755][  0]BlueprintLog: New page: Editor Load
+[2015.12.12-07.58.08:867][  0]LocalizationService: Info Localization service is disabled
+[2015.12.12-07.58.08:950][  0]LogConsoleResponse:Display: 
+[2015.12.12-07.58.09:071][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.12-07.58.09:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/' took 0.01s
+[2015.12.12-07.58.09:133][  0]SourceControl: Info Source control is disabled
+[2015.12.12-07.58.09:134][  0]Cmd: MAP LOAD FILE="../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.12-07.58.09:134][  0]LightingResults: New page: Lighting Build
+[2015.12.12-07.58.09:137][  0]MapCheck: New page: Map Check
+[2015.12.12-07.58.09:137][  0]LightingResults: New page: Lighting Build
+[2015.12.12-07.58.09:148][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B49FFF420
+[2015.12.12-07.58.09:157][  0]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-07.58.09:158][  0]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-07.58.09:160][  0]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-07.58.09:161][  0]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-07.58.09:162][  0]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-07.58.09:162][  0]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-07.58.09:163][  0]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-07.58.09:164][  0]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-07.58.09:734][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-07.58.09:735][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-07.58.09:739][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0005.24] Compile of AbilityMenu successful, but with 2 Warning(s) [in 21 ms]
+[2015.12.12-07.58.09:739][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0005.24] Compile of AbilityMenu successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.12-07.58.09:739][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0005.24] Compile of AbilityMenu successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.12-07.58.10:222][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-07.58.10:227][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-07.58.10:243][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-07.58.10:283][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0005.79] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 119 ms]
+[2015.12.12-07.58.10:283][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0005.79] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.12-07.58.10:283][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0005.79] Compile of ThirdPersonCharacter2D successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.12-07.58.10:547][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-07.58.10:551][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2015.12.12-07.58.10:553][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-07.58.10:567][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-07.58.10:586][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0006.09] Compile of ThirdPersonCharacter successful, but with 4 Warning(s) [in 92 ms]
+[2015.12.12-07.58.10:587][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0006.09] Compile of ThirdPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.12-07.58.10:587][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0006.09] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 0 ms]
+[2015.12.12-07.58.10:682][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-07.58.10:686][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2015.12.12-07.58.10:688][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-07.58.10:705][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-07.58.10:726][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0006.23] Compile of ThirdPersonCharacter successful, but with 4 Warning(s) [in 106 ms]
+[2015.12.12-07.58.10:726][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0006.23] Compile of ThirdPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.12-07.58.10:726][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0006.23] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 0 ms]
+[2015.12.12-07.58.10:822][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-07.58.10:827][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-07.58.10:843][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-07.58.10:885][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0006.39] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 126 ms]
+[2015.12.12-07.58.10:885][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0006.39] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.12-07.58.10:886][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0006.39] Compile of ThirdPersonCharacter2D successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.12-07.58.10:905][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-07.58.10:906][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-07.58.10:910][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0006.42] Compile of AbilityMenu successful, but with 2 Warning(s) [in 18 ms]
+[2015.12.12-07.58.10:910][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0006.42] Compile of AbilityMenu successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.12-07.58.10:914][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0006.42] Compile of AbilityMenu successful, but with 4 Warning(s) [in 4 ms]
+[2015.12.12-07.58.12:499][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.12-07.58.12:507][  0]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:507][  0]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:508][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:508][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:509][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:509][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:510][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:510][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:510][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:510][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:512][  0]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:512][  0]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:512][  0]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:512][  0]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:512][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:512][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:513][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:513][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:514][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:514][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:514][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:514][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:515][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:515][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:515][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:515][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:516][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:516][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:517][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:517][  0]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.12:517][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.12-07.58.12:518][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.12-07.58.12:581][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.394ms to complete.
+[2015.12.12-07.58.12:581][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.447
+[2015.12.12-07.58.12:710][  0]LogCollectionManager: Loaded 0 collections in 0.002370 seconds
+[2015.12.12-07.58.12:758][  0]LogFileCache: Scanning file cache for directory 'C:/Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Saved/Collections/' took 0.01s
+[2015.12.12-07.58.12:758][  0]LogFileCache: Scanning file cache for directory 'C:/Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Developers/justs000/Collections/' took 0.01s
+[2015.12.12-07.58.12:758][  0]LogFileCache: Scanning file cache for directory 'C:/Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Collections/' took 0.01s
+[2015.12.12-07.58.12:758][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.12.12-07.58.12:772][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 1893 classes and 338 folders.
+[2015.12.12-07.58.12:779][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.12.12-07.58.12:821][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.12.12-07.58.12:825][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.12.12-07.58.12:838][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.12-07.58.12:843][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.12-07.58.12:866][  0]LogLoad: Full Startup: 8.37 seconds (BP compile: 1.09 seconds)
+[2015.12.12-07.58.12:885][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.12-07.58.12:961][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.12-07.58.13:135][  0]LogRenderer: Reallocating scene render targets to support 1208x568 (Frame:2).
+[2015.12.12-07.58.13:829][ 10]LogAssetRegistry: Asset discovery search completed in 5.8220 seconds
+[2015.12.12-07.58.13:829][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2015.12.12-07.58.13:829][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2015.12.12-07.58.16:167][ 92]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.12-07.58.16:167][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.12-07.58.16:168][ 92]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 11, 2015, 9:58:16 PM)
+[2015.12.12-07.58.16:168][ 92]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.12.12-07.58.16:276][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.108354s)
+[2015.12.12-07.58.16:277][ 92]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.12-07.58.16:278][ 92]LogPlayLevel: PIE: World Init took: (0.001223s)
+[2015.12.12-07.58.16:278][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.110047s)
+[2015.12.12-07.58.16:279][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-07.58.16:279][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.12.12-07.58.16:414][ 92]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-07.58.16:421][ 92]LogInit: FAudioDevice initialized.
+[2015.12.12-07.58.16:516][ 92]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-07.58.16:523][ 92]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.16:523][ 92]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.16:523][ 92]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.16:523][ 92]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.16:524][ 92]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.16:524][ 92]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.16:525][ 92]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.16:525][ 92]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.16:525][ 92]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.16:525][ 92]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.58.16:525][ 92]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.12.12-02.58.16
+[2015.12.12-07.58.16:526][ 92]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-07.58.16:526][ 92]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-07.58.16:629][ 92]LogWorld: Bringing up level for play took: 0.111192
+[2015.12.12-07.58.16:661][ 92]LogBlueprintUserMessages: [BasicDummyEnemy_48] 1.0
+[2015.12.12-07.58.16:661][ 92]LogBlueprintUserMessages: [BasicDummyEnemy2] 1.0
+[2015.12.12-07.58.16:661][ 92]LogBlueprintUserMessages: [BasicDummyEnemy3] 1.0
+[2015.12.12-07.58.16:661][ 92]LogBlueprintUserMessages: [BasicDummyEnemy4] 1.0
+[2015.12.12-07.58.16:677][ 92]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.145
+[2015.12.12-07.58.16:678][ 92]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.12-07.58.16:719][ 93]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:102).
+[2015.12.12-07.58.37:950][797]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] ZaWarudo
+[2015.12.12-07.58.41:065][901]LogScript:Warning: Attempted to get an item from array CallFunc_GetCharacterArrayFromString_ReturnValue3 out of bounds [38/37]!
+[2015.12.12-07.59.13:066][958]LogGameMode: ProcessServerTravel: ?Restart
+[2015.12.12-07.59.13:081][959]LogEngine: Server switch level: ?Restart
+[2015.12.12-07.59.13:082][959]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Restart
+[2015.12.12-07.59.13:108][959]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2015.12.12-07.59.13:212][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B63689300
+[2015.12.12-07.59.13:238][959]Cmd: MEM
+[2015.12.12-07.59.13:295][959]LogMemory: Platform Memory Stats for Windows
+[2015.12.12-07.59.13:295][959]LogMemory: Process Physical Memory: 732.08 MB used, 764.51 MB peak
+[2015.12.12-07.59.13:295][959]LogMemory: Process Virtual Memory: 1422.95 MB used, 1554.34 MB peak
+[2015.12.12-07.59.13:295][959]LogMemory: Physical Memory: 4784.72 MB used, 8144.96 MB total
+[2015.12.12-07.59.13:295][959]LogMemory: Virtual Memory: 2097.54 MB used, 134217728.00 MB total
+[2015.12.12-07.59.13:295][959]LogMemory: 
+[2015.12.12-07.59.13:295][959]Allocator Stats for TBB: (not implemented)
+[2015.12.12-07.59.13:295][959]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.12.12-07.59.13:399][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.103228s)
+[2015.12.12-07.59.13:400][959]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.12-07.59.13:400][959]LogPlayLevel: PIE: World Init took: (0.001466s)
+[2015.12.12-07.59.13:400][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.105116s)
+[2015.12.12-07.59.13:400][959]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-07.59.13:437][959]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.13:437][959]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.13:438][959]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.13:438][959]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.13:439][959]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.13:439][959]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.13:441][959]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.13:441][959]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.13:442][959]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.13:442][959]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.13:443][959]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.12.12-02.59.13
+[2015.12.12-07.59.13:443][959]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-07.59.13:443][959]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-07.59.13:447][959]LogWorld: Bringing up level for play took: 0.035701
+[2015.12.12-07.59.13:451][959]LogBlueprintUserMessages: [BasicDummyEnemy4] 1.0
+[2015.12.12-07.59.13:451][959]LogBlueprintUserMessages: [BasicDummyEnemy3] 1.0
+[2015.12.12-07.59.13:452][959]LogBlueprintUserMessages: [BasicDummyEnemy2] 1.0
+[2015.12.12-07.59.13:452][959]LogBlueprintUserMessages: [BasicDummyEnemy_48] 1.0
+[2015.12.12-07.59.29:810][500]LogGameMode: ProcessServerTravel: ?Restart
+[2015.12.12-07.59.29:823][501]LogEngine: Server switch level: ?Restart
+[2015.12.12-07.59.29:823][501]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Restart
+[2015.12.12-07.59.29:854][501]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2015.12.12-07.59.29:896][501]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B5D46F240
+[2015.12.12-07.59.29:896][501]Cmd: MEM
+[2015.12.12-07.59.29:923][501]LogMemory: Platform Memory Stats for Windows
+[2015.12.12-07.59.29:924][501]LogMemory: Process Physical Memory: 734.01 MB used, 764.51 MB peak
+[2015.12.12-07.59.29:924][501]LogMemory: Process Virtual Memory: 1331.09 MB used, 1557.10 MB peak
+[2015.12.12-07.59.29:924][501]LogMemory: Physical Memory: 4781.45 MB used, 8144.96 MB total
+[2015.12.12-07.59.29:924][501]LogMemory: Virtual Memory: 1989.45 MB used, 134217728.00 MB total
+[2015.12.12-07.59.29:924][501]LogMemory: 
+[2015.12.12-07.59.29:924][501]Allocator Stats for TBB: (not implemented)
+[2015.12.12-07.59.29:924][501]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.12.12-07.59.30:021][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097578s)
+[2015.12.12-07.59.30:023][501]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.12-07.59.30:023][501]LogPlayLevel: PIE: World Init took: (0.001475s)
+[2015.12.12-07.59.30:023][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.099491s)
+[2015.12.12-07.59.30:023][501]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-07.59.30:052][501]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.30:052][501]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.30:053][501]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.30:053][501]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.30:055][501]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.30:055][501]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.30:056][501]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.30:056][501]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.30:057][501]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.30:057][501]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-07.59.30:057][501]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.12.12-02.59.30
+[2015.12.12-07.59.30:058][501]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-07.59.30:058][501]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-07.59.30:062][501]LogWorld: Bringing up level for play took: 0.036142
+[2015.12.12-07.59.30:066][501]LogBlueprintUserMessages: [BasicDummyEnemy4] 1.0
+[2015.12.12-07.59.30:066][501]LogBlueprintUserMessages: [BasicDummyEnemy3] 1.0
+[2015.12.12-07.59.30:066][501]LogBlueprintUserMessages: [BasicDummyEnemy2] 1.0
+[2015.12.12-07.59.30:066][501]LogBlueprintUserMessages: [BasicDummyEnemy_48] 1.0
+[2015.12.12-07.59.33:006][592]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.12-07.59.33:042][592]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.12.12-07.59.33:107][592]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B5218D580
+[2015.12.12-07.59.48:353][ 79]LogAudioDerivedData:Display: Building compressed audio format OGG wave heymanjust...
+[2015.12.12-07.59.50:096][ 79]LogAIModule: Creating AISystem for world VerticalSlicePersitantLevel
+[2015.12.12-07.59.50:192][ 79]Cmd: MAP LOAD FILE="../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Maps/VerticalSlicePersitantLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.12-07.59.50:192][ 79]LightingResults: New page: Lighting Build
+[2015.12.12-07.59.50:219][ 79]LoadErrors: New page: Loading map: VerticalSlicePersitantLevel.umap
+[2015.12.12-07.59.50:220][ 79]MapCheck: New page: Map Check
+[2015.12.12-07.59.50:220][ 79]LightingResults: New page: Lighting Build
+[2015.12.12-07.59.50:236][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B527FBA60
+[2015.12.12-07.59.50:574][ 79]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.12-07.59.50:642][ 79]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.12-07.59.50:698][ 79]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.613ms to complete.
+[2015.12.12-07.59.50:698][ 79]LogFileHelpers: Loading map 'VerticalSlicePersitantLevel' took 0.507
+[2015.12.12-08.00.00:361][493]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel' with GeneratedClass '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel_C' with ClassGeneratedBy '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel'
+[2015.12.12-08.00.00:361][493]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.00.00:362][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.12-08.00.00:362][493]PIE: New page: PIE session: VerticalSlicePersitantLevel (Dec 11, 2015, 10:00:00 PM)
+[2015.12.12-08.00.00:362][493]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel
+[2015.12.12-08.00.00:392][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029990s)
+[2015.12.12-08.00.00:393][493]LogAIModule: Creating AISystem for world VerticalSlicePersitantLevel
+[2015.12.12-08.00.00:393][493]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2015.12.12-08.00.00:393][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel to /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel (0.031410s)
+[2015.12.12-08.00.00:393][493]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.00.00:393][493]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.12.12-08.00.00:426][493]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-08.00.00:435][493]LogInit: FAudioDevice initialized.
+[2015.12.12-08.00.00:508][493]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.00.00:512][493]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel up for play (max tick rate 60) at 2015.12.12-03.00.00
+[2015.12.12-08.00.00:512][493]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.00.00:512][493]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.00.00:512][493]LogWorld: Bringing up level for play took: 0.001983
+[2015.12.12-08.00.00:535][493]LogLevel: ActivateLevel /Game/Maps/UEDPIE_0_Plaza_Blockout 1 1 1
+[2015.12.12-08.00.00:549][493]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel -0.273
+[2015.12.12-08.00.00:549][493]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel' with GeneratedClass '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel_C' with ClassGeneratedBy '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel'
+[2015.12.12-08.00.00:549][493]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.00.00:640][493]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Plaza_Blockout.Plaza_Blockout to /Game/Maps/UEDPIE_0_Plaza_Blockout.Plaza_Blockout. OwningWorld: /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel
+[2015.12.12-08.00.22:329][420]LogNet: Browse: /game/thirdpersonbp/maps/thirdpersonexamplemap
+[2015.12.12-08.00.22:352][420]LogLoad: LoadMap: /game/thirdpersonbp/maps/thirdpersonexamplemap
+[2015.12.12-08.00.22:392][420]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B517CE160
+[2015.12.12-08.00.22:401][420]Cmd: MEM
+[2015.12.12-08.00.22:431][420]LogMemory: Platform Memory Stats for Windows
+[2015.12.12-08.00.22:431][420]LogMemory: Process Physical Memory: 776.82 MB used, 779.46 MB peak
+[2015.12.12-08.00.22:431][420]LogMemory: Process Virtual Memory: 1443.36 MB used, 1557.10 MB peak
+[2015.12.12-08.00.22:431][420]LogMemory: Physical Memory: 4824.61 MB used, 8144.96 MB total
+[2015.12.12-08.00.22:431][420]LogMemory: Virtual Memory: 2107.15 MB used, 134217728.00 MB total
+[2015.12.12-08.00.22:431][420]LogMemory: 
+[2015.12.12-08.00.22:431][420]Allocator Stats for TBB: (not implemented)
+[2015.12.12-08.00.23:787][420]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.12-08.00.23:788][420]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.00.23:795][420]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:795][420]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:796][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:796][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:797][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:797][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:797][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:797][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:798][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:798][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:800][420]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:800][420]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:800][420]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:800][420]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:800][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:800][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:801][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:801][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:801][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:801][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:801][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:801][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:802][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:802][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:802][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:802][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:802][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:802][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:803][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:803][420]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.00.23:803][420]LogWorld: Bringing World /game/thirdpersonbp/maps/UEDPIE_0_thirdpersonexamplemap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.12.12-03.00.23
+[2015.12.12-08.00.23:803][420]LogActor:Warning: GameSession /game/thirdpersonbp/maps/UEDPIE_0_thirdpersonexamplemap.ThirdPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.00.23:803][420]LogActor:Warning: GameNetworkManager /game/thirdpersonbp/maps/UEDPIE_0_thirdpersonexamplemap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.00.23:806][420]LogWorld: Bringing up level for play took: 0.017335
+[2015.12.12-08.00.23:808][420]LogBlueprintUserMessages: [BasicDummyEnemy_48] 1.0
+[2015.12.12-08.00.23:808][420]LogBlueprintUserMessages: [BasicDummyEnemy4] 1.0
+[2015.12.12-08.00.23:808][420]LogBlueprintUserMessages: [BasicDummyEnemy3] 1.0
+[2015.12.12-08.00.23:808][420]LogBlueprintUserMessages: [BasicDummyEnemy2] 1.0
+[2015.12.12-08.00.35:609][789]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel' with GeneratedClass '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel_C' with ClassGeneratedBy '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel'
+[2015.12.12-08.00.35:609][789]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.00.35:659][789]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel' with GeneratedClass '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel_C' with ClassGeneratedBy '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel'
+[2015.12.12-08.00.35:659][789]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.00.35:771][789]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B50C59260
+[2015.12.12-08.00.37:302][863]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel' with GeneratedClass '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel_C' with ClassGeneratedBy '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel'
+[2015.12.12-08.00.37:302][863]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.00.37:302][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.12-08.00.37:302][863]PIE: New page: PIE session: VerticalSlicePersitantLevel (Dec 11, 2015, 10:00:37 PM)
+[2015.12.12-08.00.37:302][863]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel
+[2015.12.12-08.00.37:305][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003368s)
+[2015.12.12-08.00.37:306][863]LogAIModule: Creating AISystem for world VerticalSlicePersitantLevel
+[2015.12.12-08.00.37:306][863]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2015.12.12-08.00.37:307][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel to /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel (0.004810s)
+[2015.12.12-08.00.37:338][863]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-08.00.37:347][863]LogInit: FAudioDevice initialized.
+[2015.12.12-08.00.37:419][863]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.00.37:422][863]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel up for play (max tick rate 60) at 2015.12.12-03.00.37
+[2015.12.12-08.00.37:422][863]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.00.37:423][863]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.00.37:423][863]LogWorld: Bringing up level for play took: 0.001986
+[2015.12.12-08.00.37:428][863]LogLevel: ActivateLevel /Game/Maps/UEDPIE_0_Plaza_Blockout 1 1 1
+[2015.12.12-08.00.37:467][863]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel 0.645
+[2015.12.12-08.00.37:467][863]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel' with GeneratedClass '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel_C' with ClassGeneratedBy '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel'
+[2015.12.12-08.00.37:467][863]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.00.37:599][863]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Plaza_Blockout.Plaza_Blockout to /Game/Maps/UEDPIE_0_Plaza_Blockout.Plaza_Blockout. OwningWorld: /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel
+[2015.12.12-08.01.43:148][102]LogNet: Browse: /game/thirdpersonbp/maps/thirdpersonexamplemap
+[2015.12.12-08.01.43:169][102]LogLoad: LoadMap: /game/thirdpersonbp/maps/thirdpersonexamplemap
+[2015.12.12-08.01.43:244][102]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B4FD25080
+[2015.12.12-08.01.43:244][102]Cmd: MEM
+[2015.12.12-08.01.43:284][102]LogMemory: Platform Memory Stats for Windows
+[2015.12.12-08.01.43:284][102]LogMemory: Process Physical Memory: 843.50 MB used, 883.23 MB peak
+[2015.12.12-08.01.43:284][102]LogMemory: Process Virtual Memory: 1491.43 MB used, 1601.70 MB peak
+[2015.12.12-08.01.43:284][102]LogMemory: Physical Memory: 4750.09 MB used, 8144.96 MB total
+[2015.12.12-08.01.43:284][102]LogMemory: Virtual Memory: 2162.90 MB used, 134217728.00 MB total
+[2015.12.12-08.01.43:284][102]LogMemory: 
+[2015.12.12-08.01.43:284][102]Allocator Stats for TBB: (not implemented)
+[2015.12.12-08.01.43:305][102]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.43:308][102]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.43:311][102]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.43:314][102]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.43:317][102]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.43:318][102]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.43:321][102]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.43:322][102]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.44:016][102]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.12-08.01.44:016][102]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.01.44:022][102]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:022][102]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:023][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:023][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:023][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:023][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:024][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:024][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:025][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:025][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:026][102]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:026][102]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:026][102]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:026][102]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:027][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:027][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:027][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:027][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:027][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:027][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:028][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:028][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:028][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:028][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:028][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:028][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:029][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:029][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:029][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:029][102]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.44:029][102]LogWorld: Bringing World /game/thirdpersonbp/maps/UEDPIE_0_thirdpersonexamplemap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.12.12-03.01.44
+[2015.12.12-08.01.44:029][102]LogActor:Warning: GameSession /game/thirdpersonbp/maps/UEDPIE_0_thirdpersonexamplemap.ThirdPersonExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.01.44:030][102]LogActor:Warning: GameNetworkManager /game/thirdpersonbp/maps/UEDPIE_0_thirdpersonexamplemap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.01.44:032][102]LogWorld: Bringing up level for play took: 0.015047
+[2015.12.12-08.01.44:035][102]LogBlueprintUserMessages: [BasicDummyEnemy_48] 1.0
+[2015.12.12-08.01.44:035][102]LogBlueprintUserMessages: [BasicDummyEnemy4] 1.0
+[2015.12.12-08.01.44:035][102]LogBlueprintUserMessages: [BasicDummyEnemy3] 1.0
+[2015.12.12-08.01.44:035][102]LogBlueprintUserMessages: [BasicDummyEnemy2] 1.0
+[2015.12.12-08.01.48:158][234]LogGameMode: ProcessServerTravel: ?Restart
+[2015.12.12-08.01.48:169][235]LogEngine: Server switch level: ?Restart
+[2015.12.12-08.01.48:169][235]LogNet: Browse: /game/thirdpersonbp/maps/thirdpersonexamplemap?Restart
+[2015.12.12-08.01.48:174][235]LogLoad: LoadMap: /game/thirdpersonbp/maps/thirdpersonexamplemap
+[2015.12.12-08.01.48:232][235]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B35E99800
+[2015.12.12-08.01.48:232][235]Cmd: MEM
+[2015.12.12-08.01.48:260][235]LogMemory: Platform Memory Stats for Windows
+[2015.12.12-08.01.48:260][235]LogMemory: Process Physical Memory: 873.20 MB used, 890.30 MB peak
+[2015.12.12-08.01.48:260][235]LogMemory: Process Virtual Memory: 1540.41 MB used, 1601.70 MB peak
+[2015.12.12-08.01.48:260][235]LogMemory: Physical Memory: 4678.41 MB used, 8144.96 MB total
+[2015.12.12-08.01.48:260][235]LogMemory: Virtual Memory: 2206.59 MB used, 134217728.00 MB total
+[2015.12.12-08.01.48:260][235]LogMemory: 
+[2015.12.12-08.01.48:260][235]Allocator Stats for TBB: (not implemented)
+[2015.12.12-08.01.48:274][235]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.48:277][235]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.48:279][235]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.48:280][235]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.48:281][235]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.48:282][235]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.48:283][235]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.48:285][235]LogLinker:Warning: Asset '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.01.48:875][235]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.12-08.01.48:876][235]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.01.48:882][235]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:882][235]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:882][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:882][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:883][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:883][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:884][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:884][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:884][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:884][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:885][235]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:885][235]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:886][235]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:886][235]PIE:Warning: Warning Invalid Simulate Options: Body (SliceGenericEnemy_01_52.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:886][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:886][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:886][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:886][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy_48.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:887][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:887][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:887][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:887][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy2.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:887][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:887][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:888][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:888][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy3.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:888][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:888][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:888][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:888][235]PIE:Warning: Warning Invalid Simulate Options: Body (BasicDummyEnemy4.HP) is set to simulate physics but Collision Enabled is incompatible
+[2015.12.12-08.01.48:889][235]LogWorld: Bringing World /game/thirdpersonbp/maps/UEDPIE_0_thirdpersonexamplemap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.12.12-03.01.48
+[2015.12.12-08.01.48:889][235]LogActor:Warning: GameSession /game/thirdpersonbp/maps/UEDPIE_0_thirdpersonexamplemap.ThirdPersonExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.01.48:889][235]LogActor:Warning: GameNetworkManager /game/thirdpersonbp/maps/UEDPIE_0_thirdpersonexamplemap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.01.48:892][235]LogWorld: Bringing up level for play took: 0.014781
+[2015.12.12-08.01.48:894][235]LogBlueprintUserMessages: [BasicDummyEnemy_48] 1.0
+[2015.12.12-08.01.48:894][235]LogBlueprintUserMessages: [BasicDummyEnemy4] 1.0
+[2015.12.12-08.01.48:895][235]LogBlueprintUserMessages: [BasicDummyEnemy3] 1.0
+[2015.12.12-08.01.48:895][235]LogBlueprintUserMessages: [BasicDummyEnemy2] 1.0
+[2015.12.12-08.01.49:524][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel' with GeneratedClass '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel_C' with ClassGeneratedBy '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel'
+[2015.12.12-08.01.49:524][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.01.49:570][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel' with GeneratedClass '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel_C' with ClassGeneratedBy '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel'
+[2015.12.12-08.01.49:570][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.01.49:616][253]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B50B7ADE0
+[2015.12.12-08.01.57:068][547]Cmd: MAP LOAD FILE="../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Maps/Plaza_Blockout.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.12-08.01.57:069][547]LightingResults: New page: Lighting Build
+[2015.12.12-08.01.57:121][547]LoadErrors: New page: Loading map: Plaza_Blockout.umap
+[2015.12.12-08.01.57:129][547]MapCheck: New page: Map Check
+[2015.12.12-08.01.57:129][547]LightingResults: New page: Lighting Build
+[2015.12.12-08.01.57:161][547]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B5D892200
+[2015.12.12-08.01.57:161][547]LogAIModule: Creating AISystem for world Plaza_Blockout
+[2015.12.12-08.01.57:179][547]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.12-08.01.57:341][547]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.12-08.01.57:445][547]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 104.161ms to complete.
+[2015.12.12-08.01.57:446][547]LogFileHelpers: Loading map 'Plaza_Blockout' took 0.381
+[2015.12.12-08.01.58:819][602]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.01.58:819][602]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.12-08.01.58:819][602]PIE: New page: PIE session: Plaza_Blockout (Dec 11, 2015, 10:01:58 PM)
+[2015.12.12-08.01.58:819][602]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Plaza_Blockout
+[2015.12.12-08.01.58:941][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121949s)
+[2015.12.12-08.01.58:942][602]LogAIModule: Creating AISystem for world Plaza_Blockout
+[2015.12.12-08.01.58:943][602]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2015.12.12-08.01.58:943][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Plaza_Blockout.Plaza_Blockout to /Game/Maps/UEDPIE_0_Plaza_Blockout.Plaza_Blockout (0.123592s)
+[2015.12.12-08.01.58:943][602]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.01.58:943][602]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.12.12-08.01.58:973][602]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-08.01.58:980][602]LogInit: FAudioDevice initialized.
+[2015.12.12-08.01.59:041][602]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.01.59:081][602]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Plaza_Blockout.Plaza_Blockout up for play (max tick rate 60) at 2015.12.12-03.01.59
+[2015.12.12-08.01.59:081][602]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Plaza_Blockout.Plaza_Blockout:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.01.59:081][602]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Plaza_Blockout.Plaza_Blockout:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.01.59:088][602]LogWorld: Bringing up level for play took: 0.044762
+[2015.12.12-08.01.59:111][602]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Plaza_Blockout 0.289
+[2015.12.12-08.01.59:111][602]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.02.03:191][780]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.02.03:225][780]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.02.03:262][780]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B51726CA0
+[2015.12.12-08.02.46:593][151]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.02.46:593][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.12-08.02.46:593][151]PIE: New page: PIE session: Plaza_Blockout (Dec 11, 2015, 10:02:46 PM)
+[2015.12.12-08.02.46:593][151]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Plaza_Blockout
+[2015.12.12-08.02.46:753][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.160278s)
+[2015.12.12-08.02.46:754][151]LogAIModule: Creating AISystem for world Plaza_Blockout
+[2015.12.12-08.02.46:754][151]LogPlayLevel: PIE: World Init took: (0.001106s)
+[2015.12.12-08.02.46:755][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Plaza_Blockout.Plaza_Blockout to /Game/Maps/UEDPIE_0_Plaza_Blockout.Plaza_Blockout (0.161896s)
+[2015.12.12-08.02.46:795][151]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-08.02.46:804][151]LogInit: FAudioDevice initialized.
+[2015.12.12-08.02.46:884][151]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.02.46:935][151]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Plaza_Blockout.Plaza_Blockout up for play (max tick rate 60) at 2015.12.12-03.02.46
+[2015.12.12-08.02.46:935][151]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Plaza_Blockout.Plaza_Blockout:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.02.46:935][151]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Plaza_Blockout.Plaza_Blockout:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.02.46:944][151]LogWorld: Bringing up level for play took: 0.057635
+[2015.12.12-08.02.46:971][151]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Plaza_Blockout 0.15
+[2015.12.12-08.02.46:971][151]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.02.48:510][217]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_9] ZaWarudo
+[2015.12.12-08.03.22:843][614]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.03.22:886][614]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.03.22:959][615]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B33DFA660
+[2015.12.12-08.03.35:725][165]LogAIModule: Creating AISystem for world VerticalSlicePersitantLevel
+[2015.12.12-08.03.35:771][165]Cmd: MAP LOAD FILE="../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Maps/VerticalSlicePersitantLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.12-08.03.35:771][165]LightingResults: New page: Lighting Build
+[2015.12.12-08.03.35:836][165]LoadErrors: New page: Loading map: VerticalSlicePersitantLevel.umap
+[2015.12.12-08.03.35:845][165]MapCheck: New page: Map Check
+[2015.12.12-08.03.35:845][165]LightingResults: New page: Lighting Build
+[2015.12.12-08.03.35:884][165]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B5D893E20
+[2015.12.12-08.03.36:540][165]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.12-08.03.36:605][165]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.12-08.03.36:661][165]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.424ms to complete.
+[2015.12.12-08.03.36:661][165]LogFileHelpers: Loading map 'VerticalSlicePersitantLevel' took 0.894
+[2015.12.12-08.05.19:225][539]LogEditorViewport: Clicking Background
+[2015.12.12-08.05.32:692][  0]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel' with GeneratedClass '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel_C' with ClassGeneratedBy '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel'
+[2015.12.12-08.05.32:693][  0]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.05.32:693][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.12-08.05.32:693][  0]PIE: New page: PIE session: VerticalSlicePersitantLevel (Dec 11, 2015, 10:05:32 PM)
+[2015.12.12-08.05.32:693][  0]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel
+[2015.12.12-08.05.32:698][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004840s)
+[2015.12.12-08.05.32:699][  0]LogAIModule: Creating AISystem for world VerticalSlicePersitantLevel
+[2015.12.12-08.05.32:700][  0]LogPlayLevel: PIE: World Init took: (0.001788s)
+[2015.12.12-08.05.32:700][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel to /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel (0.007217s)
+[2015.12.12-08.05.32:700][  0]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.05.32:701][  0]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.12.12-08.05.32:745][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-08.05.32:758][  0]LogInit: FAudioDevice initialized.
+[2015.12.12-08.05.32:847][  0]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.05.32:852][  0]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel up for play (max tick rate 60) at 2015.12.12-03.05.32
+[2015.12.12-08.05.32:852][  0]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.05.32:852][  0]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.05.32:852][  0]LogWorld: Bringing up level for play took: 0.002920
+[2015.12.12-08.05.32:859][  0]LogLevel: ActivateLevel /Game/Maps/UEDPIE_0_Plaza_Blockout 1 1 1
+[2015.12.12-08.05.32:898][  0]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel 0.077
+[2015.12.12-08.05.32:899][  0]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel' with GeneratedClass '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel_C' with ClassGeneratedBy '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel'
+[2015.12.12-08.05.32:899][  0]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.05.33:094][  0]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Plaza_Blockout.Plaza_Blockout to /Game/Maps/UEDPIE_0_Plaza_Blockout.Plaza_Blockout. OwningWorld: /Game/Maps/UEDPIE_0_VerticalSlicePersitantLevel.VerticalSlicePersitantLevel
+[2015.12.12-08.05.48:785][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel' with GeneratedClass '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel_C' with ClassGeneratedBy '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel'
+[2015.12.12-08.05.48:786][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.05.48:829][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel' with GeneratedClass '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel_C' with ClassGeneratedBy '/Game/Maps/VerticalSlicePersitantLevel.VerticalSlicePersitantLevel:PersistentLevel.VerticalSlicePersitantLevel'
+[2015.12.12-08.05.48:829][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout' with GeneratedClass '/Game/Maps/Plaza_Blockout.Plaza_Blockout_C' with ClassGeneratedBy '/Game/Maps/Plaza_Blockout.Plaza_Blockout:PersistentLevel.Plaza_Blockout'
+[2015.12.12-08.05.48:875][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B37188AE0
+[2015.12.12-08.06.31:069][954]LogEditorViewport: Clicking Background
+[2015.12.12-08.06.32:597][ 20]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (LoadMap)
+[2015.12.12-08.06.54:328][967]LogMaterial: Missing cached shader map for material Wod, compiling. 
+[2015.12.12-08.06.54:356][967]LogAIModule: Creating AISystem for world WalkDownTheBlock_out
+[2015.12.12-08.06.54:406][967]Cmd: MAP LOAD FILE="../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Maps/WalkDownTheBlock_out.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.12-08.06.54:406][967]LightingResults: New page: Lighting Build
+[2015.12.12-08.06.54:452][967]LoadErrors: New page: Loading map: WalkDownTheBlock_out.umap
+[2015.12.12-08.06.54:460][967]MapCheck: New page: Map Check
+[2015.12.12-08.06.54:460][967]LightingResults: New page: Lighting Build
+[2015.12.12-08.06.54:498][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B5D5F8E00
+[2015.12.12-08.06.54:519][967]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.12-08.06.54:606][967]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.12-08.06.54:675][967]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.701ms to complete.
+[2015.12.12-08.06.54:675][967]LogFileHelpers: Loading map 'WalkDownTheBlock_out' took 0.273
+[2015.12.12-08.06.56:535][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.12-08.06.56:535][ 40]PIE: New page: PIE session: WalkDownTheBlock_out (Dec 11, 2015, 10:06:56 PM)
+[2015.12.12-08.06.56:535][ 40]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_WalkDownTheBlock_out
+[2015.12.12-08.06.56:550][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015232s)
+[2015.12.12-08.06.56:551][ 40]LogAIModule: Creating AISystem for world WalkDownTheBlock_out
+[2015.12.12-08.06.56:551][ 40]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2015.12.12-08.06.56:551][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/WalkDownTheBlock_out.WalkDownTheBlock_out to /Game/Maps/UEDPIE_0_WalkDownTheBlock_out.WalkDownTheBlock_out (0.016174s)
+[2015.12.12-08.06.56:551][ 40]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.06.56:551][ 40]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.12.12-08.06.56:572][ 40]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-08.06.56:578][ 40]LogInit: FAudioDevice initialized.
+[2015.12.12-08.06.56:632][ 40]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.06.56:641][ 40]LogWorld: Bringing World /Game/Maps/UEDPIE_0_WalkDownTheBlock_out.WalkDownTheBlock_out up for play (max tick rate 60) at 2015.12.12-03.06.56
+[2015.12.12-08.06.56:641][ 40]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_WalkDownTheBlock_out.WalkDownTheBlock_out:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.06.56:642][ 40]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_WalkDownTheBlock_out.WalkDownTheBlock_out:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.06.56:642][ 40]LogWorld: Bringing up level for play took: 0.008576
+[2015.12.12-08.06.56:661][ 40]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_WalkDownTheBlock_out -0.161
+[2015.12.12-08.08.40:616][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B63153920
+[2015.12.12-08.08.52:976][751]LogAIModule: Creating AISystem for world Basement_Blockout
+[2015.12.12-08.08.53:033][751]Cmd: MAP LOAD FILE="../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Maps/Basement_Blockout.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.12-08.08.53:033][751]LightingResults: New page: Lighting Build
+[2015.12.12-08.08.53:108][751]LoadErrors: New page: Loading map: Basement_Blockout.umap
+[2015.12.12-08.08.53:112][751]MapCheck: New page: Map Check
+[2015.12.12-08.08.53:112][751]LightingResults: New page: Lighting Build
+[2015.12.12-08.08.53:163][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B520B11C0
+[2015.12.12-08.08.53:163][751]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.12-08.08.53:365][751]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.12-08.08.53:532][751]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 166.386ms to complete.
+[2015.12.12-08.08.53:532][751]LogFileHelpers: Loading map 'Basement_Blockout' took 0.505
+[2015.12.12-08.09.00:037][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.12-08.09.00:037][ 15]PIE: New page: PIE session: Basement_Blockout (Dec 11, 2015, 10:09:00 PM)
+[2015.12.12-08.09.00:038][ 15]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Basement_Blockout
+[2015.12.12-08.09.00:046][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008792s)
+[2015.12.12-08.09.00:047][ 15]LogAIModule: Creating AISystem for world Basement_Blockout
+[2015.12.12-08.09.00:048][ 15]LogPlayLevel: PIE: World Init took: (0.001217s)
+[2015.12.12-08.09.00:048][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Basement_Blockout.Basement_Blockout to /Game/Maps/UEDPIE_0_Basement_Blockout.Basement_Blockout (0.010392s)
+[2015.12.12-08.09.00:048][ 15]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.09.00:048][ 15]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.12.12-08.09.00:086][ 15]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-08.09.00:097][ 15]LogInit: FAudioDevice initialized.
+[2015.12.12-08.09.00:175][ 15]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.09.00:180][ 15]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Basement_Blockout.Basement_Blockout up for play (max tick rate 60) at 2015.12.12-03.09.00
+[2015.12.12-08.09.00:180][ 15]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Basement_Blockout.Basement_Blockout:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.09.00:181][ 15]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Basement_Blockout.Basement_Blockout:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.09.00:181][ 15]LogWorld: Bringing up level for play took: 0.003515
+[2015.12.12-08.09.00:218][ 15]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Basement_Blockout -0.603
+[2015.12.12-08.09.09:837][367]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B35C1C360
+[2015.12.12-08.09.13:062][496]LogAIModule: Creating AISystem for world ScenicView_Blockout
+[2015.12.12-08.09.13:109][496]Cmd: MAP LOAD FILE="../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Maps/ScenicView_Blockout.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.12-08.09.13:109][496]LightingResults: New page: Lighting Build
+[2015.12.12-08.09.13:171][496]LoadErrors: New page: Loading map: ScenicView_Blockout.umap
+[2015.12.12-08.09.13:172][496]MapCheck: New page: Map Check
+[2015.12.12-08.09.13:172][496]LightingResults: New page: Lighting Build
+[2015.12.12-08.09.13:229][496]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B35C707C0
+[2015.12.12-08.09.13:229][496]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.12-08.09.13:387][496]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.12-08.09.13:520][496]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 132.725ms to complete.
+[2015.12.12-08.09.13:520][496]LogFileHelpers: Loading map 'ScenicView_Blockout' took 0.415
+[2015.12.12-08.09.16:279][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.12-08.09.16:279][596]PIE: New page: PIE session: ScenicView_Blockout (Dec 11, 2015, 10:09:16 PM)
+[2015.12.12-08.09.16:279][596]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ScenicView_Blockout
+[2015.12.12-08.09.16:308][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028487s)
+[2015.12.12-08.09.16:309][596]LogAIModule: Creating AISystem for world ScenicView_Blockout
+[2015.12.12-08.09.16:309][596]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2015.12.12-08.09.16:309][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ScenicView_Blockout.ScenicView_Blockout to /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout (0.029855s)
+[2015.12.12-08.09.16:309][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.09.16:309][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.12.12-08.09.16:338][596]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-08.09.16:346][596]LogInit: FAudioDevice initialized.
+[2015.12.12-08.09.16:412][596]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.09.16:417][596]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout up for play (max tick rate 60) at 2015.12.12-03.09.16
+[2015.12.12-08.09.16:417][596]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.09.16:417][596]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.09.16:417][596]LogWorld: Bringing up level for play took: 0.003356
+[2015.12.12-08.09.16:443][596]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ScenicView_Blockout -0.379
+[2015.12.12-08.09.29:919][ 43]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B348E2F20
+[2015.12.12-08.09.44:171][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.12-08.09.44:171][161]PIE: New page: PIE session: ScenicView_Blockout (Dec 11, 2015, 10:09:44 PM)
+[2015.12.12-08.09.44:171][161]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ScenicView_Blockout
+[2015.12.12-08.09.44:196][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025200s)
+[2015.12.12-08.09.44:197][161]LogAIModule: Creating AISystem for world ScenicView_Blockout
+[2015.12.12-08.09.44:197][161]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2015.12.12-08.09.44:197][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ScenicView_Blockout.ScenicView_Blockout to /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout (0.026314s)
+[2015.12.12-08.09.44:222][161]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-08.09.44:229][161]LogInit: FAudioDevice initialized.
+[2015.12.12-08.09.44:295][161]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.09.44:299][161]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout up for play (max tick rate 60) at 2015.12.12-03.09.44
+[2015.12.12-08.09.44:299][161]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.09.44:300][161]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.09.44:300][161]LogWorld: Bringing up level for play took: 0.003148
+[2015.12.12-08.09.44:322][161]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ScenicView_Blockout -0.5
+[2015.12.12-08.09.53:326][483]LogCharacterMovement: ThirdPersonCharacter2D_C_14 is stuck and failed to move!
+[2015.12.12-08.09.57:179][614]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B35C73420
+[2015.12.12-08.10.11:434][387]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.12.12-08.10.11:499][387]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.12-08.10.11:961][387]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
+[2015.12.12-08.13.43:421][168]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.12.12-08.13.43:500][168]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter2D before play...
+[2015.12.12-08.13.43:743][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.13.43:746][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.13.43:759][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.13.43:800][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0939.31] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 173 ms]
+[2015.12.12-08.13.43:801][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0939.31] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.12-08.13.43:801][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0939.31] Compile of ThirdPersonCharacter2D successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.12-08.13.43:837][168]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.13.43:838][168]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.13.43:997][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0939.50] Compile of ThirdPersonCharacter2D successful, but with 6 Warning(s) [in 195 ms]
+[2015.12.12-08.13.44:010][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0939.52] Compile of ThirdPersonCharacter2D successful, but with 7 Warning(s) [in 12 ms]
+[2015.12.12-08.13.44:010][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0939.52] Compile of ThirdPersonCharacter2D successful, but with 8 Warning(s) [in 0 ms]
+[2015.12.12-08.13.44:010][168]LogPlayLevel: PlayLevel: Blueprint regeneration took 589 ms (4 blueprints)
+[2015.12.12-08.13.44:011][168]LogPlayLevel: [PlayLevel] Compiling IAMBULLETHELLO before play...
+[2015.12.12-08.13.44:081][168]LogPlayLevel: PlayLevel: Blueprint regeneration took 660 ms (6 blueprints)
+[2015.12.12-08.13.44:082][168]LogPlayLevel: [PlayLevel] Compiling Poison before play...
+[2015.12.12-08.13.44:148][168]LogPlayLevel: PlayLevel: Blueprint regeneration took 727 ms (6 blueprints)
+[2015.12.12-08.13.44:149][168]LogPlayLevel: [PlayLevel] Compiling AbilityMenu before play...
+[2015.12.12-08.13.44:179][168]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.13.44:179][168]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.13.44:188][168]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0939.69] Compile of AbilityMenu successful, but with 2 Warning(s) [in 29 ms]
+[2015.12.12-08.13.44:192][168]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0939.70] Compile of AbilityMenu successful, but with 3 Warning(s) [in 4 ms]
+[2015.12.12-08.13.44:192][168]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0939.70] Compile of AbilityMenu successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.12-08.13.44:258][168]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0939.76] Compile of AbilityMenu successful, but with 5 Warning(s) [in 64 ms]
+[2015.12.12-08.13.44:259][168]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0939.76] Compile of AbilityMenu successful, but with 6 Warning(s) [in 1 ms]
+[2015.12.12-08.13.44:259][168]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0939.76] Compile of AbilityMenu successful, but with 7 Warning(s) [in 0 ms]
+[2015.12.12-08.13.44:260][168]LogPlayLevel: PlayLevel: Blueprint regeneration took 838 ms (7 blueprints)
+[2015.12.12-08.13.44:261][168]LogPlayLevel: [PlayLevel] Compiling BasicDummyEnemy before play...
+[2015.12.12-08.13.44:340][168]LogPlayLevel: PlayLevel: Blueprint regeneration took 918 ms (7 blueprints)
+[2015.12.12-08.13.44:340][168]LogPlayLevel: [PlayLevel] Compiling SliceGenericEnemy_01 before play...
+[2015.12.12-08.13.44:418][168]LogPlayLevel: PlayLevel: Blueprint regeneration took 997 ms (7 blueprints)
+[2015.12.12-08.13.44:423][168]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2015.12.12-08.13.44:620][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.13.44:623][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2015.12.12-08.13.44:624][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.13.44:637][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.13.44:659][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0940.16] Compile of ThirdPersonCharacter successful, but with 4 Warning(s) [in 136 ms]
+[2015.12.12-08.13.44:659][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0940.17] Compile of ThirdPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.12-08.13.44:659][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0940.17] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 0 ms]
+[2015.12.12-08.13.44:802][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0940.31] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 142 ms]
+[2015.12.12-08.13.44:807][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0940.31] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 4 ms]
+[2015.12.12-08.13.44:807][168]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0940.31] Compile of ThirdPersonCharacter successful, but with 9 Warning(s) [in 0 ms]
+[2015.12.12-08.13.44:807][168]LogPlayLevel: PlayLevel: Blueprint regeneration took 1386 ms (8 blueprints)
+[2015.12.12-08.13.44:808][168]LogPlayLevel: [PlayLevel] Compiling TimeMeter before play...
+[2015.12.12-08.13.44:895][168]LogPlayLevel: PlayLevel: Blueprint regeneration took 1473 ms (8 blueprints)
+[2015.12.12-08.13.44:895][168]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.13.44:895][168]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.12.12-08.13.44:895][168]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.12-08.13.44:895][168]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.12.12-08.13.44:895][168]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.12.12-08.13.44:960][168]PIE: New page: PIE session: ScenicView_Blockout (Dec 11, 2015, 10:13:44 PM)
+[2015.12.12-08.13.44:960][168]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ScenicView_Blockout
+[2015.12.12-08.13.44:979][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019652s)
+[2015.12.12-08.13.44:980][168]LogAIModule: Creating AISystem for world ScenicView_Blockout
+[2015.12.12-08.13.44:980][168]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2015.12.12-08.13.44:980][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ScenicView_Blockout.ScenicView_Blockout to /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout (0.020610s)
+[2015.12.12-08.13.45:009][168]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-08.13.45:016][168]LogInit: FAudioDevice initialized.
+[2015.12.12-08.13.45:072][168]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.13.45:077][168]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout up for play (max tick rate 60) at 2015.12.12-03.13.45
+[2015.12.12-08.13.45:077][168]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.13.45:077][168]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.13.45:077][168]LogWorld: Bringing up level for play took: 0.003098
+[2015.12.12-08.13.45:090][168]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ScenicView_Blockout 2.268
+[2015.12.12-08.13.55:949][514]LogCharacterMovement: ThirdPersonCharacter2D_C_50 is stuck and failed to move!
+[2015.12.12-08.14.06:164][863]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.14.06:164][863]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.12.12-08.14.06:249][864]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B49FC7100
+[2015.12.12-08.14.09:960][ 86]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2015.12.12-08.14.10:209][ 86]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.14.10:212][ 86]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.14.10:224][ 86]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.14.10:278][ 86]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.14.10:278][ 86]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.14.10:453][ 86]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0965.96] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 491 ms]
+[2015.12.12-08.14.10:453][ 86]BlueprintEditorCompileResults:Warning: Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.14.10:453][ 86]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.14.10:453][ 86]BlueprintEditorCompileResults:Warning: Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.14.10:453][ 86]BlueprintEditorCompileResults:Warning: Warning [0965.96] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 491 ms]
+[2015.12.12-08.14.14:716][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.12-08.14.14:716][311]PIE: New page: PIE session: ScenicView_Blockout (Dec 11, 2015, 10:14:14 PM)
+[2015.12.12-08.14.14:716][311]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ScenicView_Blockout
+[2015.12.12-08.14.14:737][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020998s)
+[2015.12.12-08.14.14:738][311]LogAIModule: Creating AISystem for world ScenicView_Blockout
+[2015.12.12-08.14.14:738][311]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2015.12.12-08.14.14:738][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ScenicView_Blockout.ScenicView_Blockout to /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout (0.021910s)
+[2015.12.12-08.14.14:738][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.14.14:738][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.12.12-08.14.14:770][311]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-08.14.14:775][311]LogInit: FAudioDevice initialized.
+[2015.12.12-08.14.14:852][311]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.14.14:855][311]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout up for play (max tick rate 60) at 2015.12.12-03.14.14
+[2015.12.12-08.14.14:855][311]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.14.14:855][311]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.14.14:855][311]LogWorld: Bringing up level for play took: 0.002408
+[2015.12.12-08.14.14:967][311]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ScenicView_Blockout 0.146
+[2015.12.12-08.14.43:124][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B50D90F40
+[2015.12.12-08.14.55:084][957]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2015.12.12-08.14.55:326][957]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.14.55:329][957]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.14.55:341][957]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.14.55:395][957]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.14.55:396][957]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.14.55:575][957]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [1011.08] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 490 ms]
+[2015.12.12-08.14.55:575][957]BlueprintEditorCompileResults:Warning: Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.14.55:575][957]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.14.55:575][957]BlueprintEditorCompileResults:Warning: Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.14.55:575][957]BlueprintEditorCompileResults:Warning: Warning [1011.08] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 490 ms]
+[2015.12.12-08.20.30:552][700]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.20.30:553][700]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.12.12-08.20.30:592][700]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ScenicView_Blockout' took 0.039
+[2015.12.12-08.20.30:616][700]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D] ([1] browsable assets)...
+[2015.12.12-08.20.30:616][700]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D]
+[2015.12.12-08.20.31:975][700]LogSavePackage: Save=1241.117432ms
+[2015.12.12-08.20.31:975][700]LogSavePackage: Moving '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Saved/ThirdPersonCharacter2D_Auto17943658A434A851CF95F2595B82A6FD4.tmp' to '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Saved/Autosaves/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D_Auto1.uasset'
+[2015.12.12-08.20.32:037][700]LogSavePackage: Total save time: 1420.533124ms
+[2015.12.12-08.20.32:037][700]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Saved/Autosaves/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D_Auto1.uasset
+[2015.12.12-08.20.32:037][700]LogFileHelpers: Auto-saving content packages took 1.445
+[2015.12.12-08.30.29:228][817]LogEditorTransaction: Undo Move Node
+[2015.12.12-08.30.29:906][820]LogEditorTransaction: Undo Create Pin Link
+[2015.12.12-08.30.31:973][944]LogEditorTransaction: Redo Create Pin Link
+[2015.12.12-08.31.16:482][  4]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ScenicView_Blockout' took 0.039
+[2015.12.12-08.31.16:494][  4]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D] ([1] browsable assets)...
+[2015.12.12-08.31.16:494][  4]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D]
+[2015.12.12-08.31.17:625][  4]LogSavePackage: Save=1119.665405ms
+[2015.12.12-08.31.17:625][  4]LogSavePackage: Moving '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Saved/ThirdPersonCharacter2D_Auto2F3537BBE429A60A2DE9EAD913510B2B3.tmp' to '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Saved/Autosaves/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D_Auto2.uasset'
+[2015.12.12-08.31.17:627][  4]LogSavePackage: Total save time: 1132.379368ms
+[2015.12.12-08.31.17:627][  4]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Saved/Autosaves/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D_Auto2.uasset
+[2015.12.12-08.31.17:627][  4]LogFileHelpers: Auto-saving content packages took 1.144
+[2015.12.12-08.42.06:179][762]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2015.12.12-08.42.06:434][762]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.42.06:437][762]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.42.06:449][762]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.42.06:503][762]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.42.06:503][762]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.42.06:692][762]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [2642.20] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 513 ms]
+[2015.12.12-08.42.06:692][762]BlueprintEditorCompileResults:Warning: Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.42.06:692][762]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.42.06:692][762]BlueprintEditorCompileResults:Warning: Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.42.06:692][762]BlueprintEditorCompileResults:Warning: Warning [2642.20] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 513 ms]
+[2015.12.12-08.43.50:464][880]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.12.12-08.45.17:418][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.45.17:418][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.12.12-08.45.17:418][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.12.12-08.45.17:418][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.12-08.45.17:418][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.12.12-08.45.17:451][376]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B4F7FB1A0
+[2015.12.12-08.45.17:456][376]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ScenicView_Blockout' took 0.038
+[2015.12.12-08.45.17:464][376]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D] ([1] browsable assets)...
+[2015.12.12-08.45.17:464][376]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D]
+[2015.12.12-08.45.18:643][376]LogSavePackage: Save=1166.422974ms
+[2015.12.12-08.45.18:643][376]LogSavePackage: Moving '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Saved/ThirdPersonCharacter2D_Auto305FA275240CD2012A7BB2B989CD0B6D9.tmp' to '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Saved/Autosaves/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D_Auto3.uasset'
+[2015.12.12-08.45.18:645][376]LogSavePackage: Total save time: 1180.087119ms
+[2015.12.12-08.45.18:645][376]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Saved/Autosaves/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D_Auto3.uasset
+[2015.12.12-08.45.18:645][376]LogFileHelpers: Auto-saving content packages took 1.189
+[2015.12.12-08.47.40:265][449]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2015.12.12-08.47.40:509][449]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.47.40:513][449]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.47.40:525][449]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.47.40:596][449]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.47.40:597][449]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.47.40:785][449]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [2976.29] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 519 ms]
+[2015.12.12-08.47.40:785][449]BlueprintEditorCompileResults:Warning: Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.47.40:786][449]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.47.40:786][449]BlueprintEditorCompileResults:Warning: Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.47.40:786][449]BlueprintEditorCompileResults:Warning: Warning [2976.29] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 519 ms]
+[2015.12.12-08.47.42:819][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.12-08.47.42:819][512]PIE: New page: PIE session: ScenicView_Blockout (Dec 11, 2015, 10:47:42 PM)
+[2015.12.12-08.47.42:820][512]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ScenicView_Blockout
+[2015.12.12-08.47.42:841][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021284s)
+[2015.12.12-08.47.42:841][512]LogAIModule: Creating AISystem for world ScenicView_Blockout
+[2015.12.12-08.47.42:842][512]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2015.12.12-08.47.42:842][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ScenicView_Blockout.ScenicView_Blockout to /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout (0.022186s)
+[2015.12.12-08.47.42:842][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.47.42:842][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.12.12-08.47.42:874][512]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-08.47.42:881][512]LogInit: FAudioDevice initialized.
+[2015.12.12-08.47.42:947][512]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.47.42:950][512]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout up for play (max tick rate 60) at 2015.12.12-03.47.42
+[2015.12.12-08.47.42:950][512]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.47.42:951][512]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.47.42:951][512]LogWorld: Bringing up level for play took: 0.002527
+[2015.12.12-08.47.43:048][512]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ScenicView_Blockout 0.227
+[2015.12.12-08.48.00:318][971]LogCharacterMovement: ThirdPersonCharacter2D_C_11 is stuck and failed to move!
+[2015.12.12-08.48.04:402][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B23906520
+[2015.12.12-08.48.16:999][554]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2015.12.12-08.48.17:256][554]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.48.17:260][554]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.48.17:272][554]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.48.17:346][554]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.48.17:347][554]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.48.17:533][554]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [3013.04] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 534 ms]
+[2015.12.12-08.48.17:534][554]BlueprintEditorCompileResults:Warning: Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.48.17:534][554]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.48.17:534][554]BlueprintEditorCompileResults:Warning: Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.48.17:534][554]BlueprintEditorCompileResults:Warning: Warning [3013.04] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 534 ms]
+[2015.12.12-08.49.16:527][  9]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2015.12.12-08.49.16:776][  9]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.49.16:780][  9]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.49.16:792][  9]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.49.16:845][  9]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.49.16:846][  9]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.49.16:972][  9]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.49.16:972][  9]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.12.12-08.49.17:028][  9]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [3072.53] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 501 ms]
+[2015.12.12-08.49.17:029][  9]BlueprintEditorCompileResults:Warning: Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.49.17:029][  9]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.49.17:029][  9]BlueprintEditorCompileResults:Warning: Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.49.17:029][  9]BlueprintEditorCompileResults:Warning: Warning [3072.53] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 501 ms]
+[2015.12.12-08.49.19:563][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.12-08.49.19:563][ 81]PIE: New page: PIE session: ScenicView_Blockout (Dec 11, 2015, 10:49:19 PM)
+[2015.12.12-08.49.19:563][ 81]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ScenicView_Blockout
+[2015.12.12-08.49.19:584][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021263s)
+[2015.12.12-08.49.19:585][ 81]LogAIModule: Creating AISystem for world ScenicView_Blockout
+[2015.12.12-08.49.19:585][ 81]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2015.12.12-08.49.19:585][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ScenicView_Blockout.ScenicView_Blockout to /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout (0.022163s)
+[2015.12.12-08.49.19:585][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.49.19:585][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.12.12-08.49.19:620][ 81]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.12-08.49.19:625][ 81]LogInit: FAudioDevice initialized.
+[2015.12.12-08.49.19:688][ 81]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.12-08.49.19:691][ 81]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout up for play (max tick rate 60) at 2015.12.12-03.49.19
+[2015.12.12-08.49.19:691][ 81]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.49.19:691][ 81]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ScenicView_Blockout.ScenicView_Blockout:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.12-08.49.19:692][ 81]LogWorld: Bringing up level for play took: 0.002394
+[2015.12.12-08.49.19:789][ 81]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ScenicView_Blockout 0.967
+[2015.12.12-08.49.50:380][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B9393E340
+[2015.12.12-08.54.19:049][867]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2015.12.12-08.54.19:303][867]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.54.19:306][867]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.54.19:318][867]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.54.19:371][867]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.54.19:372][867]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.12-08.54.19:555][867]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [3375.06] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 505 ms]
+[2015.12.12-08.54.19:555][867]BlueprintEditorCompileResults:Warning: Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.12-08.54.19:555][867]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.12-08.54.19:555][867]BlueprintEditorCompileResults:Warning: Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.12-08.54.19:555][867]BlueprintEditorCompileResults:Warning: Warning [3375.06] Compile of ThirdPersonCharacter2D successful, but with 3 Warning(s) [in 505 ms]
+[2015.12.12-08.54.33:383][572]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-08.54.33:383][572]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.12.12-08.54.38:385][572]LogSavePackage: Save=1104.824341ms
+[2015.12.12-08.54.38:385][572]LogSavePackage: Moving '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Saved/ThirdPersonCharacter2D003443B946DA2397490413A39F469A8A.tmp' to '../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.uasset'
+[2015.12.12-08.54.38:387][572]LogSavePackage: Total save time: 1118.137427ms
+[2015.12.12-08.54.38:387][572]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/justs_000/Desktop/P3NGUIN-2/MyProject19/Content/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.uasset
+[2015.12.12-08.54.38:724][572]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.12-08.54.38:990][573]Cmd: QUIT_EDITOR
+[2015.12.12-08.54.39:820][573]LogExit: Preparing to exit.
+[2015.12.12-08.54.40:231][573]LogExit: Editor shut down
+[2015.12.12-08.54.40:232][573]LogExit: Transaction tracking system shut down
+[2015.12.12-08.54.40:239][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B5D5FB880
+[2015.12.12-08.54.40:239][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B5D892660
+[2015.12.12-08.54.40:240][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B5D1F1A80
+[2015.12.12-08.54.40:241][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B6371BA60
+[2015.12.12-08.54.40:241][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B35C709A0
+[2015.12.12-08.54.40:242][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001B37188180
+[2015.12.12-08.54.40:454][573]LogExit: Object subsystem successfully closed.
+[2015.12.12-08.54.40:467][573]LogD3D11RHI: Shutdown
+[2015.12.12-08.54.40:467][573]LogD3D11RHI: CleanupD3DDevice
+[2015.12.12-08.54.40:543][573]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.12-08.54.40:559][573]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2015.12.12-08.54.40:559][573]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.12.12-08.54.40:559][573]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.12.12-08.54.40:559][573]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.12.12-08.54.40:559][573]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.12.12-08.54.40:559][573]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.12.12-08.54.40:559][573]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.12.12-08.54.40:563][573]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.12.12-08.54.40:563][573]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.12.12-08.54.40:563][573]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.12.12-08.54.40:563][573]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.12.12-08.54.40:563][573]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.12.12-08.54.40:563][573]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.12.12-08.54.40:563][573]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.12.12-08.54.40:563][573]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.12.12-08.54.40:563][573]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.12.12-08.54.40:563][573]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.12.12-08.54.40:563][573]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.12.12-08.54.40:563][573]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.12.12-08.54.40:563][573]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.12.12-08.54.40:563][573]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.12.12-08.54.40:564][573]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.12.12-08.54.40:564][573]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.12.12-08.54.40:564][573]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.12.12-08.54.40:564][573]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.12.12-08.54.40:564][573]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.12.12-08.54.40:564][573]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.12.12-08.54.40:564][573]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.12.12-08.54.41:252][573]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.12.12-08.54.41:253][573]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.12.12-08.54.41:354][573]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.12.12-08.54.41:354][573]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.12-08.54.41:354][573]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.12-08.54.41:354][573]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.12-08.54.41:354][573]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.12-08.54.41:354][573]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.12.12-08.54.41:354][573]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.12.12-08.54.41:354][573]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.12-08.54.41:377][573]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.12-08.54.41:377][573]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.12-08.54.41:377][573]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.12-08.54.41:377][573]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.12-08.54.41:377][573]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.12-08.54.41:377][573]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.12-08.54.41:377][573]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.12-08.54.41:377][573]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.12-08.54.41:377][573]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.12-08.54.41:377][573]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.12-08.54.41:377][573]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.12-08.54.41:378][573]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.12-08.54.41:378][573]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.12-08.54.41:378][573]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.12-08.54.41:378][573]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.12-08.54.41:378][573]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.12-08.54.41:378][573]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.12-08.54.41:378][573]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.12-08.54.41:378][573]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.12-08.54.41:378][573]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.12-08.54.41:378][573]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.12-08.54.41:378][573]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.12-08.54.41:378][573]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.12-08.54.41:378][573]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.12-08.54.41:379][573]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.12.12-08.54.41:382][573]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.12.12-08.54.41:574][573]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.12.12-08.54.41:575][573]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.12.12-08.54.41:575][573]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.12.12-08.54.41:676][573]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.12.12-08.54.41:676][573]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.12.12-08.54.41:676][573]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.12.12-08.54.41:682][573]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.12.12-08.54.41:682][573]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.12.12-08.54.41:683][573]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.12.12-08.54.41:683][573]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.12.12-08.54.41:683][573]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.12.12-08.54.41:683][573]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.12.12-08.54.41:683][573]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.12.12-08.54.41:683][573]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.12.12-08.54.41:683][573]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.12.12-08.54.41:683][573]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.12.12-08.54.41:683][573]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.12.12-08.54.41:684][573]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.12.12-08.54.41:684][573]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.12.12-08.54.41:684][573]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.12.12-08.54.41:684][573]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.12.12-08.54.41:684][573]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.12.12-08.54.41:691][573]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.12.12-08.54.41:691][573]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.12.12-08.54.41:691][573]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.12.12-08.54.41:691][573]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.12.12-08.54.41:691][573]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.12.12-08.54.41:691][573]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.12.12-08.54.41:691][573]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.12.12-08.54.41:691][573]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.12.12-08.54.41:691][573]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.12.12-08.54.41:691][573]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.12.12-08.54.41:741][573]LogDerivedDataCache: Shutdown
+[2015.12.12-08.54.41:741][573]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.12.12-08.54.41:742][573]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.12.12-08.54.41:743][573]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.12.12-08.54.41:743][573]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.12.12-08.54.41:743][573]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.12.12-08.54.41:743][573]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.12.12-08.54.42:746][573]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.12.12-08.54.42:746][573]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.12.12-08.54.42:746][573]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.12-08.54.42:746][573]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.12-08.54.42:746][573]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.12-08.54.42:746][573]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.12-08.54.42:746][573]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.12-08.54.42:755][573]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.12-08.54.42:755][573]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.12-08.54.42:756][573]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.12-08.54.42:756][573]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.12-08.54.42:756][573]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.12-08.54.42:756][573]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.12-08.54.42:756][573]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.12-08.54.42:756][573]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.12-08.54.42:756][573]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.12-08.54.42:756][573]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.12-08.54.42:758][573]LogExit: Exiting.
+[2015.12.12-08.54.42:792][573]Log file closed, 12/12/15 03:54:42
