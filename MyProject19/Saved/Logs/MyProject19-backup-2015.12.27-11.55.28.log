@@ -1,0 +1,1250 @@
+﻿[2015.12.27-07.36.36:976][  0]Log file open, 12/26/15 23:36:36
+[2015.12.27-07.36.36:976][  0]LogInit:Display: Running engine for game: MyProject19
+[2015.12.27-07.36.36:976][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.27-07.36.36:976][  0]LogInit:Display: RandInit(-614390117) SRandInit(-614390115).
+[2015.12.27-07.36.36:976][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.27-07.36.36:976][  0]LogStats: Stats thread started at 0.085092
+[2015.12.27-07.36.36:976][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.27-07.36.36:976][  0]LogInit: API Version: 2758231
+[2015.12.27-07.36.36:976][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2015.12.27-07.36.36:976][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.27-07.36.36:976][  0]LogInit: Build Configuration: Development
+[2015.12.27-07.36.36:976][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.27-07.36.36:976][  0]LogInit: Command line:  
+[2015.12.27-07.36.36:976][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.27-07.36.36:976][  0]LogInit: Rocket: 1
+[2015.12.27-07.36.36:990][  0]LogInit: Using libcurl 7.41.0
+[2015.12.27-07.36.36:990][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.27-07.36.36:990][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.27-07.36.36:990][  0]LogInit:  - other features:
+[2015.12.27-07.36.36:990][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.27-07.36.36:990][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.27-07.36.36:990][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.27-07.36.36:990][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.27-07.36.36:990][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.27-07.36.36:990][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.27-07.36.36:990][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.27-07.36.36:990][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.27-07.36.36:990][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.27-07.36.36:990][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.27-07.36.36:997][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.27-07.36.37:005][  0]LogInit: Object subsystem initialized
+[2015.12.27-07.36.37:006][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.27-07.36.37:006][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.27-07.36.37:015][  0]LogInit: Computer: MATT-PC
+[2015.12.27-07.36.37:015][  0]LogInit: User: Matt
+[2015.12.27-07.36.37:015][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.27-07.36.37:015][  0]LogInit: High frequency timer resolution =3.020527 MHz
+[2015.12.27-07.36.37:015][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.12.27-07.36.37:015][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.27-07.36.37:015][  0]LogMemory: Process Physical Memory: 60.27 MB used, 60.27 MB peak
+[2015.12.27-07.36.37:015][  0]LogMemory: Process Virtual Memory: 60.55 MB used, 60.55 MB peak
+[2015.12.27-07.36.37:015][  0]LogMemory: Physical Memory: 4500.41 MB used, 8109.12 MB total
+[2015.12.27-07.36.37:015][  0]LogMemory: Virtual Memory: 354.21 MB used, 8388608.00 MB total
+[2015.12.27-07.36.37:087][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.27-07.36.37:500][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2015.12.27-07.36.37:500][  0]LogD3D11RHI: Adapter has 2029MB of dedicated video memory, 0MB of dedicated system memory, and 3798MB of shared system memory, 1 output[s]
+[2015.12.27-07.36.37:505][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics (Feature Level 11_0)
+[2015.12.27-07.36.37:505][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2015.12.27-07.36.37:505][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.27-07.36.37:510][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.27-07.36.37:510][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.27-07.36.37:514][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.12.27-07.36.37:524][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Intermediate/Shaders/WorkingDirectory/12244/).
+[2015.12.27-07.36.37:524][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matt/AppData/Local/Temp/UnrealShaderWorkingDir/4A753B7D4F119731CFBF38B08D8DF4EA/'.
+[2015.12.27-07.36.37:524][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.27-07.36.41:529][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.27-07.36.41:534][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.27-07.36.41:540][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.27-07.36.41:545][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.27-07.36.41:550][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.27-07.36.41:554][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.27-07.36.41:558][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.27-07.36.41:561][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.27-07.36.41:565][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.27-07.36.41:568][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.27-07.36.41:571][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.27-07.36.41:579][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.27-07.36.41:579][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.27-07.36.41:580][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.27-07.36.41:605][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.27-07.36.41:608][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.27-07.36.41:611][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.27-07.36.41:627][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.27-07.36.41:627][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.27-07.36.41:903][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.27-07.36.42:533][  0]LogDerivedDataCache: Loaded boot cache 0.63s 41MB C:/Users/Matt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.27-07.36.42:534][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.27-07.36.42:534][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.27-07.36.42:534][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.27-07.36.42:534][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.27-07.36.42:534][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.27-07.36.42:627][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.27-07.36.42:639][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.27-07.36.47:099][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.27-07.36.47:100][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.27-07.36.47:149][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.27-07.36.47:149][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.27-07.36.47:571][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.27-07.37.14:087][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.27-07.37.14:757][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.12.27-07.37.14:967][  0]SourceControl: Info Source control is disabled
+[2015.12.27-07.37.14:968][  0]SourceControl: Info Source control is disabled
+[2015.12.27-07.37.14:986][  0]SourceControl: Info Source control is disabled
+[2015.12.27-07.37.15:006][  0]SourceControl: Info Source control is disabled
+[2015.12.27-07.37.16:016][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.27-07.37.16:016][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2015.12.27-07.37.16:137][  0]LogEngine: Initializing Engine...
+[2015.12.27-07.37.16:146][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.27-07.37.16:298][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.27-07.37.16:444][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.27-07.37.16:451][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.27-07.37.16:493][  0]LogInit: FAudioDevice initialized.
+[2015.12.27-07.37.16:516][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Matt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.27-07.37.16:519][  0]LogInit: Texture streaming: Enabled
+[2015.12.27-07.37.16:526][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.27-07.37.16:526][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.27-07.37.16:526][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId de43219841e5038bf49fbfa481591ee0|4e461f00ab6f49d29405414d884919d6|9448dfb4-8168-4a85-8046-6b7a073564d8
+[2015.12.27-07.37.16:526][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.27-07.37.16:585][  0]LogInit: Transaction tracking system initialized
+[2015.12.27-07.37.16:616][  0]BlueprintLog: New page: Editor Load
+[2015.12.27-07.37.16:815][  0]LocalizationService: Info Localization service is disabled
+[2015.12.27-07.37.17:455][  0]LogConsoleResponse:Display: 
+[2015.12.27-07.37.19:243][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.27-07.37.20:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/' took 0.15s
+[2015.12.27-07.37.20:075][  0]SourceControl: Info Source control is disabled
+[2015.12.27-07.37.20:075][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Maps/VerticalSlicePersitantLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.27-07.37.20:076][  0]LightingResults: New page: Lighting Build
+[2015.12.27-07.37.20:079][  0]MapCheck: New page: Map Check
+[2015.12.27-07.37.20:079][  0]LightingResults: New page: Lighting Build
+[2015.12.27-07.37.20:090][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020DB2160
+[2015.12.27-07.37.20:264][  0]LogAIModule: Creating AISystem for world VerticalSlicePersitantLevel
+[2015.12.27-07.37.28:234][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning 'Item' is already a 'Temporary Platform', you don't need  Cast To TemporaryPlatform .
+[2015.12.27-07.37.28:236][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning [0051.96] Compile of NewSwitch successful, but with 1 Warning(s) [in 7 ms]
+[2015.12.27-07.37.28:236][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning [0051.96] Compile of NewSwitch successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.27-07.37.28:236][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning [0051.96] Compile of NewSwitch successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.27-07.37.28:245][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning 'Item' is already a 'Temporary Platform', you don't need  Cast To TemporaryPlatform .
+[2015.12.27-07.37.28:246][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning [0051.97] Compile of NewSwitch successful, but with 1 Warning(s) [in 8 ms]
+[2015.12.27-07.37.28:246][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning [0051.97] Compile of NewSwitch successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.27-07.37.28:247][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning [0051.97] Compile of NewSwitch successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.27-07.37.28:283][  0]LogBlueprint:Warning: [compiler Basement_Blockout] Warning  Sequence  has no valid output
+[2015.12.27-07.37.28:283][  0]LogBlueprint:Warning: [compiler Basement_Blockout] Warning [0052.00] Compile of Basement_Blockout successful, but with 1 Warning(s) [in 1 ms]
+[2015.12.27-07.37.28:283][  0]LogBlueprint:Warning: [compiler Basement_Blockout] Warning [0052.00] Compile of Basement_Blockout successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.27-07.37.28:283][  0]LogBlueprint:Warning: [compiler Basement_Blockout] Warning [0052.00] Compile of Basement_Blockout successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.27-07.37.28:285][  0]LogBlueprint:Warning: [compiler Basement_Blockout] Warning  Sequence  has no valid output
+[2015.12.27-07.37.28:285][  0]LogBlueprint:Warning: [compiler Basement_Blockout] Warning [0052.01] Compile of Basement_Blockout successful, but with 1 Warning(s) [in 1 ms]
+[2015.12.27-07.37.28:285][  0]LogBlueprint:Warning: [compiler Basement_Blockout] Warning [0052.01] Compile of Basement_Blockout successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.27-07.37.28:285][  0]LogBlueprint:Warning: [compiler Basement_Blockout] Warning [0052.01] Compile of Basement_Blockout successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.27-07.37.28:815][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.27-07.37.28:816][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.27-07.37.28:883][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.58ms to complete.
+[2015.12.27-07.37.28:883][  0]LogFileHelpers: Loading map 'VerticalSlicePersitantLevel' took 8.809
+[2015.12.27-07.37.29:394][  0]LogCollectionManager: Loaded 0 collections in 0.002814 seconds
+[2015.12.27-07.37.29:434][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Collections/' took 0.01s
+[2015.12.27-07.37.29:434][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Developers/Matt/Collections/' took 0.01s
+[2015.12.27-07.37.29:434][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Collections/' took 0.01s
+[2015.12.27-07.37.29:434][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.12.27-07.37.29:442][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 1893 classes and 338 folders.
+[2015.12.27-07.37.29:450][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.12.27-07.37.38:872][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.12.27-07.37.38:877][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.12.27-07.37.39:312][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 1 classes and 3 folders.
+[2015.12.27-07.37.39:317][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.27-07.37.39:323][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.27-07.37.39:344][  0]LogLoad: Full Startup: 63.06 seconds (BP compile: 0.14 seconds)
+[2015.12.27-07.37.39:363][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.27-07.37.39:678][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.27-07.37.39:903][  0]LogRenderer: Reallocating scene render targets to support 892x516 (Frame:2).
+[2015.12.27-07.37.40:154][  4]LogAssetRegistry: Asset discovery search completed in 25.4073 seconds
+[2015.12.27-07.37.40:155][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.12.27-07.37.40:155][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2015.12.27-07.38.56:020][535]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matt\Dropbox\PengTextures\Pier_BricksSpec.png)
+[2015.12.27-07.38.56:133][535]LogTexture:Display: Building textures: Pier_BricksSpec (AutoDXT)
+[2015.12.27-07.39.05:379][939]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matt\Dropbox\PengTextures\Pier_BricksRough.png)
+[2015.12.27-07.39.05:395][939]LogTexture:Display: Building textures: Pier_BricksRough (AutoDXT)
+[2015.12.27-07.39.09:381][951]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matt\Dropbox\PengTextures\Pier_BricksDif.png)
+[2015.12.27-07.39.09:414][951]LogTexture:Display: Building textures: Pier_BricksDif (AutoDXT)
+[2015.12.27-07.39.18:936][839]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.39.19:510][839]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.39.19:522][839]LogMaterial: 0.007984 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.39.23:866][ 91]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.12.27-07.39.23:866][ 91]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.12.27-07.39.23:866][ 91]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.12.27-07.39.28:125][553]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.39.28:129][553]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.39.28:141][553]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.27-07.39.28:216][553]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.27-07.39.28:278][553]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.39.28:282][553]LogMaterial: 0.000025 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.39.28:344][553]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.27-07.39.28:412][553]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.27-07.39.28:415][553]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.27-07.39.28:461][553]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.39.28:465][553]LogMaterial: 0.000026 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.39.28:499][553]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.12.27-07.39.28:545][553]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.27-07.39.28:555][553]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.27-07.39.28:567][553]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.12.27-07.39.29:554][632]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.12.27-07.39.29:554][632]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.12.27-07.39.29:554][632]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.12.27-07.39.40:008][702]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.39.40:012][702]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.39.40:064][702]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.27-07.39.41:213][820]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.12.27-07.39.41:213][820]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.39.41:213][820]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.12.27-07.39.49:660][813]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.39.49:664][813]LogMaterial: 0.000091 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.39.49:695][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.27-07.39.50:952][941]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.12.27-07.39.50:952][941]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.39.50:952][941]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.27-07.39.53:436][231]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.39.53:440][231]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.39.53:482][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.12.27-07.39.54:614][347]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.12.27-07.39.54:614][347]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.39.54:614][347]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.27-07.39.55:100][402]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.39.55:104][402]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.39.55:163][402]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.27-07.39.56:322][524]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.12.27-07.39.56:322][524]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.39.56:322][524]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.27-07.46.55:671][777]LogEditorFactories: Performing atomic reimport of [C:/Users/Matt/Dropbox/PengTextures/Pier_BricksRough.png]
+[2015.12.27-07.46.55:671][777]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Matt/Dropbox/PengTextures/Pier_BricksRough.png)
+[2015.12.27-07.46.55:728][777]LogTexture:Display: Building textures: Pier_BricksRough (AutoDXT)
+[2015.12.27-07.46.55:750][777]LogEditorFactories: -- imported successfully
+[2015.12.27-07.47.14:096][926]LogMaterialEditor: Saving and Compiling material PierBricks
+[2015.12.27-07.47.14:519][926]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.47.14:530][926]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.47.14:651][926]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.47.14:670][926]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.47.14:680][926]LogMaterial: 0.005127 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.47.17:264][926]LogSavePackage: Save=14.087608ms
+[2015.12.27-07.47.17:264][926]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/PierBricksC2E8279F44B1B03DDE94D8B3E408D2B3.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks.uasset'
+[2015.12.27-07.47.17:494][926]LogSavePackage: Total save time: 247.305851ms
+[2015.12.27-07.47.17:494][926]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks.uasset
+[2015.12.27-07.47.17:498][926]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.12.27-07.47.17:498][926]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.47.17:498][926]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.12.27-07.47.31:325][987]LogSavePackage: Save=36.420795ms
+[2015.12.27-07.47.31:325][987]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Pier_BricksDifD3BAE72C43914D133BEA0290CD5D6708.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksDif.uasset'
+[2015.12.27-07.47.31:330][987]LogSavePackage: Total save time: 41.822836ms
+[2015.12.27-07.47.31:330][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksDif.uasset
+[2015.12.27-07.47.31:365][987]LogSavePackage: Save=14.244534ms
+[2015.12.27-07.47.31:365][987]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Pier_BricksRough0A06EFF14BBDEC6BB5971C8C5AA2C02D.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksRough.uasset'
+[2015.12.27-07.47.31:369][987]LogSavePackage: Total save time: 18.160742ms
+[2015.12.27-07.47.31:369][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksRough.uasset
+[2015.12.27-07.47.31:439][987]LogSavePackage: Save=13.063946ms
+[2015.12.27-07.47.31:439][987]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Pier_BricksSpec4780590F4F4E8805B7D531B6B2E3A276.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksSpec.uasset'
+[2015.12.27-07.47.31:443][987]LogSavePackage: Total save time: 16.950022ms
+[2015.12.27-07.47.31:443][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksSpec.uasset
+[2015.12.27-07.47.31:447][987]Cmd: MAP LOAD FILE="../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.27-07.47.31:472][987]LightingResults: New page: Lighting Build
+[2015.12.27-07.47.31:503][987]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2015.12.27-07.47.31:543][987]MapCheck: New page: Map Check
+[2015.12.27-07.47.31:543][987]LightingResults: New page: Lighting Build
+[2015.12.27-07.47.31:558][987]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EFAC900
+[2015.12.27-07.47.31:640][987]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.27-07.47.31:654][987]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.27-07.47.31:673][987]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.27-07.47.31:681][987]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.27-07.47.31:696][987]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.27-07.47.31:707][987]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.27-07.47.31:722][987]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.27-07.47.31:733][987]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.27-07.47.34:068][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.27-07.47.34:071][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2015.12.27-07.47.34:072][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.27-07.47.34:084][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.27-07.47.34:102][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0657.81] Compile of ThirdPersonCharacter successful, but with 4 Warning(s) [in 112 ms]
+[2015.12.27-07.47.34:102][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0657.81] Compile of ThirdPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.27-07.47.34:102][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0657.81] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 0 ms]
+[2015.12.27-07.47.34:176][987]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.27-07.47.34:177][987]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.27-07.47.34:180][987]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0657.89] Compile of AbilityMenu successful, but with 2 Warning(s) [in 27 ms]
+[2015.12.27-07.47.34:182][987]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0657.89] Compile of AbilityMenu successful, but with 3 Warning(s) [in 1 ms]
+[2015.12.27-07.47.34:182][987]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0657.89] Compile of AbilityMenu successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.27-07.47.34:218][987]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2015.12.27-07.47.34:219][987]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0657.93] Compile of FreeMovementLocator successful, but with 1 Warning(s) [in 2 ms]
+[2015.12.27-07.47.34:219][987]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0657.93] Compile of FreeMovementLocator successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.27-07.47.34:219][987]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0657.93] Compile of FreeMovementLocator successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.27-07.47.35:115][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.27-07.47.35:131][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.27-07.47.35:132][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2015.12.27-07.47.35:140][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.27-07.47.35:211][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0658.92] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 176 ms]
+[2015.12.27-07.47.35:212][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0658.92] Compile of ThirdPersonCharacter2D successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.27-07.47.35:212][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0658.92] Compile of ThirdPersonCharacter2D successful, but with 6 Warning(s) [in 0 ms]
+[2015.12.27-07.47.35:217][987]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2015.12.27-07.47.35:218][987]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0658.93] Compile of FreeMovementLocator successful, but with 1 Warning(s) [in 2 ms]
+[2015.12.27-07.47.35:218][987]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0658.93] Compile of FreeMovementLocator successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.27-07.47.35:222][987]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0658.93] Compile of FreeMovementLocator successful, but with 3 Warning(s) [in 3 ms]
+[2015.12.27-07.47.35:287][987]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.27-07.47.35:288][987]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.27-07.47.35:291][987]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0659.00] Compile of AbilityMenu successful, but with 2 Warning(s) [in 26 ms]
+[2015.12.27-07.47.35:291][987]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0659.00] Compile of AbilityMenu successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.27-07.47.35:297][987]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0659.01] Compile of AbilityMenu successful, but with 4 Warning(s) [in 5 ms]
+[2015.12.27-07.47.35:419][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.27-07.47.35:422][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2015.12.27-07.47.35:424][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.27-07.47.35:435][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.27-07.47.35:452][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0659.16] Compile of ThirdPersonCharacter successful, but with 4 Warning(s) [in 111 ms]
+[2015.12.27-07.47.35:453][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0659.16] Compile of ThirdPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.27-07.47.35:453][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0659.17] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 0 ms]
+[2015.12.27-07.47.35:570][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.27-07.47.35:586][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.27-07.47.35:586][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2015.12.27-07.47.35:595][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.27-07.47.35:669][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0659.38] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 178 ms]
+[2015.12.27-07.47.35:669][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0659.38] Compile of ThirdPersonCharacter2D successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.27-07.47.35:669][987]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0659.38] Compile of ThirdPersonCharacter2D successful, but with 6 Warning(s) [in 0 ms]
+[2015.12.27-07.47.44:339][987]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.27-07.47.44:472][987]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.27-07.47.44:642][987]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.27-07.47.44:774][987]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 131.162ms to complete.
+[2015.12.27-07.47.44:774][987]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 13.327
+[2015.12.27-07.47.44:779][987]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Failed import for EnemyBasic_C /Game/Blueprints/EnemyBasic.Default__EnemyBasic_C [redirection] in /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2015.12.27-07.47.44:783][987]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Failed import for ArrowComponent /Game/Blueprints/EnemyBasic.Default__EnemyBasic_C:Arrow
+[2015.12.27-07.47.44:783][987]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Failed import for SliceGenericEnemy_01_C /Game/Blueprints/SliceGenericEnemy_01.Default__SliceGenericEnemy_01_C [redirection] in /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2015.12.27-07.47.44:783][987]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Failed import for ArrowComponent /Game/Blueprints/SliceGenericEnemy_01.Default__SliceGenericEnemy_01_C:Arrow
+[2015.12.27-07.47.44:783][987]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Failed import for CapsuleComponent /Game/Blueprints/EnemyBasic.Default__EnemyBasic_C:CollisionCylinder
+[2015.12.27-07.47.44:783][987]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Failed import for CapsuleComponent /Game/Blueprints/SliceGenericEnemy_01.Default__SliceGenericEnemy_01_C:CollisionCylinder
+[2015.12.27-07.47.44:783][987]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Failed import for CharacterMovementComponent /Game/Blueprints/EnemyBasic.Default__EnemyBasic_C:CharMoveComp
+[2015.12.27-07.47.44:783][987]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Failed import for CharacterMovementComponent /Game/Blueprints/SliceGenericEnemy_01.Default__SliceGenericEnemy_01_C:CharMoveComp
+[2015.12.27-07.47.44:783][987]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Failed import for SkeletalMeshComponent /Game/Blueprints/EnemyBasic.Default__EnemyBasic_C:CharacterMesh0
+[2015.12.27-07.47.44:783][987]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Failed import for SkeletalMeshComponent /Game/Blueprints/SliceGenericEnemy_01.Default__SliceGenericEnemy_01_C:CharacterMesh0
+[2015.12.27-07.47.49:702][533]LogEditorViewport: Clicking on Actor (LMB): SliceGenericEnemy_01_C (SliceGenericEnemy_2)
+[2015.12.27-07.47.50:956][652]Cmd: DELETE
+[2015.12.27-07.47.50:956][652]Cmd: ACTOR DELETE
+[2015.12.27-07.47.51:010][652]LogEditorActor: Deleted Actor: SliceGenericEnemy_01_C
+[2015.12.27-07.47.51:109][652]LogEditorActor: Deleted 1 Actors (0.115 secs)
+[2015.12.27-07.47.51:539][703]LogEditorViewport: Clicking on Actor (LMB): Interactables_C (Interactables)
+[2015.12.27-07.47.51:854][739]Cmd: DELETE
+[2015.12.27-07.47.51:854][739]Cmd: ACTOR DELETE
+[2015.12.27-07.47.51:855][739]LogEditorActor: Deleted Actor: Interactables_C
+[2015.12.27-07.47.51:873][739]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.12.27-07.47.52:317][792]LogEditorViewport: Clicking on Actor (LMB): EnemyBasic_C (EnemyBasic)
+[2015.12.27-07.47.52:681][831]Cmd: DELETE
+[2015.12.27-07.47.52:681][831]Cmd: ACTOR DELETE
+[2015.12.27-07.47.52:682][831]LogEditorActor: Deleted Actor: EnemyBasic_C
+[2015.12.27-07.47.52:700][831]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.12.27-07.48.01:142][725]LogActorFactory: Actor Factory created Cube
+[2015.12.27-07.48.01:705][785]LogActorFactory: Actor Factory created Cube
+[2015.12.27-07.48.11:068][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.12.27-07.48.21:666][930]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.12.27-07.48.22:918][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.12.27-07.48.25:308][307]Cmd: DELETE
+[2015.12.27-07.48.25:308][307]Cmd: ACTOR DELETE
+[2015.12.27-07.48.25:309][307]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.27-07.48.25:309][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.27-07.48.25:309][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.12.27-07.48.25:328][307]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2015.12.27-07.48.36:173][882]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.27-07.48.36:207][882]LightingResults: New page: Lighting Build
+[2015.12.27-07.48.36:237][882]LoadErrors: New page: Loading map: Template_Default.umap
+[2015.12.27-07.48.36:291][882]MapCheck: New page: Map Check
+[2015.12.27-07.48.36:291][882]LightingResults: New page: Lighting Build
+[2015.12.27-07.48.36:308][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A1B6A20
+[2015.12.27-07.48.36:615][882]LogAIModule: Creating AISystem for world Untitled_1
+[2015.12.27-07.48.36:621][882]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.27-07.48.36:634][882]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.27-07.48.36:758][882]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.144ms to complete.
+[2015.12.27-07.48.36:758][882]LogFileHelpers: Loading map 'Template_Default' took 0.587
+[2015.12.27-07.48.37:969][ 11]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.12.27-07.48.40:556][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.27-07.48.40:580][312]PIE: New page: PIE session: Untitled_1 (Dec 26, 2015, 3:48:40 PM)
+[2015.12.27-07.48.40:580][312]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.12.27-07.48.40:582][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001692s)
+[2015.12.27-07.48.40:583][312]LogAIModule: Creating AISystem for world Untitled_1
+[2015.12.27-07.48.40:583][312]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2015.12.27-07.48.40:583][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002654s)
+[2015.12.27-07.48.40:583][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.27-07.48.40:583][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.12.27-07.48.40:606][312]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.27-07.48.40:645][312]LogInit: FAudioDevice initialized.
+[2015.12.27-07.48.40:917][312]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.27-07.48.40:921][312]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2015.12.26-23.48.40
+[2015.12.27-07.48.40:922][312]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.27-07.48.40:922][312]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.27-07.48.40:922][312]LogWorld: Bringing up level for play took: 0.002990
+[2015.12.27-07.48.41:030][312]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.955
+[2015.12.27-07.48.44:319][690]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000324C0360
+[2015.12.27-07.48.55:458][910]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.12.27-07.49.12:799][701]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.27-07.49.17:826][259]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.27-07.49.18:509][332]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.27-07.49.21:772][713]Cmd: DELETE
+[2015.12.27-07.49.21:773][713]Cmd: ACTOR DELETE
+[2015.12.27-07.49.21:773][713]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2015.12.27-07.49.21:792][713]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.12.27-07.49.24:240][  7]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2015.12.27-07.49.25:715][181]Cmd: DELETE
+[2015.12.27-07.49.25:715][181]Cmd: ACTOR DELETE
+[2015.12.27-07.49.25:715][181]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.12.27-07.49.25:734][181]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.12.27-07.49.30:822][779]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2015.12.27-07.49.40:644][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.27-07.49.50:532][973]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-07.49.51:310][ 11]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-07.49.51:455][ 11]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-07.49.51:461][ 11]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.49.51:531][ 11]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.27-07.49.51:546][ 11]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.12.27-07.49.51:549][ 11]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.27-07.49.54:097][227]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.12.27-07.49.54:098][227]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.49.54:098][227]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.27-07.50.03:245][304]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.50.03:249][304]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.50.03:277][304]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.12.27-07.50.04:393][412]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2015.12.27-07.50.04:393][412]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.50.04:393][412]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.27-07.50.12:865][426]LogEditorTransaction: Undo Create Pin Link
+[2015.12.27-07.50.12:946][426]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.50.13:006][426]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-07.50.13:011][426]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.50.13:056][426]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.50.13:060][426]LogMaterial: 0.000030 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.50.13:127][426]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.12.27-07.50.14:265][524]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.12.27-07.50.14:265][524]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.50.14:265][524]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.27-07.50.14:467][543]LogMaterialEditor: Saving and Compiling material PierBricks
+[2015.12.27-07.50.14:893][543]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.50.14:905][543]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.50.14:963][543]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.50.14:993][543]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.50.15:000][543]LogMaterial: 0.000713 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.50.17:103][543]LogSavePackage: Save=13.275498ms
+[2015.12.27-07.50.17:103][543]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/PierBricks856489484A098CCB68F015A2132F1F2F.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks.uasset'
+[2015.12.27-07.50.17:107][543]LogSavePackage: Total save time: 46.677615ms
+[2015.12.27-07.50.17:107][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks.uasset
+[2015.12.27-07.50.17:112][543]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.12.27-07.50.17:112][543]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.50.17:112][543]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.12.27-07.50.24:056][369]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-07.50.24:060][369]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.50.25:150][480]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.12.27-07.50.25:150][480]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.50.25:150][480]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.27-07.50.32:481][359]LogMaterialEditor: Saving and Compiling material PierBricks2
+[2015.12.27-07.50.32:900][359]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-07.50.32:911][359]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.50.32:972][359]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-07.50.32:987][359]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-07.50.32:994][359]LogMaterial: 0.000424 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.50.35:031][359]LogSavePackage: Save=13.579087ms
+[2015.12.27-07.50.35:031][359]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/PierBricks24A249535453725DB73BBC5A95DD9A87E.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks2.uasset'
+[2015.12.27-07.50.35:036][359]LogSavePackage: Total save time: 18.941399ms
+[2015.12.27-07.50.35:036][359]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks2.uasset
+[2015.12.27-07.50.35:041][359]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 65 instructions
+[2015.12.27-07.50.35:041][359]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.50.35:041][359]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.12.27-07.50.42:754][188]LogEditorViewport: Clicking Background
+[2015.12.27-07.50.44:523][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2015.12.27-07.50.48:331][809]LogEditorViewport: Clicking Background
+[2015.12.27-07.50.50:177][ 19]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.12.27-07.50.51:952][227]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.12.27-07.51.00:075][816]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-07.51.00:664][848]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-07.51.00:824][848]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-07.51.00:828][848]LogMaterial: 0.000027 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.51.00:979][848]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.27-07.51.01:014][848]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.12.27-07.51.01:051][848]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.27-07.51.03:320][ 23]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.12.27-07.51.03:320][ 23]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.51.03:320][ 23]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.27-07.51.03:952][ 75]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-07.51.03:956][ 75]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (2 / 2)
+[2015.12.27-07.51.03:956][ 75]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.51.04:961][172]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.12.27-07.51.04:961][172]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.51.04:961][172]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.27-07.51.32:281][431]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-07.51.32:286][431]LogMaterial: 0.000131 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.51.32:306][431]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-07.51.32:310][431]LogMaterial: 0.000028 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.51.32:337][431]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.27-07.51.33:946][601]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.12.27-07.51.33:946][601]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.51.33:946][601]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.27-07.51.36:086][856]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-07.51.36:090][856]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.51.37:210][962]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.12.27-07.51.37:210][962]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.51.37:210][962]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.27-07.51.38:366][ 91]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-07.51.38:370][ 91]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.51.39:565][204]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.12.27-07.51.39:565][204]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.51.39:565][204]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.27-07.51.44:780][824]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-07.51.44:784][824]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.51.45:864][938]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.12.27-07.51.45:864][938]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.51.45:864][938]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.12.27-07.51.46:282][987]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-07.51.46:286][987]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.51.46:358][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.27-07.51.47:496][101]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.12.27-07.51.47:496][101]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.51.47:496][101]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.27-07.52.17:276][818]LogEditorFactories: Performing atomic reimport of [C:/Users/Matt/Dropbox/PengTextures/Pier_BricksRough.png]
+[2015.12.27-07.52.17:276][818]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Matt/Dropbox/PengTextures/Pier_BricksRough.png)
+[2015.12.27-07.52.17:302][818]LogTexture:Display: Building textures: Pier_BricksRough (AutoDXT)
+[2015.12.27-07.52.17:324][818]LogEditorFactories: -- imported successfully
+[2015.12.27-07.52.57:295][334]LogEditorFactories: Performing atomic reimport of [C:/Users/Matt/Dropbox/PengTextures/Pier_BricksRough.png]
+[2015.12.27-07.52.57:295][334]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Matt/Dropbox/PengTextures/Pier_BricksRough.png)
+[2015.12.27-07.52.57:380][334]LogTexture:Display: Building textures: Pier_BricksRough (AutoDXT)
+[2015.12.27-07.52.57:400][334]LogEditorFactories: -- imported successfully
+[2015.12.27-07.53.03:317][724]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-07.53.03:745][747]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-07.53.03:952][747]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-07.53.03:957][747]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.53.04:070][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.27-07.53.04:115][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.12.27-07.53.04:128][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.27-07.53.05:913][822]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-07.53.05:918][822]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.53.06:846][907]LogMaterialEditor: Saving and Compiling material PierBricks4
+[2015.12.27-07.53.07:266][907]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-07.53.07:278][907]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.53.07:310][907]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-07.53.07:331][907]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-07.53.07:337][907]LogMaterial: 0.000521 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.53.09:385][907]LogSavePackage: Save=13.106984ms
+[2015.12.27-07.53.09:385][907]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/PierBricks420234F924A160018077F90909C32C66E.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks4.uasset'
+[2015.12.27-07.53.09:388][907]LogSavePackage: Total save time: 16.933467ms
+[2015.12.27-07.53.09:388][907]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks4.uasset
+[2015.12.27-07.53.09:398][907]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.12.27-07.53.09:398][907]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.53.09:398][907]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.12.27-07.53.21:497][248]LogMaterialEditor: Saving and Compiling material PierBricks2
+[2015.12.27-07.53.21:554][248]LogSavePackage: Save=3.548718ms
+[2015.12.27-07.53.21:554][248]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/PierBricks2C6E37FFD41AA48F45CBF2CBEABED8CCA.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks2.uasset'
+[2015.12.27-07.53.21:555][248]LogSavePackage: Total save time: 35.052825ms
+[2015.12.27-07.53.21:555][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks2.uasset
+[2015.12.27-07.53.22:806][383]LogMaterialEditor: Saving and Compiling material PierBricks3
+[2015.12.27-07.53.23:218][383]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-07.53.23:229][383]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.53.23:300][383]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-07.53.23:313][383]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-07.53.23:319][383]LogMaterial: 0.000723 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.53.25:319][383]LogSavePackage: Save=13.622458ms
+[2015.12.27-07.53.25:319][383]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/PierBricks3A42FC495460E7AA328B17BB7F4B03ECD.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks3.uasset'
+[2015.12.27-07.53.25:326][383]LogSavePackage: Total save time: 20.637456ms
+[2015.12.27-07.53.25:326][383]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks3.uasset
+[2015.12.27-07.53.25:332][383]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.12.27-07.53.25:332][383]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-07.53.25:332][383]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.12.27-07.53.44:536][334]LogEditorViewport: Clicking Background
+[2015.12.27-07.54.03:180][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.27-07.54.03:180][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.12.27-07.54.03:196][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F70A020
+[2015.12.27-07.54.03:198][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000121DAC00
+[2015.12.27-07.54.03:198][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024D67560
+[2015.12.27-07.54.03:198][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000375453A0
+[2015.12.27-07.54.15:313][900]LogSavePackage: Save=130.259064ms
+[2015.12.27-07.54.15:313][900]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/MaterialSizeTest1D4A41934B304DC19482FAA54DE14042.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/ThirdPersonBP/Maps/MaterialSizeTest.umap'
+[2015.12.27-07.54.15:318][900]LogSavePackage: Total save time: 135.440603ms
+[2015.12.27-07.54.15:318][900]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/ThirdPersonBP/Maps/MaterialSizeTest.umap
+[2015.12.27-07.54.15:399][900]LogFileHelpers: Saving map 'MaterialSizeTest' took 1.303
+[2015.12.27-07.54.15:478][900]LogSavePackage: Save=13.960478ms
+[2015.12.27-07.54.15:478][900]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Pier_BricksRough36BC76B44D54D16E9F3E01A179006FAC.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksRough.uasset'
+[2015.12.27-07.54.15:483][900]LogSavePackage: Total save time: 48.333950ms
+[2015.12.27-07.54.15:483][900]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksRough.uasset
+[2015.12.27-07.54.30:549][167]MapCheck: New page: Map Check
+[2015.12.27-07.54.30:914][167]Cmd: MAP REBUILD ALLVISIBLE
+[2015.12.27-07.54.30:962][167]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.12.27-07.54.31:068][167]LogEditorServer: Cleared 6 NULL BSP materials after rebuild.
+[2015.12.27-07.54.31:145][167]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.12.27-07.54.31:145][167]LogStats:          STAT_HLOD_BuildClusters - 28.512 ms
+[2015.12.27-07.54.31:191][167]LightingResults: New page: Lighting Build - Dec 26, 2015, 3:54:31 PM
+[2015.12.27-07.54.58:950][167]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.12.27-07.54.58:951][167]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.12.27-07.54.58:951][167]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.12.27-07.54.58:951][167]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.12.27-07.54.58:951][167]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.12.27-07.54.58:951][167]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.12.27-07.55.01:135][167]LogEditorBuildUtils: Build time 0:00:30
+[2015.12.27-07.55.01:324][167]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2015.12.27-07.55.01:380][167]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2015.12.27-07.55.01:484][168]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks4, compiling. 
+[2015.12.27-07.55.01:489][168]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks4, compiling. 
+[2015.12.27-07.55.01:545][169]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks3, compiling. 
+[2015.12.27-07.55.01:598][169]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks3, compiling. 
+[2015.12.27-07.55.01:663][170]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks2, compiling. 
+[2015.12.27-07.55.01:668][170]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks2, compiling. 
+[2015.12.27-07.55.01:684][171]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks, compiling. 
+[2015.12.27-07.55.01:692][171]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks, compiling. 
+[2015.12.27-07.55.10:516][196]Job is a success!
+[2015.12.27-07.55.12:319][197]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.12.27-07.55.12:376][197]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.12.27-07.55.12:407][197]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.12.27-07.55.12:501][197]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.12.27-07.55.12:516][197]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.12.27-07.55.12:640][197]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.12.27-07.55.13:287][197]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2015.12.27-07.55.13:539][197]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2015.12.27-07.55.13:678][197]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2015.12.27-07.55.28:574][197]Lightmass on MATT-PC: 4.84 sec total, 501 ms importing, 0 ms setup, 124 ms photons, 3.80 sec processing, 0 ms extra exporting [10/10 mappings]. Threads: 15.1 sec total, 921 ms processing.
+[2015.12.27-07.55.28:634][197]LogMaterial:Warning: Material /Game/Materials/ActualMaterials/VerticalSlice/PierBricks4.PierBricks4 needed to have new flag set bUsedWithStaticLighting !
+[2015.12.27-07.55.28:640][197]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-07.55.28:653][197]LogMaterial: 0.000167 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.55.28:653][197]LogMaterial:Warning: Material /Game/Materials/ActualMaterials/VerticalSlice/PierBricks.PierBricks needed to have new flag set bUsedWithStaticLighting !
+[2015.12.27-07.55.28:695][197]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-07.55.28:702][197]LogMaterial: 0.000135 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.55.28:874][197]LogMaterial:Warning: Material /Game/Materials/ActualMaterials/VerticalSlice/PierBricks3.PierBricks3 needed to have new flag set bUsedWithStaticLighting !
+[2015.12.27-07.55.28:877][197]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-07.55.28:887][197]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.55.28:887][197]LogMaterial:Warning: Material /Game/Materials/ActualMaterials/VerticalSlice/PierBricks2.PierBricks2 needed to have new flag set bUsedWithStaticLighting !
+[2015.12.27-07.55.28:929][197]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-07.55.28:937][197]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-07.55.29:036][197]LogStaticLightingSystem: Illumination: 57.4 sec (1.62 sec encoding lightmaps)
+[2015.12.27-07.55.29:036][197]LogStaticLightingSystem: Lightmap texture memory:  1.8 MB (0.4 MB streaming, 1.3 MB non-streaming), 6 textures
+[2015.12.27-07.55.29:036][197]LogStaticLightingSystem: Shadowmap texture memory: 0.9 MB (0.2 MB streaming, 0.7 MB non-streaming), 3 textures
+[2015.12.27-07.55.29:926][198]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.12.27-07.55.29:926][198]MapCheck: New page: MaterialSizeTest - Dec 26, 2015, 3:55:29 PM
+[2015.12.27-07.55.30:232][198]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 305.66ms to complete.
+[2015.12.27-07.57.31:004][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.27-07.57.31:004][775]PIE: New page: PIE session: MaterialSizeTest (Dec 26, 2015, 3:57:31 PM)
+[2015.12.27-07.57.31:004][775]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest
+[2015.12.27-07.57.31:008][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004026s)
+[2015.12.27-07.57.31:009][775]LogAIModule: Creating AISystem for world MaterialSizeTest
+[2015.12.27-07.57.31:009][775]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2015.12.27-07.57.31:009][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MaterialSizeTest.MaterialSizeTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest (0.005002s)
+[2015.12.27-07.57.31:033][775]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.27-07.57.31:074][775]LogInit: FAudioDevice initialized.
+[2015.12.27-07.57.31:109][775]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.27-07.57.31:116][775]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest up for play (max tick rate 0) at 2015.12.26-23.57.31
+[2015.12.27-07.57.31:116][775]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.27-07.57.31:116][775]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.27-07.57.31:117][775]LogWorld: Bringing up level for play took: 0.006180
+[2015.12.27-07.57.31:123][775]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest 1.039
+[2015.12.27-07.57.51:965][269]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BFE6480
+[2015.12.27-08.04.00:632][183]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matt\Dropbox\PengTextures\Pier_BricksNormal.png)
+[2015.12.27-08.04.00:705][183]LogTexture:Display: Building textures: Pier_BricksNormal (BC5)
+[2015.12.27-08.04.05:478][539]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-08.04.05:596][539]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-08.04.05:601][539]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.04.05:661][539]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.27-08.04.05:664][539]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.12.27-08.04.05:667][539]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.27-08.04.07:474][677]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2015.12.27-08.04.07:474][677]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.12.27-08.04.07:474][677]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.04.07:474][677]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.12.27-08.04.11:416][122]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-08.04.11:420][122]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.04.11:425][122]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.12.27-08.04.11:459][122]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.27-08.04.11:528][122]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.12.27-08.04.11:532][122]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.27-08.04.11:590][122]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.12.27-08.04.12:793][253]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2015.12.27-08.04.12:793][253]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.12.27-08.04.12:793][253]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.04.12:793][253]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.12.27-08.04.13:750][344]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-08.04.13:754][344]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.04.13:788][344]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.12.27-08.04.15:045][454]MaterialEditorStats: Info Base pass shader with static lighting: 85 instructions
+[2015.12.27-08.04.15:045][454]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.12.27-08.04.15:045][454]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.04.15:045][454]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.12.27-08.04.46:352][203]LogMaterialEditor: Saving and Compiling material PierBricks
+[2015.12.27-08.04.46:799][203]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-08.04.46:811][203]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.04.46:840][203]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-08.04.46:885][203]LogMaterial: Missing cached shader map for material PierBricks, compiling. 
+[2015.12.27-08.04.46:893][203]LogMaterial: 0.000451 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.04.50:015][203]LogSavePackage: Save=13.535055ms
+[2015.12.27-08.04.50:015][203]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/PierBricksF4B8255942EB4DCC12AB3ABAD44D6651.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks.uasset'
+[2015.12.27-08.04.50:019][203]LogSavePackage: Total save time: 47.204345ms
+[2015.12.27-08.04.50:019][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks.uasset
+[2015.12.27-08.04.50:023][203]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2015.12.27-08.04.50:023][203]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2015.12.27-08.04.50:023][203]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.04.50:023][203]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.12.27-08.04.56:415][890]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-08.04.56:608][890]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-08.04.56:612][890]LogMaterial: 0.000025 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.04.56:635][890]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.27-08.04.56:690][890]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.12.27-08.04.58:103][990]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2015.12.27-08.04.58:103][990]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.12.27-08.04.58:103][990]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.04.58:103][990]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.12.27-08.04.58:273][996]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-08.04.58:389][996]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-08.04.58:394][996]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.04.58:417][996]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.27-08.04.58:463][996]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.27-08.04.59:701][ 80]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2015.12.27-08.04.59:701][ 80]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.12.27-08.04.59:701][ 80]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.04.59:701][ 80]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.12.27-08.05.07:578][965]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-08.05.07:582][965]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.05.07:626][965]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.12.27-08.05.07:721][965]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.27-08.05.07:767][965]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.12.27-08.05.07:777][965]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.12.27-08.05.08:657][ 42]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2015.12.27-08.05.08:657][ 42]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.12.27-08.05.08:657][ 42]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.05.08:657][ 42]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.12.27-08.05.09:393][111]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-08.05.09:397][111]LogMaterial: 0.000149 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.05.09:424][111]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.12.27-08.05.10:624][233]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.12.27-08.05.10:624][233]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2015.12.27-08.05.10:624][233]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.05.10:624][233]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.12.27-08.05.19:900][329]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-08.05.19:910][329]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.05.19:948][329]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.12.27-08.05.21:680][508]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.12.27-08.05.21:680][508]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2015.12.27-08.05.21:680][508]MaterialEditorStats: Info Vertex shader: 40 instructions
+[2015.12.27-08.05.21:680][508]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.12.27-08.05.30:525][564]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-08.05.30:529][564]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.05.31:841][689]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2015.12.27-08.05.31:841][689]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2015.12.27-08.05.31:841][689]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.05.31:841][689]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.12.27-08.05.34:947][ 42]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-08.05.34:951][ 42]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.05.34:964][ 42]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.12.27-08.05.36:202][160]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2015.12.27-08.05.36:202][160]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.12.27-08.05.36:202][160]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.05.36:202][160]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.12.27-08.05.37:948][368]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-08.05.37:952][368]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.05.37:993][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.12.27-08.05.38:389][410]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-08.05.38:394][410]LogMaterial: 0.000884 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.05.39:903][550]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2015.12.27-08.05.39:903][550]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.12.27-08.05.39:903][550]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.05.39:903][550]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.12.27-08.05.40:112][569]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-08.05.40:116][569]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.05.41:506][718]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2015.12.27-08.05.41:506][718]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.12.27-08.05.41:506][718]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.05.41:506][718]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.12.27-08.05.41:880][763]LogMaterialEditor: Saving and Compiling material PierBricks3
+[2015.12.27-08.05.42:292][763]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-08.05.42:304][763]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.05.42:421][763]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-08.05.42:441][763]LogMaterial: Missing cached shader map for material PierBricks3, compiling. 
+[2015.12.27-08.05.42:449][763]LogMaterial: 0.000518 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.05.45:176][763]LogSavePackage: Save=13.686685ms
+[2015.12.27-08.05.45:176][763]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/PierBricks3641978104ECC076DFC873F85D3CEEF56.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks3.uasset'
+[2015.12.27-08.05.45:180][763]LogSavePackage: Total save time: 47.114957ms
+[2015.12.27-08.05.45:180][763]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks3.uasset
+[2015.12.27-08.05.45:186][763]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2015.12.27-08.05.45:186][763]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 65 instructions
+[2015.12.27-08.05.45:186][763]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.05.45:186][763]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.12.27-08.05.51:020][385]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-08.05.51:134][385]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-08.05.51:138][385]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.05.51:163][385]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.27-08.05.52:510][509]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2015.12.27-08.05.52:510][509]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.12.27-08.05.52:510][509]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.05.52:510][509]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.27-08.05.55:790][900]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-08.05.55:794][900]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.05.56:912][998]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2015.12.27-08.05.56:912][998]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.12.27-08.05.56:912][998]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.05.56:912][998]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.27-08.05.57:688][ 85]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-08.05.57:692][ 85]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.05.58:922][206]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2015.12.27-08.05.58:922][206]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.12.27-08.05.58:922][206]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.05.58:922][206]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.27-08.06.04:332][854]LogMaterialEditor: Saving and Compiling material PierBricks4
+[2015.12.27-08.06.04:753][854]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-08.06.04:764][854]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.06.04:815][854]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-08.06.04:832][854]LogMaterial: Missing cached shader map for material PierBricks4, compiling. 
+[2015.12.27-08.06.04:840][854]LogMaterial: 0.000569 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.06.07:441][854]LogSavePackage: Save=13.243715ms
+[2015.12.27-08.06.07:441][854]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/PierBricks443E19F72494E5E12D3FBF2B01469327F.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks4.uasset'
+[2015.12.27-08.06.07:445][854]LogSavePackage: Total save time: 38.697220ms
+[2015.12.27-08.06.07:445][854]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks4.uasset
+[2015.12.27-08.06.07:451][854]MaterialEditorStats: Info Base pass shader with static lighting: 92 instructions
+[2015.12.27-08.06.07:451][854]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.12.27-08.06.07:451][854]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.06.07:451][854]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.12.27-08.06.54:203][412]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000367DA980
+[2015.12.27-08.06.54:298][412]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000388FE160
+[2015.12.27-08.06.54:354][412]LogSavePackage: Save=56.060745ms
+[2015.12.27-08.06.54:354][412]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/MaterialSizeTest_Auto10155F559438E1969B4AE3A81B261415D.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/ThirdPersonBP/Maps/MaterialSizeTest_Auto1.umap'
+[2015.12.27-08.06.54:358][412]LogSavePackage: Total save time: 90.438854ms
+[2015.12.27-08.06.54:358][412]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/ThirdPersonBP/Maps/MaterialSizeTest_Auto1.umap
+[2015.12.27-08.06.54:360][412]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MaterialSizeTest' took 0.174
+[2015.12.27-08.06.54:360][412]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.174
+[2015.12.27-08.06.54:429][412]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/ActualMaterials/VerticalSlice/PierBricks2] ([1] browsable assets)...
+[2015.12.27-08.06.54:429][412]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/ActualMaterials/VerticalSlice/PierBricks2]
+[2015.12.27-08.06.54:477][412]LogSavePackage: Save=28.688040ms
+[2015.12.27-08.06.54:477][412]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/PierBricks2_Auto178A4FA7B4AB6C310883437A54016BD59.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Materials/ActualMaterials/VerticalSlice/PierBricks2_Auto1.uasset'
+[2015.12.27-08.06.54:479][412]LogSavePackage: Total save time: 47.869131ms
+[2015.12.27-08.06.54:479][412]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Materials/ActualMaterials/VerticalSlice/PierBricks2_Auto1.uasset
+[2015.12.27-08.06.54:484][412]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksNormal] ([1] browsable assets)...
+[2015.12.27-08.06.54:495][412]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksNormal.Pier_BricksNormal]
+[2015.12.27-08.06.54:495][412]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksNormal]
+[2015.12.27-08.06.54:506][412]LogSavePackage: Save=8.470376ms
+[2015.12.27-08.06.54:506][412]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Pier_BricksNormal_Auto14EC1DF3E4319B58D783EE4A8F3A6868E.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksNormal_Auto1.uasset'
+[2015.12.27-08.06.54:507][412]LogSavePackage: Total save time: 10.584574ms
+[2015.12.27-08.06.54:507][412]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksNormal_Auto1.uasset
+[2015.12.27-08.06.54:507][412]LogFileHelpers: Auto-saving content packages took 0.146
+[2015.12.27-08.07.34:990][ 39]LogEditorFactories: Performing atomic reimport of [C:/Users/Matt/Dropbox/PengTextures/Pier_BricksSpec.png]
+[2015.12.27-08.07.34:990][ 39]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Matt/Dropbox/PengTextures/Pier_BricksSpec.png)
+[2015.12.27-08.07.35:038][ 39]LogTexture:Display: Building textures: Pier_BricksSpec (AutoDXT)
+[2015.12.27-08.07.35:053][ 39]LogEditorFactories: -- imported successfully
+[2015.12.27-08.07.40:385][647]LogMaterialEditor: Saving and Compiling material PierBricks2
+[2015.12.27-08.07.40:778][647]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-08.07.40:790][647]LogMaterial: 0.000161 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.07.40:828][647]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-08.07.40:869][647]LogMaterial: Missing cached shader map for material PierBricks2, compiling. 
+[2015.12.27-08.07.40:876][647]LogMaterial: 0.000437 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.27-08.07.43:868][647]LogSavePackage: Save=13.566838ms
+[2015.12.27-08.07.43:868][647]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/PierBricks21C99FCD648DE5EFE8E70B9AE207F996C.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks2.uasset'
+[2015.12.27-08.07.43:875][647]LogSavePackage: Total save time: 49.205322ms
+[2015.12.27-08.07.43:875][647]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/PierBricks2.uasset
+[2015.12.27-08.07.43:880][647]MaterialEditorStats: Info Base pass shader with static lighting: 103 instructions
+[2015.12.27-08.07.43:880][647]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2015.12.27-08.07.43:880][647]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.27-08.07.43:880][647]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.12.27-08.08.06:612][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2015.12.27-08.08.07:948][468]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor3)
+[2015.12.27-08.08.08:339][512]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor2)
+[2015.12.27-08.08.10:339][744]Cmd: DELETE
+[2015.12.27-08.08.10:339][744]Cmd: ACTOR DELETE
+[2015.12.27-08.08.10:340][744]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.27-08.08.10:340][744]LogEditorActor: Deleted Actor: Brush
+[2015.12.27-08.08.10:340][744]LogEditorActor: Deleted Actor: Brush
+[2015.12.27-08.08.10:340][744]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.27-08.08.10:341][744]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.27-08.08.10:341][744]LogEditorActor: Deleted Actor: Brush
+[2015.12.27-08.08.10:359][744]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035CCDBC0
+[2015.12.27-08.08.10:359][744]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033110400
+[2015.12.27-08.08.10:369][744]LogEditorActor: Deleted 6 Actors (0.030 secs)
+[2015.12.27-08.08.10:979][805]Cmd: DELETE
+[2015.12.27-08.08.10:979][805]Cmd: ACTOR DELETE
+[2015.12.27-08.08.10:980][805]LogEditorActor: Deleted Actor: Brush
+[2015.12.27-08.08.11:004][805]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2015.12.27-08.08.25:489][533]LogActorFactory: Actor Factory created Cube
+[2015.12.27-08.08.26:349][633]LogActorFactory: Actor Factory created Cube
+[2015.12.27-08.08.39:714][175]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2015.12.27-08.08.40:095][205]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2015.12.27-08.08.41:380][342]Cmd: TRANSACTION UNDO
+[2015.12.27-08.08.41:380][342]LogEditorTransaction: Undo Move Actors
+[2015.12.27-08.08.42:062][399]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2015.12.27-08.08.47:749][997]LogEditorViewport: Clicking Background
+[2015.12.27-08.08.58:641][109]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2015.12.27-08.09.16:613][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.12.27-08.09.17:119][226]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2015.12.27-08.09.17:574][277]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2015.12.27-08.09.20:144][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.12.27-08.09.20:533][575]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2015.12.27-08.09.22:363][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2015.12.27-08.09.24:985][ 99]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2015.12.27-08.09.45:733][469]LogEditorViewport: Clicking Background
+[2015.12.27-08.09.50:471][ 27]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2015.12.27-08.09.59:970][ 82]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2015.12.27-08.10.02:084][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.12.27-08.10.02:670][397]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight3)
+[2015.12.27-08.10.03:949][547]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight4)
+[2015.12.27-08.10.04:507][612]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2015.12.27-08.10.05:921][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.27-08.10.07:186][909]LogEditorViewport: Clicking Background
+[2015.12.27-08.10.11:981][471]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.27-08.10.12:285][471]LogSavePackage: Save=36.431061ms
+[2015.12.27-08.10.12:285][471]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/MaterialSizeTestA8183ED444339729BE6FAEB7C725267C.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/ThirdPersonBP/Maps/MaterialSizeTest.umap'
+[2015.12.27-08.10.12:289][471]LogSavePackage: Total save time: 70.779372ms
+[2015.12.27-08.10.12:289][471]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/ThirdPersonBP/Maps/MaterialSizeTest.umap
+[2015.12.27-08.10.12:367][471]LogFileHelpers: Saving map 'MaterialSizeTest' took 0.344
+[2015.12.27-08.10.12:413][471]LogSavePackage: Save=12.522318ms
+[2015.12.27-08.10.12:413][471]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Pier_BricksSpec2C79B1D246B0A8C52D4B87AF41B341F6.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksSpec.uasset'
+[2015.12.27-08.10.12:417][471]LogSavePackage: Total save time: 33.553749ms
+[2015.12.27-08.10.12:417][471]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksSpec.uasset
+[2015.12.27-08.10.12:452][471]LogSavePackage: Save=15.583373ms
+[2015.12.27-08.10.12:452][471]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Pier_BricksNormal83E72CFE468334756D0BEC8620F0FAEB.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksNormal.uasset'
+[2015.12.27-08.10.12:456][471]LogSavePackage: Total save time: 19.873023ms
+[2015.12.27-08.10.12:456][471]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Materials/ActualMaterials/VerticalSlice/Textures/Pier_BricksNormal.uasset
+[2015.12.27-08.10.13:196][559]MapCheck: New page: Map Check
+[2015.12.27-08.10.13:221][559]Cmd: MAP REBUILD ALLVISIBLE
+[2015.12.27-08.10.13:221][559]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.12.27-08.10.13:246][559]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.12.27-08.10.13:246][559]LogStats:          STAT_HLOD_BuildClusters - 20.183 ms
+[2015.12.27-08.10.13:246][559]LightingResults: New page: Lighting Build - Dec 26, 2015, 4:10:13 PM
+[2015.12.27-08.10.18:369][559]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.12.27-08.10.18:369][559]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.12.27-08.10.18:369][559]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.12.27-08.10.18:369][559]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.12.27-08.10.18:369][559]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.12.27-08.10.18:369][559]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.12.27-08.10.18:684][559]LogEditorBuildUtils: Build time 0:00:05
+[2015.12.27-08.10.18:720][559]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks, compiling. 
+[2015.12.27-08.10.18:768][559]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks, compiling. 
+[2015.12.27-08.10.18:823][560]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks2, compiling. 
+[2015.12.27-08.10.18:866][560]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks2, compiling. 
+[2015.12.27-08.10.18:894][561]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks3, compiling. 
+[2015.12.27-08.10.18:938][561]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks3, compiling. 
+[2015.12.27-08.10.18:960][562]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks4, compiling. 
+[2015.12.27-08.10.18:964][562]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PierBricks4, compiling. 
+[2015.12.27-08.10.21:378][639]Job is a success!
+[2015.12.27-08.10.21:607][640]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.12.27-08.10.21:639][640]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.12.27-08.10.21:690][640]Lightmass on MATT-PC: 727 ms total, 155 ms importing, 0 ms setup, 109 ms photons, 442 ms processing, 0 ms extra exporting [5/5 mappings]. Threads: 1.73 sec total, 182 ms processing.
+[2015.12.27-08.10.21:776][640]LogStaticLightingSystem: Illumination: 8.47 sec (162 ms encoding lightmaps)
+[2015.12.27-08.10.21:776][640]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2015.12.27-08.10.21:776][640]LogStaticLightingSystem: Shadowmap texture memory: 0.9 MB (0.2 MB streaming, 0.7 MB non-streaming), 3 textures
+[2015.12.27-08.10.22:381][641]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.12.27-08.10.22:381][641]MapCheck: New page: MaterialSizeTest - Dec 26, 2015, 4:10:22 PM
+[2015.12.27-08.10.22:556][641]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.612ms to complete.
+[2015.12.27-08.11.04:845][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.27-08.11.04:846][906]PIE: New page: PIE session: MaterialSizeTest (Dec 26, 2015, 4:11:04 PM)
+[2015.12.27-08.11.04:846][906]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest
+[2015.12.27-08.11.04:847][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001561s)
+[2015.12.27-08.11.04:848][906]LogAIModule: Creating AISystem for world MaterialSizeTest
+[2015.12.27-08.11.04:848][906]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2015.12.27-08.11.04:848][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MaterialSizeTest.MaterialSizeTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest (0.002479s)
+[2015.12.27-08.11.04:872][906]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.27-08.11.04:912][906]LogInit: FAudioDevice initialized.
+[2015.12.27-08.11.04:942][906]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.27-08.11.04:947][906]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest up for play (max tick rate 0) at 2015.12.27-00.11.04
+[2015.12.27-08.11.04:947][906]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.27-08.11.04:947][906]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.27-08.11.04:948][906]LogWorld: Bringing up level for play took: 0.004376
+[2015.12.27-08.11.04:952][906]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest 0.857
+[2015.12.27-08.11.07:328][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000359E3560
+[2015.12.27-08.11.11:239][636]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.12.27-08.11.12:786][813]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.12.27-08.11.13:880][943]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.12.27-08.11.14:805][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.27-08.11.14:805][ 46]PIE: New page: PIE session: MaterialSizeTest (Dec 26, 2015, 4:11:14 PM)
+[2015.12.27-08.11.14:805][ 46]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest
+[2015.12.27-08.11.14:806][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001549s)
+[2015.12.27-08.11.14:807][ 46]LogAIModule: Creating AISystem for world MaterialSizeTest
+[2015.12.27-08.11.14:807][ 46]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2015.12.27-08.11.14:807][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MaterialSizeTest.MaterialSizeTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest (0.002340s)
+[2015.12.27-08.11.14:831][ 46]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.27-08.11.14:896][ 46]LogInit: FAudioDevice initialized.
+[2015.12.27-08.11.14:927][ 46]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.27-08.11.14:932][ 46]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest up for play (max tick rate 0) at 2015.12.27-00.11.14
+[2015.12.27-08.11.14:932][ 46]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.27-08.11.14:932][ 46]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.27-08.11.14:932][ 46]LogWorld: Bringing up level for play took: 0.004535
+[2015.12.27-08.11.14:933][ 46]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.27-08.11.14:963][ 46]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest 0.867
+[2015.12.27-08.11.38:165][819]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035C64220
+[2015.12.27-08.11.42:586][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.27-08.11.42:586][905]PIE: New page: PIE session: MaterialSizeTest (Dec 26, 2015, 4:11:42 PM)
+[2015.12.27-08.11.42:586][905]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest
+[2015.12.27-08.11.42:588][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001481s)
+[2015.12.27-08.11.42:588][905]LogAIModule: Creating AISystem for world MaterialSizeTest
+[2015.12.27-08.11.42:588][905]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2015.12.27-08.11.42:588][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MaterialSizeTest.MaterialSizeTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest (0.002242s)
+[2015.12.27-08.11.42:611][905]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.27-08.11.42:650][905]LogInit: FAudioDevice initialized.
+[2015.12.27-08.11.42:684][905]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.27-08.11.42:689][905]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest up for play (max tick rate 0) at 2015.12.27-00.11.42
+[2015.12.27-08.11.42:689][905]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.27-08.11.42:689][905]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.27-08.11.42:689][905]LogWorld: Bringing up level for play took: 0.004223
+[2015.12.27-08.11.42:690][905]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.27-08.11.42:693][905]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest 0.598
+[2015.12.27-08.12.20:254][807]LogSelection:Warning: PIE object was selected: "PostProcessVolume /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest:PersistentLevel.PostProcessVolume_1"
+[2015.12.27-08.12.23:189][109]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.27-08.12.23:220][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003809D940
+[2015.12.27-08.13.18:020][611]LogEditorViewport: Clicking Background
+[2015.12.27-08.13.28:353][837]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2015.12.27-08.13.29:471][956]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2015.12.27-08.13.30:159][ 35]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight2)
+[2015.12.27-08.13.30:818][111]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight3)
+[2015.12.27-08.13.31:698][213]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight4)
+[2015.12.27-08.13.44:040][632]LogEditorViewport: Clicking Background
+[2015.12.27-08.13.44:462][680]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight4)
+[2015.12.27-08.13.46:355][900]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2015.12.27-08.13.48:632][166]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2015.12.27-08.13.53:474][724]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2015.12.27-08.13.57:548][189]LogEditorViewport: Clicking Background
+[2015.12.27-08.14.04:777][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2015.12.27-08.14.05:324][ 70]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight4)
+[2015.12.27-08.14.07:661][346]LogEditorViewport: Clicking Background
+[2015.12.27-08.14.15:144][204]MapCheck: New page: Map Check
+[2015.12.27-08.14.15:161][204]Cmd: MAP REBUILD ALLVISIBLE
+[2015.12.27-08.14.15:161][204]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.12.27-08.14.15:186][204]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.12.27-08.14.15:186][204]LogStats:          STAT_HLOD_BuildClusters - 19.309 ms
+[2015.12.27-08.14.15:186][204]LightingResults: New page: Lighting Build - Dec 26, 2015, 4:14:15 PM
+[2015.12.27-08.14.20:310][204]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.12.27-08.14.20:310][204]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.12.27-08.14.20:310][204]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.12.27-08.14.20:310][204]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.12.27-08.14.20:310][204]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.12.27-08.14.20:310][204]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.12.27-08.14.20:451][204]LogEditorBuildUtils: Build time 0:00:05
+[2015.12.27-08.14.21:891][294]Job is a success!
+[2015.12.27-08.14.22:062][295]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.12.27-08.14.22:094][295]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.12.27-08.14.22:143][295]Lightmass on MATT-PC: 756 ms total, 150 ms importing, 0 ms setup, 109 ms photons, 478 ms processing, 0 ms extra exporting [5/5 mappings]. Threads: 1.87 sec total, 173 ms processing.
+[2015.12.27-08.14.22:199][295]LogStaticLightingSystem: Illumination: 6.98 sec (159 ms encoding lightmaps)
+[2015.12.27-08.14.22:199][295]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2015.12.27-08.14.22:199][295]LogStaticLightingSystem: Shadowmap texture memory: 0.9 MB (0.2 MB streaming, 0.7 MB non-streaming), 3 textures
+[2015.12.27-08.14.22:321][296]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.12.27-08.14.22:321][296]MapCheck: New page: MaterialSizeTest - Dec 26, 2015, 4:14:22 PM
+[2015.12.27-08.14.22:529][296]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 208.368ms to complete.
+[2015.12.27-08.14.23:483][405]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.27-08.14.23:484][405]PIE: New page: PIE session: MaterialSizeTest (Dec 26, 2015, 4:14:23 PM)
+[2015.12.27-08.14.23:484][405]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest
+[2015.12.27-08.14.23:486][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002100s)
+[2015.12.27-08.14.23:486][405]LogAIModule: Creating AISystem for world MaterialSizeTest
+[2015.12.27-08.14.23:487][405]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2015.12.27-08.14.23:487][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MaterialSizeTest.MaterialSizeTest to /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest (0.003014s)
+[2015.12.27-08.14.23:509][405]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.27-08.14.23:548][405]LogInit: FAudioDevice initialized.
+[2015.12.27-08.14.23:580][405]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.27-08.14.23:588][405]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest up for play (max tick rate 0) at 2015.12.27-00.14.23
+[2015.12.27-08.14.23:588][405]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.27-08.14.23:589][405]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest.MaterialSizeTest:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.27-08.14.23:589][405]LogWorld: Bringing up level for play took: 0.007981
+[2015.12.27-08.14.23:590][405]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.27-08.14.23:595][405]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MaterialSizeTest -0.504
+[2015.12.27-08.15.41:610][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035E51440
+[2015.12.27-08.15.44:567][701]LogSavePackage: Save=27.387274ms
+[2015.12.27-08.15.44:567][701]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/MaterialSizeTest2DF8185D4F0F4F5593459DBFCBA50B51.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/ThirdPersonBP/Maps/MaterialSizeTest.umap'
+[2015.12.27-08.15.44:571][701]LogSavePackage: Total save time: 63.624326ms
+[2015.12.27-08.15.44:571][701]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/ThirdPersonBP/Maps/MaterialSizeTest.umap
+[2015.12.27-08.15.44:647][701]LogFileHelpers: Saving map 'MaterialSizeTest' took 0.433
+[2015.12.27-08.15.48:257][ 62]Cmd: QUIT_EDITOR
+[2015.12.27-08.15.49:668][ 62]LogExit: Preparing to exit.
+[2015.12.27-08.15.50:641][ 62]LogExit: Editor shut down
+[2015.12.27-08.15.50:641][ 62]LogExit: Transaction tracking system shut down
+[2015.12.27-08.15.50:642][ 62]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002789D8A0
+[2015.12.27-08.15.50:642][ 62]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027792160
+[2015.12.27-08.15.50:642][ 62]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028C563E0
+[2015.12.27-08.15.50:665][ 62]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000393974C0
+[2015.12.27-08.15.50:666][ 62]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000036E43880
+[2015.12.27-08.15.52:144][ 62]LogExit: Object subsystem successfully closed.
+[2015.12.27-08.15.52:344][ 62]LogD3D11RHI: Shutdown
+[2015.12.27-08.15.52:364][ 62]LogD3D11RHI: CleanupD3DDevice
+[2015.12.27-08.15.52:475][ 62]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.27-08.15.53:259][ 62]LogModuleManager: Shutting down and abandoning module NewLevelDialog (202)
+[2015.12.27-08.15.53:259][ 62]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2015.12.27-08.15.53:259][ 62]LogModuleManager: Shutting down and abandoning module MaterialEditor (200)
+[2015.12.27-08.15.53:259][ 62]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2015.12.27-08.15.53:259][ 62]LogModuleManager: Shutting down and abandoning module WorldBrowser (198)
+[2015.12.27-08.15.53:269][ 62]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.12.27-08.15.53:269][ 62]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.12.27-08.15.53:269][ 62]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.12.27-08.15.53:298][ 62]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.12.27-08.15.53:312][ 62]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.12.27-08.15.53:312][ 62]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.12.27-08.15.53:345][ 62]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.12.27-08.15.53:423][ 62]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.12.27-08.15.53:424][ 62]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.12.27-08.15.53:442][ 62]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.12.27-08.15.53:442][ 62]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.12.27-08.15.53:442][ 62]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.12.27-08.15.53:442][ 62]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.12.27-08.15.53:442][ 62]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.12.27-08.15.53:442][ 62]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.12.27-08.15.53:442][ 62]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.12.27-08.15.53:442][ 62]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.12.27-08.15.53:442][ 62]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.12.27-08.15.53:442][ 62]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.12.27-08.15.53:513][ 62]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.12.27-08.15.53:565][ 62]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.12.27-08.15.53:582][ 62]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.12.27-08.15.53:582][ 62]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.12.27-08.15.53:592][ 62]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.12.27-08.15.53:592][ 62]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.12.27-08.15.54:259][ 62]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.12.27-08.15.54:259][ 62]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.12.27-08.15.54:259][ 62]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.12.27-08.15.54:259][ 62]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.12.27-08.15.54:266][ 62]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.12.27-08.15.54:266][ 62]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.12.27-08.15.54:282][ 62]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.12.27-08.15.54:282][ 62]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.12.27-08.15.54:282][ 62]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.12.27-08.15.54:321][ 62]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.12.27-08.15.54:335][ 62]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.12.27-08.15.54:350][ 62]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.12.27-08.15.54:350][ 62]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.12.27-08.15.54:350][ 62]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.12.27-08.15.54:350][ 62]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.12.27-08.15.54:351][ 62]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.12.27-08.15.54:351][ 62]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.12.27-08.15.54:360][ 62]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.12.27-08.15.54:360][ 62]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.12.27-08.15.54:378][ 62]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.12.27-08.15.54:378][ 62]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.12.27-08.15.54:384][ 62]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.12.27-08.15.54:394][ 62]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.12.27-08.15.54:404][ 62]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.12.27-08.15.54:429][ 62]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.12.27-08.15.54:429][ 62]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.12.27-08.15.54:442][ 62]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.12.27-08.15.54:455][ 62]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.12.27-08.15.54:479][ 62]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.12.27-08.15.54:536][ 62]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.12.27-08.15.54:536][ 62]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.12.27-08.15.54:536][ 62]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.12.27-08.15.54:536][ 62]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.12.27-08.15.54:684][ 62]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.12.27-08.15.54:722][ 62]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.12.27-08.15.54:722][ 62]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.12.27-08.15.54:731][ 62]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.12.27-08.15.54:731][ 62]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.12.27-08.15.54:748][ 62]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.12.27-08.15.54:758][ 62]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.12.27-08.15.54:758][ 62]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.12.27-08.15.54:759][ 62]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.12.27-08.15.54:759][ 62]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.12.27-08.15.54:771][ 62]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.12.27-08.15.54:771][ 62]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.12.27-08.15.54:771][ 62]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.12.27-08.15.54:771][ 62]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.12.27-08.15.54:797][ 62]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.12.27-08.15.54:809][ 62]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.12.27-08.15.54:809][ 62]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.12.27-08.15.54:981][ 62]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.12.27-08.15.55:004][ 62]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.27-08.15.55:004][ 62]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.27-08.15.55:004][ 62]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.27-08.15.55:004][ 62]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.27-08.15.55:004][ 62]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.12.27-08.15.55:004][ 62]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.12.27-08.15.55:004][ 62]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.27-08.15.55:051][ 62]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.27-08.15.55:051][ 62]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.27-08.15.55:055][ 62]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.27-08.15.55:055][ 62]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.27-08.15.55:098][ 62]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.27-08.15.55:125][ 62]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.27-08.15.55:125][ 62]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.27-08.15.55:125][ 62]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.27-08.15.55:158][ 62]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.27-08.15.55:165][ 62]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.27-08.15.55:190][ 62]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.27-08.15.55:190][ 62]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.27-08.15.55:190][ 62]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.27-08.15.55:212][ 62]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.27-08.15.55:245][ 62]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.27-08.15.55:276][ 62]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.27-08.15.55:284][ 62]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.27-08.15.55:284][ 62]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.27-08.15.55:284][ 62]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.27-08.15.55:284][ 62]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.27-08.15.55:284][ 62]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.27-08.15.55:297][ 62]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.27-08.15.55:309][ 62]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.27-08.15.55:309][ 62]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.27-08.15.55:349][ 62]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.12.27-08.15.55:350][ 62]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.12.27-08.15.55:483][ 62]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.12.27-08.15.55:483][ 62]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.12.27-08.15.55:517][ 62]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.12.27-08.15.55:617][ 62]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.12.27-08.15.55:617][ 62]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.12.27-08.15.55:653][ 62]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.12.27-08.15.55:660][ 62]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.12.27-08.15.55:660][ 62]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.12.27-08.15.55:696][ 62]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.12.27-08.15.55:696][ 62]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.12.27-08.15.55:696][ 62]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.12.27-08.15.55:696][ 62]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.12.27-08.15.55:732][ 62]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.12.27-08.15.55:732][ 62]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.12.27-08.15.55:741][ 62]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.12.27-08.15.55:741][ 62]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.12.27-08.15.55:741][ 62]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.12.27-08.15.55:797][ 62]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.12.27-08.15.55:824][ 62]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.12.27-08.15.55:857][ 62]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.12.27-08.15.55:857][ 62]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.12.27-08.15.55:857][ 62]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.12.27-08.15.55:864][ 62]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.12.27-08.15.55:864][ 62]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.12.27-08.15.55:864][ 62]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.12.27-08.15.55:864][ 62]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.12.27-08.15.55:864][ 62]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.12.27-08.15.55:864][ 62]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.12.27-08.15.55:864][ 62]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.12.27-08.15.55:864][ 62]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.12.27-08.15.55:864][ 62]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.12.27-08.15.55:906][ 62]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.12.27-08.15.55:940][ 62]LogDerivedDataCache: Shutdown
+[2015.12.27-08.15.55:940][ 62]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.12.27-08.15.55:944][ 62]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.12.27-08.15.55:944][ 62]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.12.27-08.15.55:951][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.12.27-08.15.55:951][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.12.27-08.15.55:951][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.12.27-08.15.55:951][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.12.27-08.15.55:951][ 62]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.12.27-08.15.55:951][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.12.27-08.15.55:951][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.12.27-08.15.55:951][ 62]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.12.27-08.15.55:964][ 62]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.12.27-08.15.55:965][ 62]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.12.27-08.15.55:965][ 62]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.12.27-08.15.56:965][ 62]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.12.27-08.15.56:999][ 62]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.12.27-08.15.57:012][ 62]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.27-08.15.57:013][ 62]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.27-08.15.57:013][ 62]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.27-08.15.57:013][ 62]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.27-08.15.57:013][ 62]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.27-08.15.57:023][ 62]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.27-08.15.57:033][ 62]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.27-08.15.57:033][ 62]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.27-08.15.57:045][ 62]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.27-08.15.57:046][ 62]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.27-08.15.57:046][ 62]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.27-08.15.57:046][ 62]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.27-08.15.57:051][ 62]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.27-08.15.57:051][ 62]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.27-08.15.57:055][ 62]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.27-08.15.57:068][ 62]LogExit: Exiting.
+[2015.12.27-08.15.57:116][ 62]Log file closed, 12/27/15 00:15:57

@@ -1,0 +1,526 @@
+﻿[2015.12.25-23.42.15:972][  0]Log file open, 12/25/15 15:42:15
+[2015.12.25-23.42.15:972][  0]LogInit:Display: Running engine for game: MyProject19
+[2015.12.25-23.42.15:972][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.25-23.42.15:972][  0]LogInit:Display: RandInit(340909552) SRandInit(340909555).
+[2015.12.25-23.42.15:972][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.25-23.42.15:972][  0]LogStats: Stats thread started at 0.089632
+[2015.12.25-23.42.15:972][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.25-23.42.15:972][  0]LogInit: API Version: 2758231
+[2015.12.25-23.42.15:972][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2015.12.25-23.42.15:972][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.25-23.42.15:972][  0]LogInit: Build Configuration: Development
+[2015.12.25-23.42.15:972][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.25-23.42.15:972][  0]LogInit: Command line:  
+[2015.12.25-23.42.15:972][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.25-23.42.15:972][  0]LogInit: Rocket: 1
+[2015.12.25-23.42.16:017][  0]LogInit: Using libcurl 7.41.0
+[2015.12.25-23.42.16:017][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.25-23.42.16:017][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.25-23.42.16:017][  0]LogInit:  - other features:
+[2015.12.25-23.42.16:017][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.25-23.42.16:017][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.25-23.42.16:017][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.25-23.42.16:017][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.25-23.42.16:017][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.25-23.42.16:017][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.25-23.42.16:017][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.25-23.42.16:017][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.25-23.42.16:017][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.25-23.42.16:017][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.25-23.42.16:024][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.25-23.42.16:031][  0]LogInit: Object subsystem initialized
+[2015.12.25-23.42.16:032][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.25-23.42.16:032][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.25-23.42.16:041][  0]LogInit: Computer: MATT-PC
+[2015.12.25-23.42.16:041][  0]LogInit: User: Matt
+[2015.12.25-23.42.16:041][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.25-23.42.16:041][  0]LogInit: High frequency timer resolution =3.020527 MHz
+[2015.12.25-23.42.16:041][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.12.25-23.42.16:041][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.25-23.42.16:041][  0]LogMemory: Process Physical Memory: 60.32 MB used, 60.32 MB peak
+[2015.12.25-23.42.16:041][  0]LogMemory: Process Virtual Memory: 60.62 MB used, 60.62 MB peak
+[2015.12.25-23.42.16:041][  0]LogMemory: Physical Memory: 4002.51 MB used, 8109.12 MB total
+[2015.12.25-23.42.16:041][  0]LogMemory: Virtual Memory: 354.29 MB used, 8388608.00 MB total
+[2015.12.25-23.42.16:111][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.25-23.42.16:509][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2015.12.25-23.42.16:509][  0]LogD3D11RHI: Adapter has 2029MB of dedicated video memory, 0MB of dedicated system memory, and 3798MB of shared system memory, 1 output[s]
+[2015.12.25-23.42.16:518][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics (Feature Level 11_0)
+[2015.12.25-23.42.16:518][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2015.12.25-23.42.16:518][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.25-23.42.16:527][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.25-23.42.16:527][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.25-23.42.16:532][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.12.25-23.42.16:541][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Intermediate/Shaders/WorkingDirectory/6388/).
+[2015.12.25-23.42.16:541][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matt/AppData/Local/Temp/UnrealShaderWorkingDir/DB23F9404D93FA59157BAA9BFB921B21/'.
+[2015.12.25-23.42.16:541][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.25-23.42.18:973][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.25-23.42.18:978][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.25-23.42.18:984][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.25-23.42.19:033][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.25-23.42.19:039][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.25-23.42.19:043][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.25-23.42.19:047][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.25-23.42.19:051][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.25-23.42.19:054][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.25-23.42.19:058][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.25-23.42.19:062][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.25-23.42.19:070][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.25-23.42.19:070][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.25-23.42.19:071][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.25-23.42.19:089][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.25-23.42.19:092][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.25-23.42.19:096][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.25-23.42.19:100][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.25-23.42.19:100][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.25-23.42.19:249][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.25-23.42.20:031][  0]LogDerivedDataCache: Loaded boot cache 0.78s 41MB C:/Users/Matt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.25-23.42.20:031][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.25-23.42.20:031][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.25-23.42.20:031][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.25-23.42.20:031][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.25-23.42.20:031][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.25-23.42.20:138][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.25-23.42.20:150][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.25-23.42.21:396][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.25-23.42.21:397][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.25-23.42.21:445][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.25-23.42.21:445][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.25-23.42.21:848][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.25-23.42.31:122][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.25-23.42.31:332][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.12.25-23.42.31:695][  0]SourceControl: Info Source control is disabled
+[2015.12.25-23.42.31:697][  0]SourceControl: Info Source control is disabled
+[2015.12.25-23.42.31:757][  0]SourceControl: Info Source control is disabled
+[2015.12.25-23.42.31:775][  0]SourceControl: Info Source control is disabled
+[2015.12.25-23.42.32:549][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.25-23.42.32:549][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2015.12.25-23.42.32:657][  0]LogEngine: Initializing Engine...
+[2015.12.25-23.42.32:666][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.25-23.42.32:707][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.25-23.42.32:848][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.25-23.42.32:857][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.25-23.42.32:909][  0]LogInit: FAudioDevice initialized.
+[2015.12.25-23.42.33:117][  0]LogDerivedDataCache: Saved boot cache 0.21s 41MB C:/Users/Matt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.25-23.42.33:120][  0]LogInit: Texture streaming: Enabled
+[2015.12.25-23.42.33:126][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.25-23.42.33:126][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.25-23.42.33:126][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId de43219841e5038bf49fbfa481591ee0|4e461f00ab6f49d29405414d884919d6|9448dfb4-8168-4a85-8046-6b7a073564d8
+[2015.12.25-23.42.33:126][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.25-23.42.33:494][  0]LogInit: Transaction tracking system initialized
+[2015.12.25-23.42.33:525][  0]BlueprintLog: New page: Editor Load
+[2015.12.25-23.42.33:857][  0]LocalizationService: Info Localization service is disabled
+[2015.12.25-23.42.34:416][  0]LogConsoleResponse:Display: 
+[2015.12.25-23.42.35:118][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.25-23.42.35:190][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/' took 0.01s
+[2015.12.25-23.42.35:190][  0]SourceControl: Info Source control is disabled
+[2015.12.25-23.42.35:190][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Maps/Basement_Blockout.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.25-23.42.35:190][  0]LightingResults: New page: Lighting Build
+[2015.12.25-23.42.35:194][  0]MapCheck: New page: Map Check
+[2015.12.25-23.42.35:194][  0]LightingResults: New page: Lighting Build
+[2015.12.25-23.42.35:205][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C926160
+[2015.12.25-23.42.35:371][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning 'Item' is already a 'Temporary Platform', you don't need  Cast To TemporaryPlatform .
+[2015.12.25-23.42.35:377][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning [0020.20] Compile of NewSwitch successful, but with 1 Warning(s) [in 11 ms]
+[2015.12.25-23.42.35:377][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning [0020.20] Compile of NewSwitch successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.25-23.42.35:377][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning [0020.20] Compile of NewSwitch successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.25-23.42.35:386][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning 'Item' is already a 'Temporary Platform', you don't need  Cast To TemporaryPlatform .
+[2015.12.25-23.42.35:388][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning [0020.21] Compile of NewSwitch successful, but with 1 Warning(s) [in 8 ms]
+[2015.12.25-23.42.35:388][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning [0020.21] Compile of NewSwitch successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.25-23.42.35:388][  0]LogBlueprint:Warning: [compiler NewSwitch] Warning [0020.21] Compile of NewSwitch successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.25-23.42.35:947][  0]LogAIModule: Creating AISystem for world Basement_Blockout
+[2015.12.25-23.42.35:954][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.25-23.42.35:955][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.25-23.42.36:027][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.951ms to complete.
+[2015.12.25-23.42.36:027][  0]LogFileHelpers: Loading map 'Basement_Blockout' took 0.837
+[2015.12.25-23.42.36:190][  0]LogCollectionManager: Loaded 0 collections in 0.002676 seconds
+[2015.12.25-23.42.36:232][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Collections/' took 0.01s
+[2015.12.25-23.42.36:232][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Developers/Matt/Collections/' took 0.01s
+[2015.12.25-23.42.36:232][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Collections/' took 0.01s
+[2015.12.25-23.42.36:232][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.12.25-23.42.36:240][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 1893 classes and 338 folders.
+[2015.12.25-23.42.36:248][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.12.25-23.42.41:175][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.12.25-23.42.41:179][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.12.25-23.42.41:223][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 1 classes and 3 folders.
+[2015.12.25-23.42.41:230][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.25-23.42.41:248][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.25-23.42.41:268][  0]LogLoad: Full Startup: 26.09 seconds (BP compile: 0.13 seconds)
+[2015.12.25-23.42.41:702][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.25-23.42.41:770][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.25-23.42.42:034][  0]LogRenderer: Reallocating scene render targets to support 892x516 (Frame:2).
+[2015.12.25-23.42.42:990][  4]LogAssetRegistry: Asset discovery search completed in 11.6679 seconds
+[2015.12.25-23.42.42:990][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.12.25-23.42.42:990][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2015.12.25-23.42.46:426][379]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.25-23.42.46:427][379]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.25-23.42.46:429][379]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.25-23.42.46:430][379]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.25-23.42.46:431][379]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.25-23.42.46:432][379]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.25-23.42.46:433][379]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.25-23.42.46:434][379]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.25-23.42.47:245][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.25-23.42.47:248][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2015.12.25-23.42.47:249][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.25-23.42.47:262][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.25-23.42.47:283][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0032.10] Compile of ThirdPersonCharacter successful, but with 4 Warning(s) [in 113 ms]
+[2015.12.25-23.42.47:283][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0032.10] Compile of ThirdPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.25-23.42.47:283][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0032.10] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 0 ms]
+[2015.12.25-23.42.47:349][379]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.25-23.42.47:350][379]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.25-23.42.47:354][379]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0032.17] Compile of AbilityMenu successful, but with 2 Warning(s) [in 31 ms]
+[2015.12.25-23.42.47:356][379]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0032.18] Compile of AbilityMenu successful, but with 3 Warning(s) [in 1 ms]
+[2015.12.25-23.42.47:356][379]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0032.18] Compile of AbilityMenu successful, but with 4 Warning(s) [in 0 ms]
+[2015.12.25-23.42.47:397][379]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2015.12.25-23.42.47:398][379]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0032.22] Compile of FreeMovementLocator successful, but with 1 Warning(s) [in 3 ms]
+[2015.12.25-23.42.47:398][379]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0032.22] Compile of FreeMovementLocator successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.25-23.42.47:398][379]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0032.22] Compile of FreeMovementLocator successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.25-23.42.47:918][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.25-23.42.47:936][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.25-23.42.47:937][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2015.12.25-23.42.47:946][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.25-23.42.48:028][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0032.85] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 198 ms]
+[2015.12.25-23.42.48:029][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0032.85] Compile of ThirdPersonCharacter2D successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.25-23.42.48:029][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0032.85] Compile of ThirdPersonCharacter2D successful, but with 6 Warning(s) [in 0 ms]
+[2015.12.25-23.42.48:033][379]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2015.12.25-23.42.48:035][379]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0032.85] Compile of FreeMovementLocator successful, but with 1 Warning(s) [in 3 ms]
+[2015.12.25-23.42.48:035][379]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0032.85] Compile of FreeMovementLocator successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.25-23.42.48:039][379]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0032.86] Compile of FreeMovementLocator successful, but with 3 Warning(s) [in 3 ms]
+[2015.12.25-23.42.48:122][379]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.25-23.42.48:122][379]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.25-23.42.48:126][379]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0032.95] Compile of AbilityMenu successful, but with 2 Warning(s) [in 30 ms]
+[2015.12.25-23.42.48:126][379]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0032.95] Compile of AbilityMenu successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.25-23.42.48:132][379]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0032.95] Compile of AbilityMenu successful, but with 4 Warning(s) [in 6 ms]
+[2015.12.25-23.42.48:264][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.25-23.42.48:266][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2015.12.25-23.42.48:268][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.25-23.42.48:278][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.25-23.42.48:295][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0033.11] Compile of ThirdPersonCharacter successful, but with 4 Warning(s) [in 110 ms]
+[2015.12.25-23.42.48:295][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0033.11] Compile of ThirdPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.25-23.42.48:295][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0033.11] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 0 ms]
+[2015.12.25-23.42.48:409][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.25-23.42.48:426][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.25-23.42.48:426][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2015.12.25-23.42.48:435][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.25-23.42.48:503][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0033.32] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 171 ms]
+[2015.12.25-23.42.48:504][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0033.32] Compile of ThirdPersonCharacter2D successful, but with 5 Warning(s) [in 0 ms]
+[2015.12.25-23.42.48:504][379]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0033.32] Compile of ThirdPersonCharacter2D successful, but with 6 Warning(s) [in 0 ms]
+[2015.12.25-23.42.54:446][961]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.12.25-23.42.54:518][961]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.25-23.42.54:959][961]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 107 classes and 0 folders.
+[2015.12.25-23.43.42:022][961]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2015.12.25-23.43.42:445][961]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.25-23.43.42:460][961]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.25-23.43.42:461][961]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2015.12.25-23.43.42:470][961]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.25-23.43.42:566][961]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2015.12.25-23.43.42:622][961]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.25-23.43.42:622][961]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.25-23.43.42:743][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.25-23.43.42:872][961]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0087.69] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 850 ms]
+[2015.12.25-23.43.42:872][961]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.25-23.43.42:872][961]BlueprintEditorCompileResults:Warning: Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.25-23.43.42:872][961]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2015.12.25-23.43.42:872][961]BlueprintEditorCompileResults:Warning: Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.25-23.43.42:872][961]BlueprintEditorCompileResults:Warning: Warning [0087.69] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 850 ms]
+[2015.12.25-23.43.51:533][971]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2015.12.25-23.43.51:943][971]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.25-23.43.51:958][971]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.25-23.43.51:959][971]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2015.12.25-23.43.51:967][971]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.25-23.43.52:075][971]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.25-23.43.52:075][971]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.25-23.43.52:120][971]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2015.12.25-23.43.52:266][971]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0097.08] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 732 ms]
+[2015.12.25-23.43.52:266][971]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.25-23.43.52:266][971]BlueprintEditorCompileResults:Warning: Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.25-23.43.52:266][971]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2015.12.25-23.43.52:266][971]BlueprintEditorCompileResults:Warning: Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.25-23.43.52:266][971]BlueprintEditorCompileResults:Warning: Warning [0097.08] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 732 ms]
+[2015.12.25-23.43.53:691][127]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Basement_Blockout.Basement_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Basement_Blockout.Basement_Blockout:PersistentLevel.Basement_Blockout' with GeneratedClass '/Game/Maps/Basement_Blockout.Basement_Blockout_C' with ClassGeneratedBy '/Game/Maps/Basement_Blockout.Basement_Blockout:PersistentLevel.Basement_Blockout'
+[2015.12.25-23.43.53:691][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.25-23.43.53:692][127]PIE: New page: PIE session: Basement_Blockout (Dec 25, 2015, 7:43:53 AM)
+[2015.12.25-23.43.53:692][127]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Basement_Blockout
+[2015.12.25-23.43.53:700][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008083s)
+[2015.12.25-23.43.53:700][127]LogAIModule: Creating AISystem for world Basement_Blockout
+[2015.12.25-23.43.53:701][127]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2015.12.25-23.43.53:701][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Basement_Blockout.Basement_Blockout to /Game/Maps/UEDPIE_0_Basement_Blockout.Basement_Blockout (0.008910s)
+[2015.12.25-23.43.53:736][127]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.25-23.43.53:774][127]LogInit: FAudioDevice initialized.
+[2015.12.25-23.43.53:817][127]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2015.12.25-23.43.53:823][127]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Basement_Blockout.Basement_Blockout up for play (max tick rate 0) at 2015.12.25-15.43.53
+[2015.12.25-23.43.53:823][127]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Basement_Blockout.Basement_Blockout:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.25-23.43.53:823][127]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Basement_Blockout.Basement_Blockout:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.25-23.43.53:824][127]LogWorld: Bringing up level for play took: 0.005729
+[2015.12.25-23.43.53:828][127]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Basement_Blockout 1.08
+[2015.12.25-23.43.53:829][127]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Basement_Blockout.Basement_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Basement_Blockout.Basement_Blockout:PersistentLevel.Basement_Blockout' with GeneratedClass '/Game/Maps/Basement_Blockout.Basement_Blockout_C' with ClassGeneratedBy '/Game/Maps/Basement_Blockout.Basement_Blockout:PersistentLevel.Basement_Blockout'
+[2015.12.25-23.43.58:430][677]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_30] ZaWarudo
+[2015.12.25-23.43.58:430][677]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_30] NewSwitch
+[2015.12.25-23.43.58:430][677]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_30] 0
+[2015.12.25-23.43.58:431][677]LogScript:Warning: Accessed None 'CallFunc_SlotAsCanvasSlot_ReturnValue'
+	ThirdPersonCharacter2D_C /Game/Maps/UEDPIE_0_Basement_Blockout.Basement_Blockout:PersistentLevel.ThirdPersonCharacter2D_C_30
+	Function /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D_C:MovePointer2:0125
+[2015.12.25-23.43.58:431][677]PIE:Error: Error Accessed None 'CallFunc_SlotAsCanvasSlot_ReturnValue' from node Move Me Too in graph 'MovePointer2' in blueprint ThirdPersonCharacter2D
+[2015.12.25-23.43.59:130][761]LogScript:Warning: Accessed None 'CallFunc_SlotAsCanvasSlot_ReturnValue'
+	ThirdPersonCharacter2D_C /Game/Maps/UEDPIE_0_Basement_Blockout.Basement_Blockout:PersistentLevel.ThirdPersonCharacter2D_C_30
+	Function /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D_C:MovePointer2:0125
+[2015.12.25-23.43.59:131][761]PIE:Error: Error Accessed None 'CallFunc_SlotAsCanvasSlot_ReturnValue' from node Move Me Too in graph 'MovePointer2' in blueprint ThirdPersonCharacter2D
+[2015.12.25-23.43.59:531][809]LogScript:Warning: Accessed None 'CallFunc_SlotAsCanvasSlot_ReturnValue'
+	ThirdPersonCharacter2D_C /Game/Maps/UEDPIE_0_Basement_Blockout.Basement_Blockout:PersistentLevel.ThirdPersonCharacter2D_C_30
+	Function /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D_C:MovePointer2:0125
+[2015.12.25-23.43.59:531][809]PIE:Error: Error Accessed None 'CallFunc_SlotAsCanvasSlot_ReturnValue' from node Move Me Too in graph 'MovePointer2' in blueprint ThirdPersonCharacter2D
+[2015.12.25-23.44.00:005][866]LogScript:Warning: UGameplayStatics::SpawnEmitterAttached: NULL AttachComponent specified!
+[2015.12.25-23.44.02:439][158]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_30] ZaWarudo
+[2015.12.25-23.44.02:439][158]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_30] Hello
+[2015.12.25-23.44.02:439][158]LogScript:Warning: Accessed None 'CallFunc_SlotAsCanvasSlot_ReturnValue'
+	ThirdPersonCharacter2D_C /Game/Maps/UEDPIE_0_Basement_Blockout.Basement_Blockout:PersistentLevel.ThirdPersonCharacter2D_C_30
+	Function /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D_C:MovePointer2:0125
+[2015.12.25-23.44.02:440][158]PIE:Error: Error Accessed None 'CallFunc_SlotAsCanvasSlot_ReturnValue' from node Move Me Too in graph 'MovePointer2' in blueprint ThirdPersonCharacter2D
+[2015.12.25-23.44.03:791][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Basement_Blockout.Basement_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Basement_Blockout.Basement_Blockout:PersistentLevel.Basement_Blockout' with GeneratedClass '/Game/Maps/Basement_Blockout.Basement_Blockout_C' with ClassGeneratedBy '/Game/Maps/Basement_Blockout.Basement_Blockout:PersistentLevel.Basement_Blockout'
+[2015.12.25-23.44.03:828][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Basement_Blockout.Basement_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Basement_Blockout.Basement_Blockout:PersistentLevel.Basement_Blockout' with GeneratedClass '/Game/Maps/Basement_Blockout.Basement_Blockout_C' with ClassGeneratedBy '/Game/Maps/Basement_Blockout.Basement_Blockout:PersistentLevel.Basement_Blockout'
+[2015.12.25-23.44.03:867][320]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030478680
+[2015.12.25-23.44.13:441][429]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2015.12.25-23.44.13:859][429]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.25-23.44.13:875][429]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.25-23.44.13:875][429]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2015.12.25-23.44.13:884][429]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.25-23.44.13:996][429]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.25-23.44.13:997][429]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2015.12.25-23.44.14:040][429]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2015.12.25-23.44.14:187][429]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0119.00] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 744 ms]
+[2015.12.25-23.44.14:187][429]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2015.12.25-23.44.14:187][429]BlueprintEditorCompileResults:Warning: Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2015.12.25-23.44.14:187][429]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2015.12.25-23.44.14:187][429]BlueprintEditorCompileResults:Warning: Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2015.12.25-23.44.14:187][429]BlueprintEditorCompileResults:Warning: Warning [0119.00] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 744 ms]
+[2015.12.25-23.44.27:266][705]LogSavePackage: Save=1774.153320ms
+[2015.12.25-23.44.27:266][705]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/ThirdPersonCharacter2DD649467F4E9429763AB6749FC52F1A8F.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.uasset'
+[2015.12.25-23.44.27:272][705]LogSavePackage: Total save time: 1840.785399ms
+[2015.12.25-23.44.27:272][705]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.uasset
+[2015.12.25-23.56.43:604][ 91]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Basement_Blockout' took 0.033
+[2015.12.25-23.56.43:617][ 91]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D] ([1] browsable assets)...
+[2015.12.25-23.56.43:617][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D]
+[2015.12.25-23.56.45:423][ 91]LogSavePackage: Save=1765.694214ms
+[2015.12.25-23.56.45:424][ 91]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/ThirdPersonCharacter2D_Auto1EA126CE94E85A7919D1C9799A9DB6A42.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D_Auto1.uasset'
+[2015.12.25-23.56.45:453][ 91]LogSavePackage: Total save time: 1833.655186ms
+[2015.12.25-23.56.45:453][ 91]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D_Auto1.uasset
+[2015.12.25-23.56.45:453][ 91]LogFileHelpers: Auto-saving content packages took 1.848
+[2015.12.26-05.31.48:257][687]LogSavePackage: Save=2091.914795ms
+[2015.12.26-05.31.48:257][687]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/ThirdPersonCharacter2DCA69478F4A752123741113B9430884FF.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.uasset'
+[2015.12.26-05.31.48:263][687]LogSavePackage: Total save time: 2255.853698ms
+[2015.12.26-05.31.48:263][687]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.uasset
+[2015.12.26-05.31.52:722][688]Cmd: QUIT_EDITOR
+[2015.12.26-05.31.53:364][688]LogExit: Preparing to exit.
+[2015.12.26-05.31.55:045][688]LogExit: Editor shut down
+[2015.12.26-05.31.55:045][688]LogExit: Transaction tracking system shut down
+[2015.12.26-05.31.55:154][688]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000120F63E0
+[2015.12.26-05.31.55:155][688]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000110768E0
+[2015.12.26-05.31.55:155][688]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000114DAAC0
+[2015.12.26-05.31.55:155][688]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022123420
+[2015.12.26-05.31.55:155][688]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022123240
+[2015.12.26-05.31.55:159][688]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030448680
+[2015.12.26-05.31.58:352][688]LogExit: Object subsystem successfully closed.
+[2015.12.26-05.32.00:037][688]LogD3D11RHI: Shutdown
+[2015.12.26-05.32.00:037][688]LogD3D11RHI: CleanupD3DDevice
+[2015.12.26-05.32.00:421][688]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.26-05.32.02:444][688]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2015.12.26-05.32.02:444][688]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2015.12.26-05.32.02:444][688]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2015.12.26-05.32.02:444][688]LogModuleManager: Shutting down and abandoning module WorldBrowser (198)
+[2015.12.26-05.32.02:444][688]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.12.26-05.32.02:444][688]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.12.26-05.32.02:444][688]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.12.26-05.32.02:444][688]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.12.26-05.32.02:447][688]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.12.26-05.32.02:447][688]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.12.26-05.32.02:447][688]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.12.26-05.32.02:447][688]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.12.26-05.32.02:447][688]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.12.26-05.32.02:448][688]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.12.26-05.32.02:448][688]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.12.26-05.32.02:448][688]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.12.26-05.32.02:448][688]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.12.26-05.32.02:448][688]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.12.26-05.32.02:448][688]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.12.26-05.32.02:448][688]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.12.26-05.32.02:448][688]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.12.26-05.32.02:448][688]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.12.26-05.32.02:448][688]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.12.26-05.32.02:448][688]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.12.26-05.32.02:525][688]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.12.26-05.32.02:885][688]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.12.26-05.32.02:885][688]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.12.26-05.32.02:886][688]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.12.26-05.32.02:886][688]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.12.26-05.32.03:509][688]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.12.26-05.32.03:509][688]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.12.26-05.32.03:509][688]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.12.26-05.32.03:509][688]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.12.26-05.32.03:681][688]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.12.26-05.32.03:681][688]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.12.26-05.32.03:681][688]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.12.26-05.32.03:681][688]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.12.26-05.32.03:681][688]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.12.26-05.32.03:681][688]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.12.26-05.32.03:681][688]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.12.26-05.32.03:681][688]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.12.26-05.32.03:681][688]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.12.26-05.32.03:681][688]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.12.26-05.32.03:681][688]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.12.26-05.32.03:750][688]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.12.26-05.32.03:750][688]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.12.26-05.32.03:750][688]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.12.26-05.32.03:750][688]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.12.26-05.32.03:750][688]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.12.26-05.32.03:750][688]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.12.26-05.32.04:099][688]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.12.26-05.32.04:100][688]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.12.26-05.32.04:100][688]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.12.26-05.32.04:100][688]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.12.26-05.32.04:100][688]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.12.26-05.32.04:100][688]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.12.26-05.32.04:100][688]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.12.26-05.32.04:100][688]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.12.26-05.32.04:100][688]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.12.26-05.32.04:100][688]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.12.26-05.32.04:100][688]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.12.26-05.32.04:100][688]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.12.26-05.32.04:100][688]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.12.26-05.32.04:263][688]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.12.26-05.32.04:263][688]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.26-05.32.04:263][688]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.26-05.32.04:263][688]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.26-05.32.04:263][688]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.26-05.32.04:263][688]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.12.26-05.32.04:263][688]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.12.26-05.32.04:263][688]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.26-05.32.04:519][688]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.26-05.32.04:519][688]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.26-05.32.04:658][688]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.26-05.32.04:659][688]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.26-05.32.04:659][688]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.26-05.32.04:907][688]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.26-05.32.04:907][688]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.26-05.32.04:907][688]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.26-05.32.04:984][688]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.26-05.32.05:048][688]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.26-05.32.05:972][688]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.26-05.32.05:973][688]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.26-05.32.05:973][688]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.26-05.32.05:973][688]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.26-05.32.06:062][688]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.26-05.32.06:062][688]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.26-05.32.06:062][688]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.26-05.32.06:062][688]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.26-05.32.06:062][688]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.26-05.32.06:062][688]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.26-05.32.06:062][688]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.26-05.32.06:062][688]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.26-05.32.06:062][688]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.26-05.32.06:062][688]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.26-05.32.06:063][688]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.12.26-05.32.06:064][688]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.12.26-05.32.06:276][688]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.12.26-05.32.06:277][688]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.12.26-05.32.06:343][688]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.12.26-05.32.06:443][688]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.12.26-05.32.06:443][688]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.12.26-05.32.06:881][688]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.12.26-05.32.07:323][688]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.12.26-05.32.07:323][688]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.12.26-05.32.07:326][688]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.12.26-05.32.07:326][688]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.12.26-05.32.07:326][688]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.12.26-05.32.07:327][688]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.12.26-05.32.07:680][688]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.12.26-05.32.07:680][688]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.12.26-05.32.07:955][688]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.12.26-05.32.07:955][688]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.12.26-05.32.07:955][688]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.12.26-05.32.08:079][688]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.12.26-05.32.08:602][688]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.12.26-05.32.08:975][688]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.12.26-05.32.08:975][688]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.12.26-05.32.08:975][688]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.12.26-05.32.08:980][688]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.12.26-05.32.08:980][688]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.12.26-05.32.08:980][688]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.12.26-05.32.08:980][688]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.12.26-05.32.08:980][688]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.12.26-05.32.08:980][688]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.12.26-05.32.08:980][688]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.12.26-05.32.08:980][688]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.12.26-05.32.08:980][688]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.12.26-05.32.08:980][688]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.12.26-05.32.08:992][688]LogDerivedDataCache: Shutdown
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.12.26-05.32.08:992][688]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.12.26-05.32.08:993][688]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.12.26-05.32.10:993][688]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.12.26-05.32.11:292][688]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.12.26-05.32.11:292][688]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.26-05.32.11:292][688]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.26-05.32.11:292][688]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.26-05.32.11:292][688]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.26-05.32.11:292][688]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.26-05.32.11:296][688]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.26-05.32.11:296][688]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.26-05.32.11:296][688]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.26-05.32.11:296][688]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.26-05.32.11:296][688]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.26-05.32.11:296][688]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.26-05.32.11:296][688]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.26-05.32.11:296][688]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.26-05.32.11:296][688]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.26-05.32.11:296][688]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.26-05.32.11:297][688]LogExit: Exiting.
+[2015.12.26-05.32.11:299][688]Log file closed, 12/25/15 21:32:11
