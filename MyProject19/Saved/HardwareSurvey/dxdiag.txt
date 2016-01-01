@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-Time of this report: 11/29/2015, 14:35:24
+Time of this report: 12/31/2015, 21:15:41
        Machine name: MATT-PC
    Operating System: Windows 7 Ultimate 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_gdr.140303-2144)
            Language: English (Regional Setting: English)
@@ -11,7 +11,7 @@ System Manufacturer: Gigabyte Technology Co., Ltd.
           Processor: Intel(R) Core(TM) i5-3450 CPU @ 3.10GHz (4 CPUs), ~3.4GHz
              Memory: 8192MB RAM
 Available OS Memory: 8110MB RAM
-          Page File: 9875MB used, 6341MB available
+          Page File: 7043MB used, 9172MB available
         Windows Dir: C:\Windows
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -26,6 +26,7 @@ DxDiag Notes
       Display Tab 1: No problems found.
         Sound Tab 1: No problems found.
         Sound Tab 2: No problems found.
+        Sound Tab 3: No problems found.
           Input Tab: No problems found.
 
 --------------------
@@ -103,6 +104,31 @@ Sound Devices
             Description: Speakers (Realtek High Definition Audio)
  Default Sound Playback: Yes
  Default Voice Playback: Yes
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0889&SUBSYS_1458A002&REV_1000
+        Manufacturer ID: 1
+             Product ID: 100
+                   Type: WDM
+            Driver Name: RTKVHD64.sys
+         Driver Version: 6.00.0001.6423 (English)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: Yes
+          Date and Size: 7/26/2011 02:00:32, 3039592 bytes
+            Other Files: 
+        Driver Provider: Realtek Semiconductor Corp.
+         HW Accel Level: Basic
+              Cap Flags: 0xF1F
+    Min/Max Sample Rate: 100, 200000
+Static/Strm HW Mix Bufs: 1, 0
+ Static/Strm HW 3D Bufs: 0, 0
+              HW Memory: 0
+       Voice Management: No
+ EAX(tm) 2.0 Listen/Src: No, No
+   I3DL2(tm) Listen/Src: No, No
+Sensaura(tm) ZoomFX(tm): No
+
+            Description: Realtek Digital Output (Realtek High Definition Audio)
+ Default Sound Playback: No
+ Default Voice Playback: No
             Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0889&SUBSYS_1458A002&REV_1000
         Manufacturer ID: 1
              Product ID: 100
@@ -282,7 +308,7 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 86.4 GB
+ Free Space: 116.8 GB
 Total Space: 953.8 GB
 File System: NTFS
       Model: WDC WD10EARX-32N0YB0 ATA Device
@@ -590,8 +616,10 @@ Audio Renderers:
 Speakers (Realtek High Definiti,0x00200000,1,0,quartz.dll,6.06.7601.17713
 Default DirectSound Device,0x00800000,1,0,quartz.dll,6.06.7601.17713
 Default WaveOut Device,0x00200000,1,0,quartz.dll,6.06.7601.17713
+DirectSound: Realtek Digital Output (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.17713
 DirectSound: Realtek Digital Output(Optical) (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.17713
 DirectSound: Speakers (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.17713
+Realtek Digital Output (Realtek,0x00200000,1,0,quartz.dll,6.06.7601.17713
 Realtek Digital Output(Optical),0x00200000,1,0,quartz.dll,6.06.7601.17713
 
 ---------------
