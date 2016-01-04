@@ -1,0 +1,792 @@
+﻿[2016.01.04-04.00.13:168][  0]Log file open, 01/03/16 20:00:13
+[2016.01.04-04.00.13:168][  0]LogInit:Display: Running engine for game: MyProject19
+[2016.01.04-04.00.13:168][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.04-04.00.13:168][  0]LogInit:Display: RandInit(-1923093253) SRandInit(-1923093251).
+[2016.01.04-04.00.13:168][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.04-04.00.13:169][  0]LogStats: Stats thread started at 0.388166
+[2016.01.04-04.00.13:169][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.01.04-04.00.13:169][  0]LogInit: API Version: 2758231
+[2016.01.04-04.00.13:169][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2016.01.04-04.00.13:169][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.04-04.00.13:169][  0]LogInit: Build Configuration: Development
+[2016.01.04-04.00.13:169][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.04-04.00.13:169][  0]LogInit: Command line:  
+[2016.01.04-04.00.13:169][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.04-04.00.13:169][  0]LogInit: Rocket: 1
+[2016.01.04-04.00.13:178][  0]LogInit: Using libcurl 7.41.0
+[2016.01.04-04.00.13:178][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.04-04.00.13:178][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.04-04.00.13:178][  0]LogInit:  - other features:
+[2016.01.04-04.00.13:178][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.04-04.00.13:178][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.04-04.00.13:178][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.04-04.00.13:178][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.04-04.00.13:178][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.04-04.00.13:178][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.04-04.00.13:178][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.04-04.00.13:178][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.04-04.00.13:178][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.04-04.00.13:178][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.04-04.00.13:185][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.04-04.00.13:193][  0]LogInit: Object subsystem initialized
+[2016.01.04-04.00.13:194][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.04-04.00.13:194][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.04-04.00.13:202][  0]LogInit: Computer: MATT-PC
+[2016.01.04-04.00.13:202][  0]LogInit: User: Matt
+[2016.01.04-04.00.13:202][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.04-04.00.13:202][  0]LogInit: High frequency timer resolution =3.020517 MHz
+[2016.01.04-04.00.13:202][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.04-04.00.13:202][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.04-04.00.13:202][  0]LogMemory: Process Physical Memory: 59.30 MB used, 59.30 MB peak
+[2016.01.04-04.00.13:202][  0]LogMemory: Process Virtual Memory: 59.55 MB used, 59.55 MB peak
+[2016.01.04-04.00.13:202][  0]LogMemory: Physical Memory: 4590.15 MB used, 8109.12 MB total
+[2016.01.04-04.00.13:202][  0]LogMemory: Virtual Memory: 353.29 MB used, 8388608.00 MB total
+[2016.01.04-04.00.13:538][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.04-04.00.14:000][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2016.01.04-04.00.14:000][  0]LogD3D11RHI: Adapter has 2029MB of dedicated video memory, 0MB of dedicated system memory, and 3798MB of shared system memory, 1 output[s]
+[2016.01.04-04.00.14:006][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics (Feature Level 11_0)
+[2016.01.04-04.00.14:006][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.01.04-04.00.14:006][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.04-04.00.14:011][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.04-04.00.14:011][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.04-04.00.14:061][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.01.04-04.00.14:305][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Intermediate/Shaders/WorkingDirectory/7068/).
+[2016.01.04-04.00.14:305][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matt/AppData/Local/Temp/UnrealShaderWorkingDir/A5EBF26A4F95E2E7897C07B3E3387B93/'.
+[2016.01.04-04.00.14:316][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.04-04.00.21:852][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.04-04.00.21:858][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.04-04.00.21:864][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.04-04.00.21:870][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.04-04.00.21:877][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.04-04.00.21:883][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.04-04.00.21:888][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.04-04.00.21:892][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.04-04.00.21:898][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.04-04.00.21:903][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.04-04.00.21:909][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.04-04.00.21:919][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.04-04.00.21:919][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.04-04.00.21:921][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.04-04.00.22:035][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.04-04.00.22:039][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.04-04.00.22:043][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.04-04.00.22:063][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.04-04.00.22:063][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.04-04.00.23:001][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.04-04.00.24:013][  0]LogDerivedDataCache: Loaded boot cache 1.01s 41MB C:/Users/Matt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.04-04.00.24:013][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.04-04.00.24:013][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.04-04.00.24:013][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.04-04.00.24:013][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.04-04.00.24:013][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.04-04.00.24:146][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.04-04.00.24:157][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.04-04.00.35:524][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.04-04.00.35:546][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.04-04.00.36:472][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.04-04.00.36:472][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.04-04.00.40:989][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.04-04.01.09:686][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.04-04.01.10:629][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2016.01.04-04.01.17:449][  0]SourceControl: Info Source control is disabled
+[2016.01.04-04.01.17:451][  0]SourceControl: Info Source control is disabled
+[2016.01.04-04.01.17:834][  0]SourceControl: Info Source control is disabled
+[2016.01.04-04.01.18:335][  0]SourceControl: Info Source control is disabled
+[2016.01.04-04.01.21:277][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.04-04.01.21:277][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.01.04-04.01.22:636][  0]LogEngine: Initializing Engine...
+[2016.01.04-04.01.22:708][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.04-04.01.22:803][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.04-04.01.23:368][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.04-04.01.23:427][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.04-04.01.23:468][  0]LogInit: FAudioDevice initialized.
+[2016.01.04-04.01.23:524][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/Matt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.04-04.01.23:527][  0]LogInit: Texture streaming: Enabled
+[2016.01.04-04.01.23:591][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.04-04.01.23:591][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.01.04-04.01.23:591][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId de43219841e5038bf49fbfa481591ee0|4e461f00ab6f49d29405414d884919d6|9448dfb4-8168-4a85-8046-6b7a073564d8
+[2016.01.04-04.01.23:591][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.04-04.01.25:206][  0]LogInit: Transaction tracking system initialized
+[2016.01.04-04.01.27:452][  0]BlueprintLog: New page: Editor Load
+[2016.01.04-04.01.34:872][  0]LocalizationService: Info Localization service is disabled
+[2016.01.04-04.01.39:108][  0]LogConsoleResponse:Display: 
+[2016.01.04-04.01.46:273][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/' took 0.01s
+[2016.01.04-04.01.46:273][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.04-04.01.51:164][  0]SourceControl: Info Source control is disabled
+[2016.01.04-04.01.51:224][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.04-04.01.51:264][  0]LightingResults: New page: Lighting Build
+[2016.01.04-04.01.51:399][  0]MapCheck: New page: Map Check
+[2016.01.04-04.01.51:399][  0]LightingResults: New page: Lighting Build
+[2016.01.04-04.01.51:414][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000212AA160
+[2016.01.04-04.01.51:634][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.04-04.01.51:698][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.04-04.01.51:808][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.04-04.01.51:871][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.04-04.01.51:943][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.04-04.01.51:983][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.04-04.01.52:054][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.04-04.01.52:103][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.04-04.01.58:850][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning  Make HitResult  has no property tagged as BlueprintReadWrite. The node will be removed in a future release.
+[2016.01.04-04.01.58:854][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning [0107.80] Compile of BasicKnife successful, but with 1 Warning(s) [in 21 ms]
+[2016.01.04-04.01.58:854][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning [0107.80] Compile of BasicKnife successful, but with 2 Warning(s) [in 0 ms]
+[2016.01.04-04.01.58:854][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning [0107.80] Compile of BasicKnife successful, but with 3 Warning(s) [in 0 ms]
+[2016.01.04-04.01.59:649][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-04.01.59:652][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2016.01.04-04.01.59:654][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-04.01.59:670][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-04.01.59:689][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0108.64] Compile of ThirdPersonCharacter successful, but with 4 Warning(s) [in 120 ms]
+[2016.01.04-04.01.59:689][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0108.64] Compile of ThirdPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
+[2016.01.04-04.01.59:689][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0108.64] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 0 ms]
+[2016.01.04-04.01.59:749][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.04-04.01.59:750][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.04-04.01.59:754][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0108.70] Compile of AbilityMenu successful, but with 2 Warning(s) [in 29 ms]
+[2016.01.04-04.01.59:756][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0108.71] Compile of AbilityMenu successful, but with 3 Warning(s) [in 1 ms]
+[2016.01.04-04.01.59:756][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0108.71] Compile of AbilityMenu successful, but with 4 Warning(s) [in 0 ms]
+[2016.01.04-04.01.59:792][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.04-04.01.59:793][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0108.74] Compile of FreeMovementLocator successful, but with 1 Warning(s) [in 2 ms]
+[2016.01.04-04.01.59:793][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0108.74] Compile of FreeMovementLocator successful, but with 2 Warning(s) [in 0 ms]
+[2016.01.04-04.01.59:794][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0108.74] Compile of FreeMovementLocator successful, but with 3 Warning(s) [in 0 ms]
+[2016.01.04-04.02.01:091][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-04.02.01:107][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-04.02.01:107][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.04-04.02.01:116][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-04.02.01:192][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0110.14] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 185 ms]
+[2016.01.04-04.02.01:193][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0110.14] Compile of ThirdPersonCharacter2D successful, but with 5 Warning(s) [in 0 ms]
+[2016.01.04-04.02.01:193][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0110.14] Compile of ThirdPersonCharacter2D successful, but with 6 Warning(s) [in 0 ms]
+[2016.01.04-04.02.01:197][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.04-04.02.01:198][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0110.15] Compile of FreeMovementLocator successful, but with 1 Warning(s) [in 2 ms]
+[2016.01.04-04.02.01:198][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0110.15] Compile of FreeMovementLocator successful, but with 2 Warning(s) [in 0 ms]
+[2016.01.04-04.02.01:204][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0110.15] Compile of FreeMovementLocator successful, but with 3 Warning(s) [in 5 ms]
+[2016.01.04-04.02.01:275][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning  Make HitResult  has no property tagged as BlueprintReadWrite. The node will be removed in a future release.
+[2016.01.04-04.02.01:280][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning [0110.23] Compile of BasicKnife successful, but with 1 Warning(s) [in 23 ms]
+[2016.01.04-04.02.01:280][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning [0110.23] Compile of BasicKnife successful, but with 2 Warning(s) [in 0 ms]
+[2016.01.04-04.02.01:285][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning [0110.23] Compile of BasicKnife successful, but with 3 Warning(s) [in 4 ms]
+[2016.01.04-04.02.01:315][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.04-04.02.01:316][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.04-04.02.01:319][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0110.27] Compile of AbilityMenu successful, but with 2 Warning(s) [in 27 ms]
+[2016.01.04-04.02.01:319][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0110.27] Compile of AbilityMenu successful, but with 3 Warning(s) [in 0 ms]
+[2016.01.04-04.02.01:325][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0110.27] Compile of AbilityMenu successful, but with 4 Warning(s) [in 5 ms]
+[2016.01.04-04.02.01:457][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-04.02.01:460][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2016.01.04-04.02.01:461][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-04.02.01:478][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-04.02.01:496][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0110.45] Compile of ThirdPersonCharacter successful, but with 4 Warning(s) [in 117 ms]
+[2016.01.04-04.02.01:496][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0110.45] Compile of ThirdPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
+[2016.01.04-04.02.01:496][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0110.45] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 0 ms]
+[2016.01.04-04.02.01:635][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-04.02.01:651][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-04.02.01:651][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.04-04.02.01:660][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-04.02.01:742][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0110.69] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 198 ms]
+[2016.01.04-04.02.01:742][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0110.69] Compile of ThirdPersonCharacter2D successful, but with 5 Warning(s) [in 0 ms]
+[2016.01.04-04.02.01:743][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0110.69] Compile of ThirdPersonCharacter2D successful, but with 6 Warning(s) [in 0 ms]
+[2016.01.04-04.02.13:528][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.04-04.02.13:782][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.04-04.02.14:424][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.04-04.02.15:022][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 598.046ms to complete.
+[2016.01.04-04.02.15:022][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 23.798
+[2016.01.04-04.02.19:191][  0]LogCollectionManager: Loaded 0 collections in 0.003134 seconds
+[2016.01.04-04.02.20:671][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Collections/' took 0.01s
+[2016.01.04-04.02.20:671][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Developers/Matt/Collections/' took 0.01s
+[2016.01.04-04.02.20:671][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Collections/' took 0.01s
+[2016.01.04-04.02.20:671][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000223 seconds
+[2016.01.04-04.02.21:056][  0]LogContentBrowser: Native class hierarchy populated in 0.2555 seconds. Added 1893 classes and 338 folders.
+[2016.01.04-04.02.21:240][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.01.04-04.02.26:638][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.01.04-04.02.26:687][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.01.04-04.02.27:120][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0008 seconds. Added 1 classes and 3 folders.
+[2016.01.04-04.02.27:173][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.04-04.02.27:321][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.04-04.02.27:395][  0]LogLoad: Full Startup: 136.34 seconds (BP compile: 2.93 seconds)
+[2016.01.04-04.02.27:755][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.04-04.02.28:271][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.04-04.02.28:542][  0]LogRenderer: Reallocating scene render targets to support 828x516 (Frame:2).
+[2016.01.04-04.02.32:347][ 11]LogAssetRegistry: Asset discovery search completed in 81.7269 seconds
+[2016.01.04-04.02.32:390][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.04-04.02.32:390][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000085 seconds (updated 0 objects)
+[2016.01.04-04.28.12:038][321]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.04-04.28.12:992][321]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 107 classes and 0 folders.
+[2016.01.04-04.30.49:805][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.04-04.30.49:805][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.04-04.30.49:930][818]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ThirdPersonExampleMap' took 0.125
+[2016.01.04-04.30.49:947][818]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/TimeMeter] ([1] browsable assets)...
+[2016.01.04-04.30.49:947][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/TimeMeter]
+[2016.01.04-04.30.50:029][818]LogSavePackage: Save=24.640484ms
+[2016.01.04-04.30.50:029][818]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/TimeMeter_Auto1354AB1FB49EC19824B56B9B45089B8E5.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Blueprints/UI/TimeMeter_Auto1.uasset'
+[2016.01.04-04.30.50:059][818]LogSavePackage: Total save time: 110.754218ms
+[2016.01.04-04.30.50:059][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Blueprints/UI/TimeMeter_Auto1.uasset
+[2016.01.04-04.30.50:066][818]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/KnifeRepresent] ([1] browsable assets)...
+[2016.01.04-04.30.50:066][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/KnifeRepresent]
+[2016.01.04-04.30.50:077][818]LogSavePackage: Save=9.134860ms
+[2016.01.04-04.30.50:077][818]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/KnifeRepresent_Auto15F95FAE94DCCAC8A7482839090D6A760.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Blueprints/UI/KnifeRepresent_Auto1.uasset'
+[2016.01.04-04.30.50:079][818]LogSavePackage: Total save time: 11.864856ms
+[2016.01.04-04.30.50:079][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Blueprints/UI/KnifeRepresent_Auto1.uasset
+[2016.01.04-04.30.50:079][818]LogFileHelpers: Auto-saving content packages took 0.139
+[2016.01.04-05.02.13:713][530]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matt\Dropbox\FractalHumburgers\Real Actual Penguin\Knife Negative.png)
+[2016.01.04-05.02.13:806][530]LogTexture:Display: Building textures: Knife_Negative (BGRA8)
+[2016.01.04-05.02.13:842][530]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Matt\Dropbox\FractalHumburgers\Real Actual Penguin\Knife Positive.png)
+[2016.01.04-05.02.13:876][530]LogTexture:Display: Building textures: Knife_Positive (BGRA8)
+[2016.01.04-05.02.49:321][947]BlueprintLog: New page: Compile KnifeRepresent
+[2016.01.04-05.02.49:445][947]BlueprintEditorCompileResults: Info [3758.35] Compile of KnifeRepresent successful! [in 123 ms]
+[2016.01.04-05.03.14:865][180]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ThirdPersonExampleMap' took 0.033
+[2016.01.04-05.03.14:873][180]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/KnifeRepresent] ([1] browsable assets)...
+[2016.01.04-05.03.14:873][180]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/KnifeRepresent]
+[2016.01.04-05.03.14:887][180]LogSavePackage: Save=11.471215ms
+[2016.01.04-05.03.14:887][180]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/KnifeRepresent_Auto2ACF0AD0E47FAA16A7EDE5EBCCEC9E5B9.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Blueprints/UI/KnifeRepresent_Auto2.uasset'
+[2016.01.04-05.03.14:889][180]LogSavePackage: Total save time: 13.971120ms
+[2016.01.04-05.03.14:889][180]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Blueprints/UI/KnifeRepresent_Auto2.uasset
+[2016.01.04-05.03.14:895][180]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/Knife_Negative] ([1] browsable assets)...
+[2016.01.04-05.03.14:923][180]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Blueprints/UI/Knife_Negative.Knife_Negative]
+[2016.01.04-05.03.14:923][180]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Knife_Negative]
+[2016.01.04-05.03.14:962][180]LogSavePackage: Save=35.836582ms
+[2016.01.04-05.03.14:962][180]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Knife_Negative_Auto221C1074845116B6C9EF703B9372A55AF.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Blueprints/UI/Knife_Negative_Auto2.uasset'
+[2016.01.04-05.03.14:964][180]LogSavePackage: Total save time: 38.531482ms
+[2016.01.04-05.03.14:964][180]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Blueprints/UI/Knife_Negative_Auto2.uasset
+[2016.01.04-05.03.14:970][180]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/Knife_Positive] ([1] browsable assets)...
+[2016.01.04-05.03.14:972][180]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Blueprints/UI/Knife_Positive.Knife_Positive]
+[2016.01.04-05.03.14:972][180]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Knife_Positive]
+[2016.01.04-05.03.14:977][180]LogSavePackage: Save=2.959096ms
+[2016.01.04-05.03.14:977][180]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Knife_Positive_Auto26E9BF5F7455E1977C6BB79811737FA17.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Blueprints/UI/Knife_Positive_Auto2.uasset'
+[2016.01.04-05.03.14:979][180]LogSavePackage: Total save time: 5.460322ms
+[2016.01.04-05.03.14:979][180]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Autosaves/Game/Blueprints/UI/Knife_Positive_Auto2.uasset
+[2016.01.04-05.03.14:979][180]LogFileHelpers: Auto-saving content packages took 0.113
+[2016.01.04-05.05.09:250][ 24]BlueprintLog: New page: Compile KnifeRepresent
+[2016.01.04-05.05.09:359][ 24]BlueprintEditorCompileResults: Info [3898.26] Compile of KnifeRepresent successful! [in 108 ms]
+[2016.01.04-05.08.41:734][304]BlueprintLog: New page: Compile TimeMeter
+[2016.01.04-05.08.41:744][304]LogBlueprint:Warning: [compiler TimeMeter] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.04-05.08.41:855][304]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.08.41:871][304]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.08.41:871][304]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.04-05.08.41:880][304]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.08.42:155][304]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.08.42:157][304]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2016.01.04-05.08.42:158][304]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.08.42:170][304]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.08.42:357][304]LogBlueprint:Warning: [compiler TimeMeter] Warning [4111.26] Compile of TimeMeter successful, but with 1 Warning(s) [in 623 ms]
+[2016.01.04-05.08.42:357][304]BlueprintEditorCompileResults:Warning: Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.04-05.08.42:357][304]BlueprintEditorCompileResults:Warning: Warning [4111.26] Compile of TimeMeter successful, but with 1 Warning(s) [in 623 ms]
+[2016.01.04-05.09.08:997][345]BlueprintLog: New page: Compile TimeMeter
+[2016.01.04-05.09.09:008][345]LogBlueprint:Warning: [compiler TimeMeter] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.04-05.09.09:119][345]LogBlueprint:Warning: [compiler TimeMeter] Warning [4138.02] Compile of TimeMeter successful, but with 1 Warning(s) [in 121 ms]
+[2016.01.04-05.09.09:119][345]BlueprintEditorCompileResults:Warning: Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.04-05.09.09:119][345]BlueprintEditorCompileResults:Warning: Warning [4138.02] Compile of TimeMeter successful, but with 1 Warning(s) [in 121 ms]
+[2016.01.04-05.09.15:359][953]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.04-05.10.11:841][732]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2016.01.04-05.10.12:253][732]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.10.12:269][732]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.10.12:269][732]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.04-05.10.12:277][732]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.10.12:401][732]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.04-05.10.12:542][732]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.04-05.10.12:542][732]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.04-05.10.12:601][732]LogBlueprint:Warning: [compiler TimeMeter] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.04-05.10.12:711][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.04-05.10.12:711][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.04-05.10.12:712][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2016.01.04-05.10.12:712][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2016.01.04-05.10.12:712][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.01.04-05.10.12:791][732]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [4201.69] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 950 ms]
+[2016.01.04-05.10.12:792][732]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.10.12:792][732]BlueprintEditorCompileResults:Warning: Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.10.12:792][732]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.04-05.10.12:792][732]BlueprintEditorCompileResults:Warning: Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.10.12:792][732]BlueprintEditorCompileResults:Warning: Warning [4201.69] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 950 ms]
+[2016.01.04-05.10.14:264][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.10.14:264][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.04-05.10.14:321][848]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 3, 2016, 1:10:14 PM)
+[2016.01.04-05.10.14:321][848]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.01.04-05.10.14:384][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063455s)
+[2016.01.04-05.10.14:385][848]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.04-05.10.14:385][848]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2016.01.04-05.10.14:385][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.064640s)
+[2016.01.04-05.10.14:386][848]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.04-05.10.14:476][848]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.04-05.10.14:517][848]LogInit: FAudioDevice initialized.
+[2016.01.04-05.10.14:655][848]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2016.01.04-05.10.14:666][848]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.01.03-21.10.14
+[2016.01.04-05.10.14:667][848]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-05.10.14:667][848]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-05.10.14:668][848]LogWorld: Bringing up level for play took: 0.012401
+[2016.01.04-05.10.14:729][848]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap -0.314
+[2016.01.04-05.10.14:729][848]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.10.14:761][849]LogRenderer: Reallocating scene render targets to support 2560x1440 (Frame:13835).
+[2016.01.04-05.10.14:839][849]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 479/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.10.16:668][926]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.10.16:758][926]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.10.16:791][926]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005CFDB740
+[2016.01.04-05.10.17:235][963]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 575/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.11.24:823][464]BlueprintLog: New page: Compile TimeMeter
+[2016.01.04-05.11.25:265][464]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.11.25:281][464]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.11.25:281][464]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.04-05.11.25:290][464]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.11.25:481][464]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.04-05.11.25:482][464]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.04-05.11.25:601][464]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.04-05.11.25:684][464]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.11.25:687][464]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2016.01.04-05.11.25:688][464]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.11.25:699][464]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.11.25:964][464]BlueprintEditorCompileResults: Info [4274.87] Compile of TimeMeter successful! [in 1,140 ms]
+[2016.01.04-05.11.29:289][754]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2016.01.04-05.11.29:716][754]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.11.29:732][754]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.11.29:732][754]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.04-05.11.29:741][754]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.11.29:913][754]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.04-05.11.29:913][754]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.04-05.11.30:050][754]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.04-05.11.30:156][754]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.04-05.11.30:235][754]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [4279.14] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 945 ms]
+[2016.01.04-05.11.30:236][754]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.11.30:236][754]BlueprintEditorCompileResults:Warning: Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.11.30:236][754]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.04-05.11.30:236][754]BlueprintEditorCompileResults:Warning: Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.11.30:236][754]BlueprintEditorCompileResults:Warning: Warning [4279.14] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 945 ms]
+[2016.01.04-05.11.31:487][867]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 575/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.11.31:582][877]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 575/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.11.32:506][949]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.11.32:506][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.04-05.11.32:506][949]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 3, 2016, 1:11:32 PM)
+[2016.01.04-05.11.32:506][949]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.01.04-05.11.32:571][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065088s)
+[2016.01.04-05.11.32:572][949]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.04-05.11.32:572][949]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2016.01.04-05.11.32:573][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.066935s)
+[2016.01.04-05.11.32:573][949]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.04-05.11.32:615][949]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.04-05.11.32:655][949]LogInit: FAudioDevice initialized.
+[2016.01.04-05.11.32:730][949]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2016.01.04-05.11.32:741][949]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.01.03-21.11.32
+[2016.01.04-05.11.32:742][949]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-05.11.32:742][949]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-05.11.32:743][949]LogWorld: Bringing up level for play took: 0.011600
+[2016.01.04-05.11.32:747][949]LogBlueprintUserMessages: [TimeMeter_C_3] 4
+[2016.01.04-05.11.32:762][949]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap -0.282
+[2016.01.04-05.11.32:762][949]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.11.32:801][950]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 504/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.11.34:183][  7]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.11.34:255][  7]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.11.34:288][  7]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000350731A0
+[2016.01.04-05.11.35:302][ 92]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 575/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.12.37:648][218]BlueprintLog: New page: Compile TimeMeter
+[2016.01.04-05.12.37:786][218]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.12.37:788][218]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2016.01.04-05.12.37:790][218]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.12.37:801][218]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.12.37:906][218]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.12.37:923][218]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.12.37:923][218]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.04-05.12.37:931][218]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.12.38:202][218]BlueprintEditorCompileResults: Info [4347.10] Compile of TimeMeter successful! [in 553 ms]
+[2016.01.04-05.14.57:326][754]BlueprintLog: New page: Compile TimeMeter
+[2016.01.04-05.14.57:340][754]LogBlueprint:Warning: [compiler TimeMeter] Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.04-05.14.57:340][754]LogBlueprint:Error: [compiler TimeMeter] Error This blueprint (self) is not a VerticalBox, therefore ' Target ' must have a connection.
+[2016.01.04-05.14.57:594][754]LogBlueprint:Warning: [compiler TimeMeter] Warning [4486.49] Compile of TimeMeter failed. 1 Fatal Issue(s) 1 Warning(s) [in 267 ms]
+[2016.01.04-05.14.57:594][754]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.04-05.14.57:594][754]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a VerticalBox, therefore ' Target ' must have a connection.
+[2016.01.04-05.14.57:594][754]BlueprintEditorCompileResults:Warning: Warning [4486.49] Compile of TimeMeter failed. 1 Fatal Issue(s) 1 Warning(s) [in 267 ms]
+[2016.01.04-05.15.34:846][850]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Update2dAnimation.K2Node_CallFunction_7609 or K2Node_CallFunction /Game/Blueprints/UI/AbilityMenu.AbilityMenu:EventGraph.K2Node_CallFunction_7609
+[2016.01.04-05.15.34:846][850]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Update2dAnimation.K2Node_CallFunction_7609 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_7609
+[2016.01.04-05.15.34:846][850]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/UI/AbilityMenu.AbilityMenu:EventGraph.K2Node_CallFunction_7609.EdGraphPin_26439) from referencer (EdGraphPin /Game/Blueprints/UI/TimeMeter.TimeMeter:EventGraph.K2Node_CallFunction_7610.EdGraphPin_26465).  Import failed...
+[2016.01.04-05.15.34:846][850]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7609.EdGraphPin_26439''
+[2016.01.04-05.15.34:846][850]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/UI/AbilityMenu.AbilityMenu:EventGraph.K2Node_CallFunction_7611.EdGraphPin_26453) from referencer (EdGraphPin /Game/Blueprints/UI/TimeMeter.TimeMeter:EventGraph.K2Node_CallFunction_7610.EdGraphPin_26466).  Import failed...
+[2016.01.04-05.15.34:846][850]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7611.EdGraphPin_26453''
+[2016.01.04-05.15.34:847][850]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Update2dAnimation.K2Node_CallFunction_7609 or K2Node_CallFunction /Game/Blueprints/UI/AbilityMenu.AbilityMenu:EventGraph.K2Node_CallFunction_7609
+[2016.01.04-05.15.34:847][850]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Update2dAnimation.K2Node_CallFunction_7609 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_CallFunction_7609
+[2016.01.04-05.15.34:847][850]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/UI/AbilityMenu.AbilityMenu:EventGraph.K2Node_CallFunction_7609.EdGraphPin_26442) from referencer (EdGraphPin /Game/Blueprints/UI/TimeMeter.TimeMeter:EventGraph.K2Node_CallFunction_7610.EdGraphPin_26467).  Import failed...
+[2016.01.04-05.15.34:847][850]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7609.EdGraphPin_26442''
+[2016.01.04-05.15.42:002][693]BlueprintLog: New page: Compile TimeMeter
+[2016.01.04-05.15.42:016][693]LogBlueprint:Warning: [compiler TimeMeter] Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.04-05.15.42:138][693]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.15.42:141][693]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2016.01.04-05.15.42:142][693]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.15.42:153][693]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.15.42:261][693]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.15.42:277][693]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.15.42:278][693]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.04-05.15.42:286][693]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.15.42:557][693]LogBlueprint:Warning: [compiler TimeMeter] Warning [4531.46] Compile of TimeMeter successful, but with 1 Warning(s) [in 555 ms]
+[2016.01.04-05.15.42:557][693]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.04-05.15.42:557][693]BlueprintEditorCompileResults:Warning: Warning [4531.46] Compile of TimeMeter successful, but with 1 Warning(s) [in 555 ms]
+[2016.01.04-05.16.53:774][450]BlueprintLog: New page: Compile TimeMeter
+[2016.01.04-05.16.53:792][450]LogBlueprint:Warning: [compiler TimeMeter] Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.04-05.16.53:920][450]LogBlueprint:Warning: [compiler TimeMeter] Warning [4602.82] Compile of TimeMeter successful, but with 1 Warning(s) [in 146 ms]
+[2016.01.04-05.16.53:920][450]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.04-05.16.53:920][450]BlueprintEditorCompileResults:Warning: Warning [4602.82] Compile of TimeMeter successful, but with 1 Warning(s) [in 146 ms]
+[2016.01.04-05.16.57:910][603]LogSavePackage: Save=1920.268311ms
+[2016.01.04-05.16.57:911][603]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/ThirdPersonCharacter2D2141D0A9450A158F40C3C6A9D433AFE4.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.uasset'
+[2016.01.04-05.16.57:918][603]LogSavePackage: Total save time: 2101.307493ms
+[2016.01.04-05.16.57:918][603]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.uasset
+[2016.01.04-05.16.57:928][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AbilityMenu" FILE="../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/AbilityMenu.uasset" SILENT=true
+[2016.01.04-05.16.58:083][603]LogSavePackage: Save=100.472870ms
+[2016.01.04-05.16.58:083][603]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/AbilityMenu810C65D7434D76B927EE87A453FF583C.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/AbilityMenu.uasset'
+[2016.01.04-05.16.58:087][603]LogSavePackage: Total save time: 158.059362ms
+[2016.01.04-05.16.58:087][603]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/AbilityMenu.uasset
+[2016.01.04-05.16.58:096][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/TimeMeter" FILE="../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/TimeMeter.uasset" SILENT=true
+[2016.01.04-05.16.58:159][603]LogSavePackage: Save=47.289917ms
+[2016.01.04-05.16.58:159][603]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/TimeMeterE5B5E8BC47D0DC7FF2DEEAB9F2BEA23C.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/TimeMeter.uasset'
+[2016.01.04-05.16.58:163][603]LogSavePackage: Total save time: 65.450385ms
+[2016.01.04-05.16.58:163][603]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/TimeMeter.uasset
+[2016.01.04-05.16.58:171][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/KnifeRepresent" FILE="../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/KnifeRepresent.uasset" SILENT=true
+[2016.01.04-05.16.58:193][603]LogSavePackage: Save=19.448658ms
+[2016.01.04-05.16.58:193][603]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/KnifeRepresent9FEC4F774463B2FB52DDFF8C499AE56D.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/KnifeRepresent.uasset'
+[2016.01.04-05.16.58:196][603]LogSavePackage: Total save time: 23.430753ms
+[2016.01.04-05.16.58:197][603]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/KnifeRepresent.uasset
+[2016.01.04-05.16.58:208][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Knife_Negative" FILE="../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/Knife_Negative.uasset" SILENT=true
+[2016.01.04-05.16.58:214][603]LogSavePackage: Save=3.435836ms
+[2016.01.04-05.16.58:214][603]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Knife_NegativeA154D7BF4379A56259973C8F60430AF2.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/Knife_Negative.uasset'
+[2016.01.04-05.16.58:217][603]LogSavePackage: Total save time: 7.304378ms
+[2016.01.04-05.16.58:217][603]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/Knife_Negative.uasset
+[2016.01.04-05.16.58:227][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Knife_Positive" FILE="../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/Knife_Positive.uasset" SILENT=true
+[2016.01.04-05.16.58:232][603]LogSavePackage: Save=3.194817ms
+[2016.01.04-05.16.58:232][603]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Knife_Positive8C6C8CF84CCB1B3A7B60FF8C59169282.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/Knife_Positive.uasset'
+[2016.01.04-05.16.58:236][603]LogSavePackage: Total save time: 7.000126ms
+[2016.01.04-05.16.58:236][603]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/Knife_Positive.uasset
+[2016.01.04-05.16.59:062][688]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 575/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.16.59:142][697]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 575/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.17.00:200][781]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.17.00:200][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.04-05.17.00:201][781]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 3, 2016, 1:17:00 PM)
+[2016.01.04-05.17.00:201][781]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.01.04-05.17.00:267][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066581s)
+[2016.01.04-05.17.00:268][781]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.04-05.17.00:269][781]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2016.01.04-05.17.00:269][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.068189s)
+[2016.01.04-05.17.00:310][781]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.04-05.17.00:348][781]LogInit: FAudioDevice initialized.
+[2016.01.04-05.17.00:420][781]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2016.01.04-05.17.00:431][781]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.01.03-21.17.00
+[2016.01.04-05.17.00:431][781]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-05.17.00:432][781]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-05.17.00:433][781]LogWorld: Bringing up level for play took: 0.011559
+[2016.01.04-05.17.00:451][781]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap -0.596
+[2016.01.04-05.17.00:451][781]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.17.00:492][782]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 504/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.17.01:571][824]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:594][825]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:619][826]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:644][827]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:668][828]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:692][829]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:717][830]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:741][831]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:765][832]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:789][833]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:813][834]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:838][835]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:861][836]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:885][837]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:910][838]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:934][839]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:957][840]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.01:980][841]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.02:002][842]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.02:027][843]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.02:063][844]LogBlueprintUserMessages: [BasicKnife_C_0] Hello
+[2016.01.04-05.17.02:063][844]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:129][845]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:197][846]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:207][847]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:216][848]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:226][849]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:248][850]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:273][851]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:297][852]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:321][853]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:344][854]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:369][855]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:394][856]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:417][857]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:440][858]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:465][859]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:490][860]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:514][861]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:537][862]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:562][863]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:593][864]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:609][865]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:634][866]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:657][867]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:682][868]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:706][869]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:730][870]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:754][871]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:777][872]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:802][873]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:824][874]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:848][875]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:873][876]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.02:873][876]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:897][877]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.02:897][877]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:920][878]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.02:920][878]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:945][879]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.02:945][879]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:969][880]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.02:969][880]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.02:993][881]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.02:993][881]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:017][882]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:017][882]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:041][883]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:041][883]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:073][884]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:073][884]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:089][885]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:089][885]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:113][886]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:114][886]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:138][887]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:138][887]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:161][888]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:161][888]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:183][889]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:184][889]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:209][890]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:209][890]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:233][891]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:233][891]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:256][892]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:256][892]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:279][893]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:279][893]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:302][894]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:302][894]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:326][895]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:326][895]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:350][896]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:350][896]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:374][897]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:374][897]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:374][897]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:398][898]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:398][898]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:398][898]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:421][899]LogBlueprintUserMessages: [BasicKnife_C_2] Hello
+[2016.01.04-05.17.03:421][899]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:421][899]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:446][900]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:446][900]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:469][901]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:469][901]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:493][902]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:493][902]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:519][903]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:519][903]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:542][904]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:542][904]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:566][905]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:566][905]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:590][906]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:591][906]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:613][907]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:613][907]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:637][908]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:637][908]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:660][909]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:660][909]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:684][910]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:684][910]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:713][911]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:713][911]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:731][912]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:731][912]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:754][913]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:754][913]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:778][914]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:778][914]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:802][915]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:802][915]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:826][916]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:826][916]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:850][917]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:850][917]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:874][918]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:874][918]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:898][919]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:898][919]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:921][920]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:921][920]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:945][921]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:945][921]LogBlueprintUserMessages: [BasicKnife_C_3] Hello
+[2016.01.04-05.17.03:970][922]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.03:993][923]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.04:015][924]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.04:040][925]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:040][925]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.04:065][926]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:065][926]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.04:088][927]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:088][927]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.04:111][928]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:111][928]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.04:134][929]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:134][929]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.04:158][930]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:158][930]LogBlueprintUserMessages: [BasicKnife_C_1] Hello
+[2016.01.04-05.17.04:182][931]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:206][932]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:230][933]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:259][934]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:276][935]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:301][936]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:324][937]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:347][938]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:370][939]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:394][940]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:418][941]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:442][942]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:466][943]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:488][944]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:513][945]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:538][946]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:562][947]LogBlueprintUserMessages: [BasicKnife_C_4] Hello
+[2016.01.04-05.17.04:603][948]LogBlueprintUserMessages: [SliceGenericEnemy_01_C_0] 0.8
+[2016.01.04-05.17.04:603][948]LogBlueprintUserMessages: [SliceGenericEnemy_01_C_0] 20.0
+[2016.01.04-05.17.04:665][951]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.04:682][952]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.04:706][953]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.04:731][954]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.04:753][955]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.04:776][956]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.04:800][957]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.04:824][958]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.04:848][959]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.04:872][960]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.04:897][961]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.04:920][962]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.04:945][963]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.04:967][964]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.04:991][965]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:015][966]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:040][967]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:064][968]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:085][969]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:108][970]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:132][971]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:155][972]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:179][973]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:204][974]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:228][975]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:251][976]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:275][977]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:300][978]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:322][979]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:346][980]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:371][981]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:395][982]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:418][983]LogBlueprintUserMessages: [BasicKnife_C_6] Hello
+[2016.01.04-05.17.05:440][984]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.17.05:509][984]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.17.05:543][984]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005C00D580
+[2016.01.04-05.17.09:969][239]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 575/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.17.12:165][338]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 575/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.19.33:381][513]BlueprintLog: New page: Compile TimeMeter
+[2016.01.04-05.19.33:405][513]LogBlueprint:Warning: [compiler TimeMeter] Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.04-05.19.33:606][513]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.19.33:609][513]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2016.01.04-05.19.33:610][513]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.19.33:623][513]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.19.33:803][513]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.19.33:823][513]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.19.33:823][513]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.04-05.19.33:836][513]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.19.34:131][513]LogBlueprint:Warning: [compiler TimeMeter] Warning [4763.03] Compile of TimeMeter successful, but with 1 Warning(s) [in 750 ms]
+[2016.01.04-05.19.34:131][513]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.04-05.19.34:131][513]BlueprintEditorCompileResults:Warning: Warning [4763.03] Compile of TimeMeter successful, but with 1 Warning(s) [in 750 ms]
+[2016.01.04-05.20.11:869][720]BlueprintLog: New page: Compile TimeMeter
+[2016.01.04-05.20.11:897][720]LogBlueprint:Warning: [compiler TimeMeter] Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.04-05.20.12:030][720]LogBlueprint:Warning: [compiler TimeMeter] Warning [4800.93] Compile of TimeMeter successful, but with 1 Warning(s) [in 160 ms]
+[2016.01.04-05.20.12:030][720]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.04-05.20.12:030][720]BlueprintEditorCompileResults:Warning: Warning [4800.93] Compile of TimeMeter successful, but with 1 Warning(s) [in 160 ms]
+[2016.01.04-05.20.28:722][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/TimeMeter" FILE="../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/TimeMeter.uasset" SILENT=true
+[2016.01.04-05.20.28:799][638]LogSavePackage: Save=50.815804ms
+[2016.01.04-05.20.28:799][638]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/TimeMeter3A6A564E4FB68BE328D41F89A0CACB5B.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/TimeMeter.uasset'
+[2016.01.04-05.20.28:804][638]LogSavePackage: Total save time: 79.967767ms
+[2016.01.04-05.20.28:804][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/UI/TimeMeter.uasset
+[2016.01.04-05.20.29:516][718]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 575/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.20.29:568][723]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 575/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.20.30:366][786]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.20.30:366][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.04-05.20.30:366][786]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 3, 2016, 1:20:30 PM)
+[2016.01.04-05.20.30:366][786]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.01.04-05.20.30:429][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062891s)
+[2016.01.04-05.20.30:430][786]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.04-05.20.30:430][786]LogPlayLevel: PIE: World Init took: (0.001033s)
+[2016.01.04-05.20.30:431][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.064657s)
+[2016.01.04-05.20.30:471][786]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.04-05.20.30:509][786]LogInit: FAudioDevice initialized.
+[2016.01.04-05.20.30:593][786]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2016.01.04-05.20.30:608][786]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.01.03-21.20.30
+[2016.01.04-05.20.30:608][786]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-05.20.30:608][786]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.04-05.20.30:610][786]LogWorld: Bringing up level for play took: 0.015846
+[2016.01.04-05.20.30:634][786]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap -0.416
+[2016.01.04-05.20.30:634][786]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.20.30:673][787]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 504/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.20.31:628][826]LogBlueprintUserMessages: [SliceGenericEnemy_01_C_0] 0.8
+[2016.01.04-05.20.31:628][826]LogBlueprintUserMessages: [SliceGenericEnemy_01_C_0] 20.0
+[2016.01.04-05.20.31:815][834]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:103][846]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:127][847]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:149][848]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:172][849]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:196][850]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:220][851]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:244][852]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:268][853]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:290][854]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:314][855]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:338][856]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:362][857]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:385][858]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:407][859]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:430][860]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:454][861]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:479][862]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:502][863]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:525][864]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:549][865]LogBlueprintUserMessages: [BasicKnife_C_8] Hello
+[2016.01.04-05.20.32:573][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.20.32:646][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.04-05.20.32:681][866]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007D70D8A0
+[2016.01.04-05.20.34:968][ 54]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 575/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.20.37:403][301]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 575/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.04-05.21.41:168][896]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2016.01.04-05.21.41:635][896]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.21.41:653][896]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.21.41:653][896]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.04-05.21.41:662][896]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.21.41:704][896]LogBlueprint:Error: [compiler ThirdPersonCharacter2D] Error Could not find a function named "Update Knives Meter" in 'TimeMeter_C'.
+Make sure 'TimeMeter_C' has been compiled for  Update Knives Meter 
+[2016.01.04-05.21.41:797][896]LogBlueprint:Warning: [compiler TimeMeter] Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.04-05.21.42:325][896]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.21.42:342][896]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.21.42:342][896]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.04-05.21.42:352][896]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.21.42:508][896]LogBlueprint:Warning: [compiler TimeMeter] Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.04-05.21.42:573][896]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.04-05.21.42:575][896]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2016.01.04-05.21.42:577][896]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.04-05.21.42:589][896]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.04-05.21.42:640][896]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.04-05.21.42:641][896]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.04-05.21.42:790][896]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.04-05.21.43:255][896]LogProperty:Warning: Serialized Class /Script/CoreUObject.Function for a property of Class /Script/Engine.EdGraph. Reference will be NULLed.
+    Property = ObjectProperty /Script/Engine.Blueprint:EventGraphs.EventGraphs
+    Item = Function /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D_C:Update Magic
+[2016.01.04-05.21.43:505][896]LogThreadingWindows:Error: Runnable thread TaskGraphThread 2 crashed.
+[2016.01.04-05.21.43:505][896]LogCrashTracker: 
+
+
+[2016.01.04-05.21.43:505][896]LogWindows:Error: === Critical error: ===
+Fatal error!
+
+
+Crash in runnable thread TaskGraphThread 2
+
+[2016.01.04-05.21.54:422][896]LogExit: Executing StaticShutdownAfterError
+[2016.01.04-05.21.54:422][896]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.01.04-05.21.54:422][896]Log file closed, 01/03/16 21:21:54
