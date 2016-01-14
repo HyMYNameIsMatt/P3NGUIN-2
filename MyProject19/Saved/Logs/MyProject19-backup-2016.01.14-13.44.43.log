@@ -1,0 +1,971 @@
+﻿[2016.01.14-20.36.52:414][  0]Log file open, 01/14/16 12:36:52
+[2016.01.14-20.36.52:414][  0]LogInit:Display: Running engine for game: MyProject19
+[2016.01.14-20.36.52:414][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.14-20.36.52:414][  0]LogInit:Display: RandInit(1070638668) SRandInit(1070638670).
+[2016.01.14-20.36.52:414][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.14-20.36.52:414][  0]LogStats: Stats thread started at 0.208234
+[2016.01.14-20.36.52:414][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.01.14-20.36.52:414][  0]LogInit: API Version: 2758231
+[2016.01.14-20.36.52:414][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2016.01.14-20.36.52:414][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.14-20.36.52:414][  0]LogInit: Build Configuration: Development
+[2016.01.14-20.36.52:414][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.14-20.36.52:414][  0]LogInit: Command line:  
+[2016.01.14-20.36.52:414][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.14-20.36.52:414][  0]LogInit: Rocket: 1
+[2016.01.14-20.36.52:567][  0]LogInit: Using libcurl 7.41.0
+[2016.01.14-20.36.52:567][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.14-20.36.52:567][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.14-20.36.52:567][  0]LogInit:  - other features:
+[2016.01.14-20.36.52:567][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.14-20.36.52:567][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.14-20.36.52:567][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.14-20.36.52:567][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.14-20.36.52:567][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.14-20.36.52:567][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.14-20.36.52:567][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.14-20.36.52:567][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.14-20.36.52:567][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.14-20.36.52:567][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.14-20.36.52:796][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.14-20.36.52:803][  0]LogInit: Object subsystem initialized
+[2016.01.14-20.36.52:804][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.14-20.36.52:804][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.14-20.36.52:853][  0]LogInit: Computer: MATT-PC
+[2016.01.14-20.36.52:854][  0]LogInit: User: Matt
+[2016.01.14-20.36.52:854][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.14-20.36.52:854][  0]LogInit: High frequency timer resolution =3.020527 MHz
+[2016.01.14-20.36.52:854][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.14-20.36.52:854][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.14-20.36.52:854][  0]LogMemory: Process Physical Memory: 59.42 MB used, 59.42 MB peak
+[2016.01.14-20.36.52:854][  0]LogMemory: Process Virtual Memory: 59.54 MB used, 59.54 MB peak
+[2016.01.14-20.36.52:854][  0]LogMemory: Physical Memory: 3637.46 MB used, 8109.12 MB total
+[2016.01.14-20.36.52:854][  0]LogMemory: Virtual Memory: 353.29 MB used, 8388608.00 MB total
+[2016.01.14-20.36.54:538][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.14-20.36.56:988][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2016.01.14-20.36.56:988][  0]LogD3D11RHI: Adapter has 2029MB of dedicated video memory, 0MB of dedicated system memory, and 3798MB of shared system memory, 1 output[s]
+[2016.01.14-20.36.57:798][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics (Feature Level 11_0)
+[2016.01.14-20.36.57:798][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.01.14-20.36.57:798][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.14-20.36.57:803][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.14-20.36.57:803][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.14-20.36.57:807][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.01.14-20.36.57:817][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Intermediate/Shaders/WorkingDirectory/8304/).
+[2016.01.14-20.36.57:817][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matt/AppData/Local/Temp/UnrealShaderWorkingDir/AD389427497D649E9C2E8A82AA5FC93F/'.
+[2016.01.14-20.36.57:817][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.14-20.37.04:269][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.14-20.37.04:276][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.14-20.37.04:282][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.14-20.37.04:288][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.14-20.37.04:294][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.14-20.37.04:300][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.14-20.37.04:304][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.14-20.37.04:308][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.14-20.37.04:312][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.14-20.37.04:316][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.14-20.37.04:320][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.14-20.37.04:329][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.14-20.37.04:329][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.14-20.37.04:331][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.14-20.37.04:414][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.14-20.37.04:418][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.14-20.37.04:421][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.14-20.37.04:449][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.14-20.37.04:449][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.14-20.37.05:543][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.14-20.37.06:456][  0]LogDerivedDataCache: Loaded boot cache 0.91s 41MB C:/Users/Matt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.14-20.37.06:456][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.14-20.37.06:456][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.14-20.37.06:456][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.14-20.37.06:456][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.14-20.37.06:456][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.14-20.37.06:557][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.14-20.37.06:568][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.14-20.37.12:567][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.14-20.37.12:567][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.14-20.37.12:684][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.14-20.37.12:684][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.14-20.37.13:378][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.14-20.37.58:393][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.14-20.37.59:041][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2016.01.14-20.37.59:824][  0]SourceControl: Info Source control is disabled
+[2016.01.14-20.37.59:826][  0]SourceControl: Info Source control is disabled
+[2016.01.14-20.37.59:893][  0]SourceControl: Info Source control is disabled
+[2016.01.14-20.38.00:008][  0]SourceControl: Info Source control is disabled
+[2016.01.14-20.38.03:165][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.14-20.38.03:165][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.01.14-20.38.03:385][  0]LogEngine: Initializing Engine...
+[2016.01.14-20.38.03:395][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.14-20.38.03:520][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.14-20.38.03:720][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.14-20.38.04:059][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.14-20.38.04:251][  0]LogInit: FAudioDevice initialized.
+[2016.01.14-20.38.04:297][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/Matt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.14-20.38.04:300][  0]LogInit: Texture streaming: Enabled
+[2016.01.14-20.38.04:311][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.14-20.38.04:311][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.01.14-20.38.04:311][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId de43219841e5038bf49fbfa481591ee0|4e461f00ab6f49d29405414d884919d6|9448dfb4-8168-4a85-8046-6b7a073564d8
+[2016.01.14-20.38.04:311][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.14-20.38.05:037][  0]LogInit: Transaction tracking system initialized
+[2016.01.14-20.38.05:432][  0]BlueprintLog: New page: Editor Load
+[2016.01.14-20.38.07:809][  0]LocalizationService: Info Localization service is disabled
+[2016.01.14-20.38.10:826][  0]LogConsoleResponse:Display: 
+[2016.01.14-20.38.11:855][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.14-20.38.13:398][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/' took 0.02s
+[2016.01.14-20.38.13:476][  0]SourceControl: Info Source control is disabled
+[2016.01.14-20.38.13:477][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.14-20.38.13:477][  0]LightingResults: New page: Lighting Build
+[2016.01.14-20.38.13:481][  0]MapCheck: New page: Map Check
+[2016.01.14-20.38.13:481][  0]LightingResults: New page: Lighting Build
+[2016.01.14-20.38.13:491][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020D02160
+[2016.01.14-20.38.13:502][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-20.38.13:503][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-20.38.13:505][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-20.38.13:506][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-20.38.13:507][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-20.38.13:508][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-20.38.13:509][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-20.38.13:511][  0]LogLinker:Warning: Asset '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-20.38.17:120][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning  Make HitResult  has no property tagged as BlueprintReadWrite. The node will be removed in a future release.
+[2016.01.14-20.38.17:124][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning [0087.31] Compile of BasicKnife successful, but with 1 Warning(s) [in 21 ms]
+[2016.01.14-20.38.17:124][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning [0087.31] Compile of BasicKnife successful, but with 2 Warning(s) [in 0 ms]
+[2016.01.14-20.38.17:124][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning [0087.31] Compile of BasicKnife successful, but with 3 Warning(s) [in 0 ms]
+[2016.01.14-20.38.18:172][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.14-20.38.18:174][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2016.01.14-20.38.18:175][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.14-20.38.18:186][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.14-20.38.18:204][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0088.39] Compile of ThirdPersonCharacter successful, but with 4 Warning(s) [in 121 ms]
+[2016.01.14-20.38.18:205][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0088.39] Compile of ThirdPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
+[2016.01.14-20.38.18:205][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0088.39] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 0 ms]
+[2016.01.14-20.38.18:321][  0]LogBlueprint:Warning: [compiler TimeMeter] Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.14-20.38.18:324][  0]LogBlueprint:Warning: [compiler TimeMeter] Warning [0088.51] Compile of TimeMeter successful, but with 1 Warning(s) [in 15 ms]
+[2016.01.14-20.38.18:326][  0]LogBlueprint:Warning: [compiler TimeMeter] Warning [0088.51] Compile of TimeMeter successful, but with 2 Warning(s) [in 1 ms]
+[2016.01.14-20.38.18:326][  0]LogBlueprint:Warning: [compiler TimeMeter] Warning [0088.51] Compile of TimeMeter successful, but with 3 Warning(s) [in 0 ms]
+[2016.01.14-20.38.18:375][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.14-20.38.18:376][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.14-20.38.18:379][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0088.57] Compile of AbilityMenu successful, but with 2 Warning(s) [in 26 ms]
+[2016.01.14-20.38.18:381][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0088.57] Compile of AbilityMenu successful, but with 3 Warning(s) [in 1 ms]
+[2016.01.14-20.38.18:381][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0088.57] Compile of AbilityMenu successful, but with 4 Warning(s) [in 0 ms]
+[2016.01.14-20.38.18:564][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.14-20.38.18:564][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0088.75] Compile of FreeMovementLocator successful, but with 1 Warning(s) [in 2 ms]
+[2016.01.14-20.38.18:565][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0088.75] Compile of FreeMovementLocator successful, but with 2 Warning(s) [in 0 ms]
+[2016.01.14-20.38.18:565][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0088.75] Compile of FreeMovementLocator successful, but with 3 Warning(s) [in 0 ms]
+[2016.01.14-20.38.19:978][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.14-20.38.19:994][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.14-20.38.19:994][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.14-20.38.20:003][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.14-20.38.20:094][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0090.28] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 213 ms]
+[2016.01.14-20.38.20:096][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0090.28] Compile of ThirdPersonCharacter2D successful, but with 5 Warning(s) [in 1 ms]
+[2016.01.14-20.38.20:096][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0090.28] Compile of ThirdPersonCharacter2D successful, but with 6 Warning(s) [in 0 ms]
+[2016.01.14-20.38.20:101][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.14-20.38.20:102][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0090.29] Compile of FreeMovementLocator successful, but with 1 Warning(s) [in 3 ms]
+[2016.01.14-20.38.20:102][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0090.29] Compile of FreeMovementLocator successful, but with 2 Warning(s) [in 0 ms]
+[2016.01.14-20.38.20:108][  0]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning [0090.30] Compile of FreeMovementLocator successful, but with 3 Warning(s) [in 5 ms]
+[2016.01.14-20.38.20:254][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning  Make HitResult  has no property tagged as BlueprintReadWrite. The node will be removed in a future release.
+[2016.01.14-20.38.20:259][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning [0090.45] Compile of BasicKnife successful, but with 1 Warning(s) [in 22 ms]
+[2016.01.14-20.38.20:259][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning [0090.45] Compile of BasicKnife successful, but with 2 Warning(s) [in 0 ms]
+[2016.01.14-20.38.20:264][  0]LogBlueprint:Warning: [compiler BasicKnife] Warning [0090.45] Compile of BasicKnife successful, but with 3 Warning(s) [in 4 ms]
+[2016.01.14-20.38.20:292][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.14-20.38.20:292][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.14-20.38.20:296][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0090.48] Compile of AbilityMenu successful, but with 2 Warning(s) [in 26 ms]
+[2016.01.14-20.38.20:296][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0090.48] Compile of AbilityMenu successful, but with 3 Warning(s) [in 0 ms]
+[2016.01.14-20.38.20:302][  0]LogBlueprint:Warning: [compiler AbilityMenu] Warning [0090.49] Compile of AbilityMenu successful, but with 4 Warning(s) [in 6 ms]
+[2016.01.14-20.38.20:335][  0]LogBlueprint:Warning: [compiler TimeMeter] Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.14-20.38.20:339][  0]LogBlueprint:Warning: [compiler TimeMeter] Warning [0090.53] Compile of TimeMeter successful, but with 1 Warning(s) [in 14 ms]
+[2016.01.14-20.38.20:339][  0]LogBlueprint:Warning: [compiler TimeMeter] Warning [0090.53] Compile of TimeMeter successful, but with 2 Warning(s) [in 0 ms]
+[2016.01.14-20.38.20:345][  0]LogBlueprint:Warning: [compiler TimeMeter] Warning [0090.53] Compile of TimeMeter successful, but with 3 Warning(s) [in 6 ms]
+[2016.01.14-20.38.20:438][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.14-20.38.20:441][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'PointerClass' is already a 'Pointer', you don't need  Cast To Pointer .
+[2016.01.14-20.38.20:442][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.14-20.38.20:454][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.14-20.38.20:471][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0090.66] Compile of ThirdPersonCharacter successful, but with 4 Warning(s) [in 107 ms]
+[2016.01.14-20.38.20:471][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0090.66] Compile of ThirdPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
+[2016.01.14-20.38.20:471][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0090.66] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 0 ms]
+[2016.01.14-20.38.20:630][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.14-20.38.20:645][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.14-20.38.20:646][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.14-20.38.20:655][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.14-20.38.20:745][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0090.93] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 215 ms]
+[2016.01.14-20.38.20:745][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0090.93] Compile of ThirdPersonCharacter2D successful, but with 5 Warning(s) [in 0 ms]
+[2016.01.14-20.38.20:747][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0090.93] Compile of ThirdPersonCharacter2D successful, but with 6 Warning(s) [in 1 ms]
+[2016.01.14-20.38.29:912][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.14-20.38.30:030][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.14-20.38.30:031][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.14-20.38.30:136][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 104.911ms to complete.
+[2016.01.14-20.38.30:136][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 16.659
+[2016.01.14-20.38.30:982][  0]LogCollectionManager: Loaded 0 collections in 0.002885 seconds
+[2016.01.14-20.38.31:021][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/Collections/' took 0.01s
+[2016.01.14-20.38.31:021][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Developers/Matt/Collections/' took 0.01s
+[2016.01.14-20.38.31:021][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Collections/' took 0.01s
+[2016.01.14-20.38.31:021][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.14-20.38.31:029][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 1893 classes and 338 folders.
+[2016.01.14-20.38.31:036][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.01.14-20.38.38:779][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.01.14-20.38.38:835][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.01.14-20.38.38:864][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0006 seconds. Added 1 classes and 3 folders.
+[2016.01.14-20.38.38:875][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.14-20.38.38:880][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.14-20.38.38:901][  0]LogLoad: Full Startup: 109.09 seconds (BP compile: 1.79 seconds)
+[2016.01.14-20.38.39:250][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.14-20.38.39:465][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.14-20.38.39:774][  0]LogRenderer: Reallocating scene render targets to support 828x516 (Frame:2).
+[2016.01.14-20.38.42:538][  9]LogAssetRegistry: Asset discovery search completed in 43.5068 seconds
+[2016.01.14-20.38.42:539][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.14-20.38.42:539][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2016.01.14-20.39.38:319][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.39.38:319][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.14-20.39.38:319][950]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 14, 2016, 4:39:38 AM)
+[2016.01.14-20.39.38:319][950]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.01.14-20.39.38:387][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067945s)
+[2016.01.14-20.39.38:388][950]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.14-20.39.38:389][950]LogPlayLevel: PIE: World Init took: (0.001322s)
+[2016.01.14-20.39.38:389][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.069585s)
+[2016.01.14-20.39.38:389][950]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.14-20.39.38:389][950]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-20.39.38:389][950]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.01.14-20.39.38:518][950]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.14-20.39.38:557][950]LogInit: FAudioDevice initialized.
+[2016.01.14-20.39.38:654][950]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2016.01.14-20.39.38:667][950]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.01.14-12.39.38
+[2016.01.14-20.39.38:667][950]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-20.39.38:668][950]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-20.39.38:670][950]LogWorld: Bringing up level for play took: 0.013656
+[2016.01.14-20.39.38:690][950]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap 0.882
+[2016.01.14-20.39.38:690][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.39.38:719][951]LogRenderer: Reallocating scene render targets to support 2560x1440 (Frame:1006).
+[2016.01.14-20.39.38:818][953]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 493/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-20.39.41:032][ 78]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:049][ 79]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:068][ 80]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:087][ 81]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:105][ 82]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:122][ 83]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:139][ 84]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:159][ 85]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:176][ 86]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:194][ 87]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:212][ 88]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:230][ 89]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:248][ 90]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:266][ 91]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:284][ 92]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:302][ 93]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:320][ 94]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:338][ 95]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:356][ 96]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:373][ 97]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:390][ 98]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.41:409][ 99]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:183][198]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:201][199]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:219][200]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:237][201]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:255][202]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:273][203]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:291][204]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:309][205]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:328][206]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:345][207]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:363][208]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:382][209]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:399][210]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:417][211]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:435][212]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:454][213]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:471][214]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:490][215]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:506][216]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:526][217]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:543][218]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:562][219]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:579][220]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:596][221]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:615][222]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:634][223]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:652][224]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.43:670][225]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.48:865][515]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.48:884][516]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.48:902][517]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.48:919][518]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.48:938][519]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.48:954][520]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.48:973][521]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.48:992][522]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:010][523]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:027][524]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:045][525]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:063][526]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:081][527]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:098][528]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:116][529]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:133][530]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:152][531]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:170][532]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:187][533]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:205][534]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:222][535]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:241][536]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:259][537]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:277][538]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:294][539]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:310][540]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:330][541]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:348][542]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:366][543]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:384][544]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:402][545]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:420][546]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:437][547]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:455][548]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:473][549]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:491][550]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:509][551]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:527][552]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:544][553]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:562][554]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:580][555]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:598][556]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:616][557]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:634][558]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:652][559]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:668][560]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:688][561]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:705][562]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:723][563]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:741][564]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:758][565]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:776][566]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:794][567]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:812][568]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:830][569]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:848][570]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:866][571]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.49:936][575]LogBlueprintUserMessages: [EnemyBasic_C_1] oh my fucking god
+[2016.01.14-20.39.49:953][576]LogBlueprintUserMessages: [EnemyBasic_C_1] oh my fucking god
+[2016.01.14-20.39.49:969][577]LogBlueprintUserMessages: [EnemyBasic_C_1] oh my fucking god
+[2016.01.14-20.39.56:117][921]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:134][922]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:151][923]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:170][924]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:187][925]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:205][926]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:223][927]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:241][928]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:260][929]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:277][930]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:295][931]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:313][932]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:331][933]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:349][934]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:367][935]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:385][936]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:403][937]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:421][938]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:439][939]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:457][940]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:476][941]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:493][942]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:511][943]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:529][944]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:548][945]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:565][946]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:584][947]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:601][948]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:619][949]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:638][950]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.39.56:655][951]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.00:388][161]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] stop
+[2016.01.14-20.40.01:662][233]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Resume
+[2016.01.14-20.40.02:764][294]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Resume
+[2016.01.14-20.40.04:472][391]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:490][392]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:507][393]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:525][394]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:542][395]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:560][396]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:578][397]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:595][398]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:611][399]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:630][400]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:648][401]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:665][402]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:682][403]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:699][404]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:718][405]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:735][406]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:752][407]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:770][408]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:786][409]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:805][410]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:822][411]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:839][412]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:857][413]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:873][414]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:893][415]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:910][416]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:927][417]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:944][418]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:961][419]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:980][420]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.04:997][421]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.05:014][422]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.05:031][423]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.05:047][424]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.05:066][425]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.05:084][426]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.05:101][427]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.05:118][428]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.05:134][429]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.05:154][430]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.05:171][431]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.05:188][432]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.05:206][433]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.06:727][520]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] stop
+[2016.01.14-20.40.14:718][965]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Resume
+[2016.01.14-20.40.20:496][285]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] stop
+[2016.01.14-20.40.21:169][322]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Resume
+[2016.01.14-20.40.22:653][404]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Resume
+[2016.01.14-20.40.23:605][457]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:623][458]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:641][459]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:660][460]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:677][461]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:695][462]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:713][463]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:732][464]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:750][465]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:768][466]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:785][467]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:804][468]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:822][469]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:840][470]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:858][471]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:876][472]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:894][473]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:913][474]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:930][475]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:948][476]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:965][477]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.23:984][478]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:002][479]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:020][480]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:037][481]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:054][482]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:073][483]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:091][484]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:109][485]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:127][486]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:145][487]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:163][488]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:181][489]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:199][490]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:217][491]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:234][492]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:253][493]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:271][494]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:289][495]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:307][496]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:325][497]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:343][498]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:361][499]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:379][500]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:397][501]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:415][502]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:433][503]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:452][504]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:470][505]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:487][506]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:504][507]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:523][508]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:541][509]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:559][510]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:577][511]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:595][512]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:617][513]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:631][514]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:649][515]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:667][516]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:684][517]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:702][518]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:720][519]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:739][520]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:756][521]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:775][522]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:793][523]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:811][524]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:828][525]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:845][526]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:862][527]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:881][528]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:898][529]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:916][530]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:935][531]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:953][532]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:971][533]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.24:988][534]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:006][535]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:025][536]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:043][537]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:061][538]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:079][539]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:096][540]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:114][541]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:130][542]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:146][543]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:164][544]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:182][545]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:200][546]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:218][547]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:237][548]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:254][549]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:272][550]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:291][551]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:307][552]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:325][553]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:343][554]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:361][555]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:378][556]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:396][557]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.25:413][558]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_0] Done
+[2016.01.14-20.40.32:535][965]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.40.32:610][965]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.40.32:631][965]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003075A8E0
+[2016.01.14-20.40.32:666][967]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 477/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-20.40.56:435][ 76]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 463/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-20.45.49:246][122]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 448/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-20.46.15:952][467]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 448/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-20.46.16:801][549]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.46.16:801][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.14-20.46.16:801][549]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 14, 2016, 4:46:16 AM)
+[2016.01.14-20.46.16:801][549]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.01.14-20.46.16:864][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063003s)
+[2016.01.14-20.46.16:865][549]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.14-20.46.16:865][549]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2016.01.14-20.46.16:866][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.064250s)
+[2016.01.14-20.46.16:866][549]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-20.46.16:866][549]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.01.14-20.46.16:892][549]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.14-20.46.16:931][549]LogInit: FAudioDevice initialized.
+[2016.01.14-20.46.17:013][549]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2016.01.14-20.46.17:025][549]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.01.14-12.46.17
+[2016.01.14-20.46.17:026][549]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-20.46.17:026][549]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-20.46.17:028][549]LogWorld: Bringing up level for play took: 0.013161
+[2016.01.14-20.46.17:047][549]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap 1.233
+[2016.01.14-20.46.17:047][549]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.46.17:126][551]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 504/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-20.46.18:563][633]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:580][634]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:597][635]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:615][636]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:631][637]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:647][638]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:666][639]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:684][640]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:702][641]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:720][642]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:738][643]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:755][644]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:773][645]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:790][646]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:809][647]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:825][648]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:844][649]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:862][650]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:879][651]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:897][652]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:914][653]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:931][654]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:950][655]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:968][656]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.18:986][657]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:004][658]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:021][659]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:039][660]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:057][661]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:075][662]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:092][663]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:109][664]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:128][665]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:146][666]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:164][667]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:182][668]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:200][669]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:218][670]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:235][671]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:253][672]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:270][673]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:289][674]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:307][675]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:324][676]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:342][677]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:360][678]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:378][679]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:396][680]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:414][681]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:431][682]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:448][683]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:467][684]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:485][685]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:502][686]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:520][687]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:538][688]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:556][689]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:574][690]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:591][691]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:609][692]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:626][693]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:645][694]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:662][695]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:679][696]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:697][697]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:714][698]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:733][699]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:751][700]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.19:786][702]LogBlueprintUserMessages: [EnemyBasic_C_0] oh my fucking god
+[2016.01.14-20.46.19:803][703]LogBlueprintUserMessages: [EnemyBasic_C_0] oh my fucking god
+[2016.01.14-20.46.19:821][704]LogBlueprintUserMessages: [EnemyBasic_C_0] oh my fucking god
+[2016.01.14-20.46.19:839][705]LogBlueprintUserMessages: [EnemyBasic_C_0] oh my fucking god
+[2016.01.14-20.46.19:857][706]LogBlueprintUserMessages: [EnemyBasic_C_0] oh my fucking god
+[2016.01.14-20.46.21:098][776]LogBlueprintUserMessages: [EnemyBasic_C_1] oh my fucking god
+[2016.01.14-20.46.21:099][776]LogBlueprintUserMessages: [EnemyBasic_C_0] oh my fucking god
+[2016.01.14-20.46.26:077][ 56]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] fails here
+[2016.01.14-20.46.29:689][262]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] fails here
+[2016.01.14-20.46.31:296][353]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:312][354]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:331][355]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:349][356]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:367][357]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:385][358]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:403][359]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:420][360]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:438][361]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:456][362]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:474][363]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:490][364]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:509][365]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:527][366]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:544][367]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:563][368]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.31:580][369]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_1] Done
+[2016.01.14-20.46.37:457][699]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.46.37:530][699]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.46.37:553][699]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002778CE00
+[2016.01.14-20.46.37:584][700]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 463/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-20.46.42:294][183]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.14-20.46.42:520][183]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.14-20.46.43:156][183]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 107 classes and 0 folders.
+[2016.01.14-20.48.10:492][733]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2016.01.14-20.48.11:061][733]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.14-20.48.11:078][733]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.14-20.48.11:078][733]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.14-20.48.11:088][733]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.14-20.48.11:583][733]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.14-20.48.11:836][733]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.14-20.48.11:837][733]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.14-20.48.11:909][733]LogBlueprint:Warning: [compiler TimeMeter] Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.14-20.48.12:149][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-20.48.12:149][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.14-20.48.12:149][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.01.14-20.48.12:229][733]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [0682.41] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 1,736 ms]
+[2016.01.14-20.48.12:229][733]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.14-20.48.12:229][733]BlueprintEditorCompileResults:Warning: Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.14-20.48.12:229][733]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.14-20.48.12:229][733]BlueprintEditorCompileResults:Warning: Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.14-20.48.12:229][733]BlueprintEditorCompileResults:Warning: Warning [0682.41] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 1,736 ms]
+[2016.01.14-20.48.16:441][810]LogSavePackage: Save=2147.232178ms
+[2016.01.14-20.48.16:441][810]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/ThirdPersonCharacter2DC4EF8CE14FE90FB67BE1929548A18FF7.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.uasset'
+[2016.01.14-20.48.16:449][810]LogSavePackage: Total save time: 2755.236089ms
+[2016.01.14-20.48.16:449][810]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.uasset
+[2016.01.14-20.48.16:822][851]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-20.48.17:570][922]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.48.17:570][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.14-20.48.17:570][922]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 14, 2016, 4:48:17 AM)
+[2016.01.14-20.48.17:570][922]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.01.14-20.48.17:636][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065994s)
+[2016.01.14-20.48.17:637][922]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.14-20.48.17:637][922]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2016.01.14-20.48.17:637][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.067302s)
+[2016.01.14-20.48.17:672][922]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.14-20.48.17:710][922]LogInit: FAudioDevice initialized.
+[2016.01.14-20.48.17:782][922]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2016.01.14-20.48.17:794][922]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.01.14-12.48.17
+[2016.01.14-20.48.17:794][922]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-20.48.17:795][922]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-20.48.17:796][922]LogWorld: Bringing up level for play took: 0.013457
+[2016.01.14-20.48.17:820][922]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap 0.006
+[2016.01.14-20.48.17:820][922]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.48.17:896][925]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 504/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-20.48.18:820][977]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.18:836][978]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.18:856][979]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.18:872][980]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.18:890][981]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.18:906][982]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.18:924][983]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.18:941][984]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.18:959][985]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.18:976][986]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.18:993][987]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:009][988]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:028][989]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:046][990]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:063][991]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:081][992]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:097][993]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:117][994]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:134][995]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:152][996]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:170][997]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:186][998]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:206][999]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:223][  0]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:241][  1]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:258][  2]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:275][  3]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:291][  4]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:310][  5]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:328][  6]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:346][  7]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:363][  8]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:380][  9]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:399][ 10]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:417][ 11]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:435][ 12]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:453][ 13]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:469][ 14]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:488][ 15]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:506][ 16]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:524][ 17]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:541][ 18]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:558][ 19]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:577][ 20]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:594][ 21]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:612][ 22]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:630][ 23]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:646][ 24]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:666][ 25]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:683][ 26]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:701][ 27]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:719][ 28]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:735][ 29]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:754][ 30]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.19:772][ 31]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.23:908][264]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.23:925][265]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.23:943][266]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.23:961][267]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.23:979][268]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.23:997][269]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.24:014][270]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.24:032][271]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.24:050][272]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.24:068][273]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.24:086][274]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.24:102][275]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.24:121][276]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.24:139][277]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.24:157][278]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.24:175][279]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.24:191][280]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.24:210][281]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.24:228][282]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.24:246][283]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Done
+[2016.01.14-20.48.25:123][332]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.48.25:202][332]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.48.25:252][333]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037C6A480
+[2016.01.14-20.48.25:265][334]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 463/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-20.48.25:573][365]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-20.58.34:816][760]BlueprintLog: New page: Compile ThirdPersonCharacter2D
+[2016.01.14-20.58.35:473][760]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.14-20.58.35:493][760]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.14-20.58.35:493][760]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.14-20.58.35:506][760]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.14-20.58.35:651][760]LogBlueprint:Warning: [compiler TimeMeter] Warning 'ReturnValue' is already a 'Knife Represent', you don't need  Cast To KnifeRepresent .
+[2016.01.14-20.58.35:930][760]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.14-20.58.35:930][760]LogBlueprint:Warning: [compiler AbilityMenu] Warning 'ReturnValue' is already a 'Listed Item', you don't need  Cast To ListedItem .
+[2016.01.14-20.58.36:182][760]LogBlueprint:Warning: [compiler FreeMovementLocator] Warning 'Third Person Character 2D' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter2D  would always fail).
+[2016.01.14-20.58.36:366][760]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning [1306.53] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 1,549 ms]
+[2016.01.14-20.58.36:366][760]BlueprintEditorCompileResults:Warning: Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.14-20.58.36:366][760]BlueprintEditorCompileResults:Warning: Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.14-20.58.36:366][760]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.14-20.58.36:366][760]BlueprintEditorCompileResults:Warning: Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.14-20.58.36:366][760]BlueprintEditorCompileResults:Warning: Warning [1306.53] Compile of ThirdPersonCharacter2D successful, but with 4 Warning(s) [in 1,549 ms]
+[2016.01.14-20.58.37:802][799]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-20.58.38:464][865]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.58.38:464][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.14-20.58.38:464][865]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 14, 2016, 4:58:38 AM)
+[2016.01.14-20.58.38:464][865]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.01.14-20.58.38:528][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063676s)
+[2016.01.14-20.58.38:529][865]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.14-20.58.38:530][865]LogPlayLevel: PIE: World Init took: (0.001581s)
+[2016.01.14-20.58.38:530][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.065541s)
+[2016.01.14-20.58.38:568][865]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.14-20.58.38:608][865]LogInit: FAudioDevice initialized.
+[2016.01.14-20.58.38:683][865]LogWorld: Game class is '2dFlipBookGameMode_C'
+[2016.01.14-20.58.38:703][865]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.01.14-12.58.38
+[2016.01.14-20.58.38:703][865]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-20.58.38:703][865]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.14-20.58.38:706][865]LogWorld: Bringing up level for play took: 0.022359
+[2016.01.14-20.58.38:726][865]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap 0.902
+[2016.01.14-20.58.38:726][865]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.58.38:797][868]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 504/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-20.58.40:804][988]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] stop
+[2016.01.14-20.58.43:079][122]LogBlueprintUserMessages: [ThirdPersonCharacter2D_C_42] Resume
+[2016.01.14-20.58.44:724][217]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.58.44:758][217]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.14-20.58.44:787][217]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F63CC20
+[2016.01.14-20.58.44:820][219]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 463/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-20.58.48:519][360]LogSavePackage: Save=2247.792969ms
+[2016.01.14-20.58.48:519][360]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/ThirdPersonCharacter2DF750AEA64E7028F45C936B85A3C28B0F.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.uasset'
+[2016.01.14-20.58.48:526][360]LogSavePackage: Total save time: 2271.998890ms
+[2016.01.14-20.58.48:526][360]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.uasset
+[2016.01.14-21.00.14:554][620]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.09.42:917][325]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.10.08:597][404]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.11.26:064][737]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.12.14:750][885]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.12.37:505][113]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.13.06:020][610]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.13.27:261][924]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.13.33:255][353]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 463/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.13.33:693][365]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.13.35:463][507]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.13.37:563][648]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 463/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.13.38:700][718]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 463/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.16.29:561][442]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.16.30:720][568]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 449/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.14-21.17.49:835][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-21.17.49:835][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.01.14-21.17.55:533][342]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.01.14-21.17.55:533][342]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.01.14-21.18.33:995][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CommutativeAssociativeBinaryOperator_1073 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:No Friction Timer.K2Node_CommutativeAssociativeBinaryOperator_1073
+[2016.01.14-21.18.33:995][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CommutativeAssociativeBinaryOperator_1073 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_1073
+[2016.01.14-21.18.33:995][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CommutativeAssociativeBinaryOperator_1073 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_CommutativeAssociativeBinaryOperator_1073
+[2016.01.14-21.18.33:995][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CommutativeAssociativeBinaryOperator_1073 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:EdGraph_773.K2Node_CommutativeAssociativeBinaryOperator_1073
+[2016.01.14-21.18.33:995][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CommutativeAssociativeBinaryOperator_1073 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:EdGraph_754.K2Node_CommutativeAssociativeBinaryOperator_1073
+[2016.01.14-21.18.33:995][680]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_1073.EdGraphPin_33064) from referencer (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_CallFunction_19359.EdGraphPin_33047).  Import failed...
+[2016.01.14-21.18.33:995][680]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_1073.EdGraphPin_33064''
+[2016.01.14-21.18.34:026][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CommutativeAssociativeBinaryOperator_1073 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:No Friction Timer.K2Node_CommutativeAssociativeBinaryOperator_1073
+[2016.01.14-21.18.34:026][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CommutativeAssociativeBinaryOperator_1073 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_1073
+[2016.01.14-21.18.34:026][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CommutativeAssociativeBinaryOperator_1073 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_CommutativeAssociativeBinaryOperator_1073
+[2016.01.14-21.18.34:026][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CommutativeAssociativeBinaryOperator_1073 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:EdGraph_773.K2Node_CommutativeAssociativeBinaryOperator_1073
+[2016.01.14-21.18.34:026][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CommutativeAssociativeBinaryOperator_1073 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:EdGraph_754.K2Node_CommutativeAssociativeBinaryOperator_1073
+[2016.01.14-21.18.34:026][680]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_1073.EdGraphPin_33065) from referencer (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_CallFunction_19360.EdGraphPin_33056).  Import failed...
+[2016.01.14-21.18.34:026][680]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_1073.EdGraphPin_33065''
+[2016.01.14-21.18.34:027][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CallFunction_19363 or K2Node_CallFunction /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:No Friction Timer.K2Node_CallFunction_19363
+[2016.01.14-21.18.34:027][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CallFunction_19363 or K2Node_CallFunction /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_CallFunction_19363
+[2016.01.14-21.18.34:027][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CallFunction_19363 or K2Node_CallFunction /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_CallFunction_19363
+[2016.01.14-21.18.34:027][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CallFunction_19363 or K2Node_CallFunction /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:EdGraph_773.K2Node_CallFunction_19363
+[2016.01.14-21.18.34:027][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/2D/Blueprints/Tests/ThirdPersonCharacter2D.ThirdPersonCharacter2D:Manage Buffs/Debuffs.K2Node_CallFunction_19363 or K2Node_CallFunction /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:EdGraph_754.K2Node_CallFunction_19363
+[2016.01.14-21.18.34:027][680]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_CallFunction_19363.EdGraphPin_33077) from referencer (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_CommutativeAssociativeBinaryOperator_1073.EdGraphPin_33066).  Import failed...
+[2016.01.14-21.18.34:027][680]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_19363.EdGraphPin_33077''
+[2016.01.14-21.18.34:027][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_VariableGet_9937 or K2Node_VariableGet /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_VariableGet_9937
+[2016.01.14-21.18.34:027][680]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_VariableGet_9937.EdGraphPin_14722) from referencer (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_CallFunction_19363.EdGraphPin_33076).  Import failed...
+[2016.01.14-21.18.34:027][680]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_9937.EdGraphPin_14722''
+[2016.01.14-21.18.34:027][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_VariableSet_6669 or K2Node_VariableSet /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_VariableSet_6669
+[2016.01.14-21.18.34:027][680]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_VariableSet_6669.EdGraphPin_14709) from referencer (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_CallFunction_19363.EdGraphPin_33078).  Import failed...
+[2016.01.14-21.18.34:027][680]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_6669.EdGraphPin_14709''
+[2016.01.14-21.18.34:027][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_IfThenElse_2895 or K2Node_IfThenElse /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_IfThenElse_2895
+[2016.01.14-21.18.34:027][680]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_IfThenElse_2895.EdGraphPin_14731) from referencer (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_VariableSet_6669.EdGraphPin_14707).  Import failed...
+[2016.01.14-21.18.34:027][680]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_2895.EdGraphPin_14731''
+[2016.01.14-21.18.34:028][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_CallFunction_17743 or K2Node_CallFunction /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_CallFunction_17743
+[2016.01.14-21.18.34:028][680]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_CallFunction_17743.EdGraphPin_33088) from referencer (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_VariableGet_9937.EdGraphPin_14722).  Import failed...
+[2016.01.14-21.18.34:028][680]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_17743.EdGraphPin_33088''
+[2016.01.14-21.18.34:028][680]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_Event_3261.EdGraphPin_33010) from referencer (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_IfThenElse_2895.EdGraphPin_14728).  Import failed...
+[2016.01.14-21.18.34:028][680]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_3261.EdGraphPin_33010''
+[2016.01.14-21.18.34:028][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_CallFunction_17743 or K2Node_CallFunction /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_CallFunction_17743
+[2016.01.14-21.18.34:028][680]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_CallFunction_17743.EdGraphPin_33090) from referencer (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_IfThenElse_2895.EdGraphPin_14729).  Import failed...
+[2016.01.14-21.18.34:028][680]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_17743.EdGraphPin_33090''
+[2016.01.14-21.18.34:028][680]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_VariableSet_6764 or K2Node_VariableSet /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_VariableSet_6764
+[2016.01.14-21.18.34:028][680]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.PhysicsEnemy:EventGraph.K2Node_VariableSet_6764.EdGraphPin_14752) from referencer (EdGraphPin /Game/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.EnemyBasic:Poise Timer.K2Node_IfThenElse_2895.EdGraphPin_14730).  Import failed...
+[2016.01.14-21.18.34:028][680]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_6764.EdGraphPin_14752''
+[2016.01.14-21.18.34:090][680]LogBlueprint:Warning: [EnemyBasic] CreatePinForVariable: 'Poise Reset Time_0' variable not found. Base class was probably changed.
+[2016.01.14-21.18.34:091][680]LogBlueprint:Warning: [EnemyBasic] CreatePinForVariable: 'Poise Reset Time_0' variable not found. Base class was probably changed.
+[2016.01.14-21.18.34:091][680]LogBlueprint:Warning: [EnemyBasic] CreatePinForVariable: 'Poise Reset Time_0' variable not found. Base class was probably changed.
+[2016.01.14-21.18.34:091][680]LogBlueprint:Warning: [EnemyBasic] CreatePinForVariable: 'Poise_0' variable not found. Base class was probably changed.
+[2016.01.14-21.18.34:091][680]LogBlueprint:Warning: [EnemyBasic] CreatePinForVariable: 'Poise_0' variable not found. Base class was probably changed.
+[2016.01.14-21.18.56:872][314]LogBlueprint:Warning: Blueprint PhysicsEnemy (child of/implements EnemyBasic) has a member variable with a conflicting name (Poise_0). Changing to Poise_0_0.
+[2016.01.14-21.18.56:897][314]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.01.14-21.18.56:897][314]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.01.14-21.19.00:895][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.01.14-21.19.00:896][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.01.14-21.19.03:577][ 52]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.01.14-21.19.03:577][ 52]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.01.14-21.19.04:923][194]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.01.14-21.19.04:923][194]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.01.14-21.19.12:984][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.01.14-21.19.12:984][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.01.14-21.19.14:567][290]BlueprintLog: New page: Compile EnemyBasic
+[2016.01.14-21.19.14:722][290]LogBlueprint:Warning: [compiler EnemyBasic] Warning Could not find a variable named "Poise Reset Time_0" in 'EnemyBasic_C'.
+Make sure 'EnemyBasic_C' has been compiled for  Set Poise Reset Time_0 
+[2016.01.14-21.19.14:738][290]LogBlueprint:Warning: [compiler EnemyBasic] Warning Could not find a variable named "Poise Reset Time_0" in 'EnemyBasic_C'.
+Make sure 'EnemyBasic_C' has been compiled for  Get Poise Reset Time_0 
+[2016.01.14-21.19.14:774][290]LogBlueprint:Error: [compiler EnemyBasic] Error The property associated with  Poise Reset Time 0  could not be found
+[2016.01.14-21.19.14:774][290]LogBlueprint:Error: [compiler EnemyBasic] Error The property associated with  Poise Reset Time 0  could not be found
+[2016.01.14-21.19.14:892][290]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.01.14-21.19.14:892][290]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2016.01.14-21.19.14:995][290]LogBlueprint:Warning: [compiler BasicKnife] Warning  Make HitResult  has no property tagged as BlueprintReadWrite. The node will be removed in a future release.
+[2016.01.14-21.19.15:200][290]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning No value will be returned by reference. Parameter 'EndTime'. Node:  (none) 
+[2016.01.14-21.19.15:219][290]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'AbilitiesMenu' is already a 'Ability Menu', you don't need  Cast To AbilityMenu .
+[2016.01.14-21.19.15:220][290]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'ReturnValue' is already a 'Knife', you don't need  Cast To Knife .
+[2016.01.14-21.19.15:232][290]LogBlueprint:Warning: [compiler ThirdPersonCharacter2D] Warning 'SecondPointer' is already a 'Pointer 2', you don't need  Cast To Pointer2 .
+[2016.01.14-21.19.15:874][290]LogBlueprint:Warning: [compiler EnemyBasic] Warning [2546.02] Compile of EnemyBasic failed. 2 Fatal Issue(s) 2 Warning(s) [in 1,307 ms]
+[2016.01.14-21.19.15:874][290]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Poise Reset Time_0" in 'EnemyBasic_C'.
+Make sure 'EnemyBasic_C' has been compiled for  Set Poise Reset Time_0 
+[2016.01.14-21.19.15:874][290]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Poise Reset Time_0" in 'EnemyBasic_C'.
+Make sure 'EnemyBasic_C' has been compiled for  Get Poise Reset Time_0 
+[2016.01.14-21.19.15:874][290]BlueprintEditorCompileResults:Error: Error The property associated with  Poise Reset Time 0  could not be found
+[2016.01.14-21.19.15:874][290]BlueprintEditorCompileResults:Error: Error The property associated with  Poise Reset Time 0  could not be found
+[2016.01.14-21.19.15:874][290]BlueprintEditorCompileResults:Warning: Warning [2546.02] Compile of EnemyBasic failed. 2 Fatal Issue(s) 2 Warning(s) [in 1,307 ms]
+[2016.01.14-21.20.02:609][633]BlueprintLog: New page: Compile EnemyBasic
+[2016.01.14-21.20.02:843][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-21.20.02:843][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2016.01.14-21.20.03:051][633]BlueprintEditorCompileResults: Info [2593.20] Compile of EnemyBasic successful! [in 441 ms]
+[2016.01.14-21.20.06:620][ 45]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-21.20.06:620][ 45]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2016.01.14-21.20.08:011][ 45]LogSavePackage: Save=803.877625ms
+[2016.01.14-21.20.08:011][ 45]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/ThirdPersonExampleMap1EBD005540F38C5FFE54B086098D4CAE.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Maps/ThirdPersonExampleMap.umap'
+[2016.01.14-21.20.08:065][ 45]LogSavePackage: Total save time: 1004.790556ms
+[2016.01.14-21.20.08:065][ 45]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Maps/ThirdPersonExampleMap.umap
+[2016.01.14-21.20.08:184][ 45]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.516
+[2016.01.14-21.20.08:614][ 45]LogSavePackage: Save=356.293121ms
+[2016.01.14-21.20.08:614][ 45]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/EnemyBasic3D396E2945794A159334429F749166D8.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.uasset'
+[2016.01.14-21.20.08:619][ 45]LogSavePackage: Total save time: 371.636141ms
+[2016.01.14-21.20.08:619][ 45]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.uasset
+[2016.01.14-21.20.08:760][ 45]LogSavePackage: Save=101.877586ms
+[2016.01.14-21.20.08:760][ 45]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/PhysicsEnemyD31FFF9C43EA10BF6937599B65EC4F30.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.uasset'
+[2016.01.14-21.20.08:780][ 45]LogSavePackage: Total save time: 132.469930ms
+[2016.01.14-21.20.08:780][ 45]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.uasset
+[2016.01.14-21.20.21:194][488]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-21.20.21:194][488]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2016.01.14-21.20.21:619][488]LogSavePackage: Save=300.721375ms
+[2016.01.14-21.20.21:619][488]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/EnemyBasic700C775F406966BC2CA2FDB86A6561C7.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.uasset'
+[2016.01.14-21.20.21:624][488]LogSavePackage: Total save time: 313.831989ms
+[2016.01.14-21.20.21:624][488]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.uasset
+[2016.01.14-21.21.17:738][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-21.21.19:127][517]BlueprintLog: New page: Compile EnemyBasic
+[2016.01.14-21.21.19:370][517]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2016.01.14-21.21.19:370][517]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2016.01.14-21.21.19:567][517]BlueprintEditorCompileResults: Info [2669.72] Compile of EnemyBasic successful! [in 440 ms]
+[2016.01.14-21.22.07:411][973]BlueprintLog: New page: Compile EnemyBasic
+[2016.01.14-21.22.07:648][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-21.22.07:648][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2016.01.14-21.22.07:844][973]BlueprintEditorCompileResults: Info [2717.99] Compile of EnemyBasic successful! [in 433 ms]
+[2016.01.14-21.22.08:767][ 78]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.14-21.22.08:767][ 78]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2016.01.14-21.22.09:730][ 78]LogSavePackage: Save=656.015991ms
+[2016.01.14-21.22.09:730][ 78]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/ThirdPersonExampleMap45F3627B423091EF51EA989FA57A5CCD.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Maps/ThirdPersonExampleMap.umap'
+[2016.01.14-21.22.09:735][ 78]LogSavePackage: Total save time: 673.382495ms
+[2016.01.14-21.22.09:735][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Maps/ThirdPersonExampleMap.umap
+[2016.01.14-21.22.09:817][ 78]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.996
+[2016.01.14-21.22.10:166][ 78]LogSavePackage: Save=309.166565ms
+[2016.01.14-21.22.10:166][ 78]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/EnemyBasic4F551A524FCA35399289F4A545538054.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.uasset'
+[2016.01.14-21.22.10:171][ 78]LogSavePackage: Total save time: 322.607942ms
+[2016.01.14-21.22.10:171][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/EnemiesAndOtherInteractiveObjects/EnemyBasic.uasset
+[2016.01.14-21.22.10:309][ 78]LogSavePackage: Save=100.336792ms
+[2016.01.14-21.22.10:309][ 78]LogSavePackage: Moving '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Saved/PhysicsEnemyFA2F1F0C48CC29C26D4FD9B85F982F30.tmp' to '../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.uasset'
+[2016.01.14-21.22.10:314][ 78]LogSavePackage: Total save time: 113.043517ms
+[2016.01.14-21.22.10:314][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matt/Documents/GitHub/P3NGUIN/P3NGUIN/MyProject19/Content/Blueprints/EnemiesAndOtherInteractiveObjects/PhysicsEnemy.uasset
+[2016.01.14-21.23.14:883][971]LogD3D11RHI: Timed out while wa
